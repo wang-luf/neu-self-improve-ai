@@ -58,10 +58,13 @@ executable validation and feedback. This implementation reproduces that
 designer/execute/feedback loop at small scale; it does not claim to reproduce
 SPADE's training pipeline or its learned agent.
 
-The course text points to Appendix C.1. In the linked arXiv version, the
-environment generation prompt template appears in Appendix F.1. This project
-uses the same practical elements: role, domain, constraints, complexity target,
-and a machine-readable environment specification.
+The course text points to Appendix C.1, and the arXiv version's
+environment-generation prompt template is indeed there (page 32): it targets
+fully executable Python game classes. Grid2Op scenarios are parameterized
+configurations of an existing simulator rather than generated code, so this
+project adapts the same practical elements — role, domain, constraints,
+complexity target, and a machine-readable environment specification — rather
+than reusing the prompt text verbatim.
 
 ## Setup and run
 
