@@ -1,0 +1,97 @@
+[
+  {
+    "scenario": {
+      "name": "case14_contingencies_level_0",
+      "level": 0,
+      "max_steps": 8,
+      "outages": []
+    },
+    "valid": true,
+    "steps_survived": 8,
+    "survived_fraction": 1.0,
+    "game_over": false,
+    "peak_line_loading_rho": 0.9297,
+    "reference_reward_sum": 517.7195,
+    "difficulty_probe": "fixed DoNothing agent; no policy training",
+    "feedback": "reference agent survived the horizon",
+    "designer_prompt": "You are the Environment Designer for power-grid operations.\nCreate a Grid2Op scenario specification that is valid, executable, and one\nsmall step more challenging than the last accepted scenario. Keep the grid\nphysically connected; use only valid line IDs and scheduled line outages.\nUse the previous evaluation feedback to avoid scenarios that immediately\ncollapse or are indistinguishable from the baseline. Do not write a policy.\n\nReturn JSON with: name, level, max_steps, outages. Each outage has step and\nline_id. The allowed grid is l2rpn_case14_sandbox, with 20 lines. Current memory:\n[]\n\nRequested complexity level: 0."
+  },
+  {
+    "scenario": {
+      "name": "case14_contingencies_level_1",
+      "level": 1,
+      "max_steps": 10,
+      "outages": [
+        {
+          "step": 3,
+          "line_id": 0
+        }
+      ]
+    },
+    "valid": true,
+    "steps_survived": 10,
+    "survived_fraction": 1.0,
+    "game_over": false,
+    "peak_line_loading_rho": 0.9639,
+    "reference_reward_sum": 648.6711,
+    "difficulty_probe": "fixed DoNothing agent; no policy training",
+    "feedback": "reference agent survived the horizon",
+    "designer_prompt": "You are the Environment Designer for power-grid operations.\nCreate a Grid2Op scenario specification that is valid, executable, and one\nsmall step more challenging than the last accepted scenario. Keep the grid\nphysically connected; use only valid line IDs and scheduled line outages.\nUse the previous evaluation feedback to avoid scenarios that immediately\ncollapse or are indistinguishable from the baseline. Do not write a policy.\n\nReturn JSON with: name, level, max_steps, outages. Each outage has step and\nline_id. The allowed grid is l2rpn_case14_sandbox, with 20 lines. Current memory:\n[\n  {\n    \"scenario\": {\n      \"name\": \"case14_contingencies_level_0\",\n      \"level\": 0,\n      \"max_steps\": 8,\n      \"outages\": []\n    },\n    \"valid\": true,\n    \"steps_survived\": 8,\n    \"survived_fraction\": 1.0,\n    \"game_over\": false,\n    \"peak_line_loading_rho\": 0.9297,\n    \"reference_reward_sum\": 517.7195,\n    \"difficulty_probe\": \"fixed DoNothing agent; no policy training\",\n    \"feedback\": \"reference agent survived the horizon\",\n    \"designer_prompt\": \"You are the Environment Designer for power-grid operations.\\nCreate a Grid2Op scenario specification that is valid, executable, and one\\nsmall step more challenging than the last accepted scenario. Keep the grid\\nphysically connected; use only valid line IDs and scheduled line outages.\\nUse the previous evaluation feedback to avoid scenarios that immediately\\ncollapse or are indistinguishable from the baseline. Do not write a policy.\\n\\nReturn JSON with: name, level, max_steps, outages. Each outage has step and\\nline_id. The allowed grid is l2rpn_case14_sandbox, with 20 lines. Current memory:\\n[]\\n\\nRequested complexity level: 0.\"\n  }\n]\n\nRequested complexity level: 1."
+  },
+  {
+    "scenario": {
+      "name": "case14_contingencies_level_2",
+      "level": 2,
+      "max_steps": 12,
+      "outages": [
+        {
+          "step": 3,
+          "line_id": 0
+        },
+        {
+          "step": 6,
+          "line_id": 1
+        }
+      ]
+    },
+    "valid": true,
+    "steps_survived": 6,
+    "survived_fraction": 0.5,
+    "game_over": true,
+    "peak_line_loading_rho": 0.9639,
+    "reference_reward_sum": 311.9247,
+    "difficulty_probe": "fixed DoNothing agent; no policy training",
+    "feedback": "reference agent triggered game over before the horizon",
+    "designer_prompt": "You are the Environment Designer for power-grid operations.\nCreate a Grid2Op scenario specification that is valid, executable, and one\nsmall step more challenging than the last accepted scenario. Keep the grid\nphysically connected; use only valid line IDs and scheduled line outages.\nUse the previous evaluation feedback to avoid scenarios that immediately\ncollapse or are indistinguishable from the baseline. Do not write a policy.\n\nReturn JSON with: name, level, max_steps, outages. Each outage has step and\nline_id. The allowed grid is l2rpn_case14_sandbox, with 20 lines. Current memory:\n[\n  {\n    \"scenario\": {\n      \"name\": \"case14_contingencies_level_0\",\n      \"level\": 0,\n      \"max_steps\": 8,\n      \"outages\": []\n    },\n    \"valid\": true,\n    \"steps_survived\": 8,\n    \"survived_fraction\": 1.0,\n    \"game_over\": false,\n    \"peak_line_loading_rho\": 0.9297,\n    \"reference_reward_sum\": 517.7195,\n    \"difficulty_probe\": \"fixed DoNothing agent; no policy training\",\n    \"feedback\": \"reference agent survived the horizon\",\n    \"designer_prompt\": \"You are the Environment Designer for power-grid operations.\\nCreate a Grid2Op scenario specification that is valid, executable, and one\\nsmall step more challenging than the last accepted scenario. Keep the grid\\nphysically connected; use only valid line IDs and scheduled line outages.\\nUse the previous evaluation feedback to avoid scenarios that immediately\\ncollapse or are indistinguishable from the baseline. Do not write a policy.\\n\\nReturn JSON with: name, level, max_steps, outages. Each outage has step and\\nline_id. The allowed grid is l2rpn_case14_sandbox, with 20 lines. Current memory:\\n[]\\n\\nRequested complexity level: 0.\"\n  },\n  {\n    \"scenario\": {\n      \"name\": \"case14_contingencies_level_1\",\n      \"level\": 1,\n      \"max_steps\": 10,\n      \"outages\": [\n        {\n          \"step\": 3,\n          \"line_id\": 0\n        }\n      ]\n    },\n    \"valid\": true,\n    \"steps_survived\": 10,\n    \"survived_fraction\": 1.0,\n    \"game_over\": false,\n    \"peak_line_loading_rho\": 0.9639,\n    \"reference_reward_sum\": 648.6711,\n    \"difficulty_probe\": \"fixed DoNothing agent; no policy training\",\n    \"feedback\": \"reference agent survived the horizon\",\n    \"designer_prompt\": \"You are the Environment Designer for power-grid operations.\\nCreate a Grid2Op scenario specification that is valid, executable, and one\\nsmall step more challenging than the last accepted scenario. Keep the grid\\nphysically connected; use only valid line IDs and scheduled line outages.\\nUse the previous evaluation feedback to avoid scenarios that immediately\\ncollapse or are indistinguishable from the baseline. Do not write a policy.\\n\\nReturn JSON with: name, level, max_steps, outages. Each outage has step and\\nline_id. The allowed grid is l2rpn_case14_sandbox, with 20 lines. Current memory:\\n[\\n  {\\n    \\\"scenario\\\": {\\n      \\\"name\\\": \\\"case14_contingencies_level_0\\\",\\n      \\\"level\\\": 0,\\n      \\\"max_steps\\\": 8,\\n      \\\"outages\\\": []\\n    },\\n    \\\"valid\\\": true,\\n    \\\"steps_survived\\\": 8,\\n    \\\"survived_fraction\\\": 1.0,\\n    \\\"game_over\\\": false,\\n    \\\"peak_line_loading_rho\\\": 0.9297,\\n    \\\"reference_reward_sum\\\": 517.7195,\\n    \\\"difficulty_probe\\\": \\\"fixed DoNothing agent; no policy training\\\",\\n    \\\"feedback\\\": \\\"reference agent survived the horizon\\\",\\n    \\\"designer_prompt\\\": \\\"You are the Environment Designer for power-grid operations.\\\\nCreate a Grid2Op scenario specification that is valid, executable, and one\\\\nsmall step more challenging than the last accepted scenario. Keep the grid\\\\nphysically connected; use only valid line IDs and scheduled line outages.\\\\nUse the previous evaluation feedback to avoid scenarios that immediately\\\\ncollapse or are indistinguishable from the baseline. Do not write a policy.\\\\n\\\\nReturn JSON with: name, level, max_steps, outages. Each outage has step and\\\\nline_id. The allowed grid is l2rpn_case14_sandbox, with 20 lines. Current memory:\\\\n[]\\\\n\\\\nRequested complexity level: 0.\\\"\\n  }\\n]\\n\\nRequested complexity level: 1.\"\n  }\n]\n\nRequested complexity level: 2."
+  },
+  {
+    "scenario": {
+      "name": "case14_contingencies_level_3",
+      "level": 3,
+      "max_steps": 14,
+      "outages": [
+        {
+          "step": 4,
+          "line_id": 0
+        },
+        {
+          "step": 8,
+          "line_id": 1
+        },
+        {
+          "step": 12,
+          "line_id": 2
+        }
+      ]
+    },
+    "valid": true,
+    "steps_survived": 8,
+    "survived_fraction": 0.5714,
+    "game_over": true,
+    "peak_line_loading_rho": 0.9639,
+    "reference_reward_sum": 441.7444,
+    "difficulty_probe": "fixed DoNothing agent; no policy training",
+    "feedback": "reference agent triggered game over before the horizon",
+    "designer_prompt": "You are the Environment Designer for power-grid operations.\nCreate a Grid2Op scenario specification that is valid, executable, and one\nsmall step more challenging than the last accepted scenario. Keep the grid\nphysically connected; use only valid line IDs and scheduled line outages.\nUse the previous evaluation feedback to avoid scenarios that immediately\ncollapse or are indistinguishable from the baseline. Do not write a policy.\n\nReturn JSON with: name, level, max_steps, outages. Each outage has step and\nline_id. The allowed grid is l2rpn_case14_sandbox, with 20 lines. Current memory:\n[\n  {\n    \"scenario\": {\n      \"name\": \"case14_contingencies_level_0\",\n      \"level\": 0,\n      \"max_steps\": 8,\n      \"outages\": []\n    },\n    \"valid\": true,\n    \"steps_survived\": 8,\n    \"survived_fraction\": 1.0,\n    \"game_over\": false,\n    \"peak_line_loading_rho\": 0.9297,\n    \"reference_reward_sum\": 517.7195,\n    \"difficulty_probe\": \"fixed DoNothing agent; no policy training\",\n    \"feedback\": \"reference agent survived the horizon\",\n    \"designer_prompt\": \"You are the Environment Designer for power-grid operations.\\nCreate a Grid2Op scenario specification that is valid, executable, and one\\nsmall step more challenging than the last accepted scenario. Keep the grid\\nphysically connected; use only valid line IDs and scheduled line outages.\\nUse the previous evaluation feedback to avoid scenarios that immediately\\ncollapse or are indistinguishable from the baseline. Do not write a policy.\\n\\nReturn JSON with: name, level, max_steps, outages. Each outage has step and\\nline_id. The allowed grid is l2rpn_case14_sandbox, with 20 lines. Current memory:\\n[]\\n\\nRequested complexity level: 0.\"\n  },\n  {\n    \"scenario\": {\n      \"name\": \"case14_contingencies_level_1\",\n      \"level\": 1,\n      \"max_steps\": 10,\n      \"outages\": [\n        {\n          \"step\": 3,\n          \"line_id\": 0\n        }\n      ]\n    },\n    \"valid\": true,\n    \"steps_survived\": 10,\n    \"survived_fraction\": 1.0,\n    \"game_over\": false,\n    \"peak_line_loading_rho\": 0.9639,\n    \"reference_reward_sum\": 648.6711,\n    \"difficulty_probe\": \"fixed DoNothing agent; no policy training\",\n    \"feedback\": \"reference agent survived the horizon\",\n    \"designer_prompt\": \"You are the Environment Designer for power-grid operations.\\nCreate a Grid2Op scenario specification that is valid, executable, and one\\nsmall step more challenging than the last accepted scenario. Keep the grid\\nphysically connected; use only valid line IDs and scheduled line outages.\\nUse the previous evaluation feedback to avoid scenarios that immediately\\ncollapse or are indistinguishable from the baseline. Do not write a policy.\\n\\nReturn JSON with: name, level, max_steps, outages. Each outage has step and\\nline_id. The allowed grid is l2rpn_case14_sandbox, with 20 lines. Current memory:\\n[\\n  {\\n    \\\"scenario\\\": {\\n      \\\"name\\\": \\\"case14_contingencies_level_0\\\",\\n      \\\"level\\\": 0,\\n      \\\"max_steps\\\": 8,\\n      \\\"outages\\\": []\\n    },\\n    \\\"valid\\\": true,\\n    \\\"steps_survived\\\": 8,\\n    \\\"survived_fraction\\\": 1.0,\\n    \\\"game_over\\\": false,\\n    \\\"peak_line_loading_rho\\\": 0.9297,\\n    \\\"reference_reward_sum\\\": 517.7195,\\n    \\\"difficulty_probe\\\": \\\"fixed DoNothing agent; no policy training\\\",\\n    \\\"feedback\\\": \\\"reference agent survived the horizon\\\",\\n    \\\"designer_prompt\\\": \\\"You are the Environment Designer for power-grid operations.\\\\nCreate a Grid2Op scenario specification that is valid, executable, and one\\\\nsmall step more challenging than the last accepted scenario. Keep the grid\\\\nphysically connected; use only valid line IDs and scheduled line outages.\\\\nUse the previous evaluation feedback to avoid scenarios that immediately\\\\ncollapse or are indistinguishable from the baseline. Do not write a policy.\\\\n\\\\nReturn JSON with: name, level, max_steps, outages. Each outage has step and\\\\nline_id. The allowed grid is l2rpn_case14_sandbox, with 20 lines. Current memory:\\\\n[]\\\\n\\\\nRequested complexity level: 0.\\\"\\n  }\\n]\\n\\nRequested complexity level: 1.\"\n  },\n  {\n    \"scenario\": {\n      \"name\": \"case14_contingencies_level_2\",\n      \"level\": 2,\n      \"max_steps\": 12,\n      \"outages\": [\n        {\n          \"step\": 3,\n          \"line_id\": 0\n        },\n        {\n          \"step\": 6,\n          \"line_id\": 1\n        }\n      ]\n    },\n    \"valid\": true,\n    \"steps_survived\": 6,\n    \"survived_fraction\": 0.5,\n    \"game_over\": true,\n    \"peak_line_loading_rho\": 0.9639,\n    \"reference_reward_sum\": 311.9247,\n    \"difficulty_probe\": \"fixed DoNothing agent; no policy training\",\n    \"feedback\": \"reference agent triggered game over before the horizon\",\n    \"designer_prompt\": \"You are the Environment Designer for power-grid operations.\\nCreate a Grid2Op scenario specification that is valid, executable, and one\\nsmall step more challenging than the last accepted scenario. Keep the grid\\nphysically connected; use only valid line IDs and scheduled line outages.\\nUse the previous evaluation feedback to avoid scenarios that immediately\\ncollapse or are indistinguishable from the baseline. Do not write a policy.\\n\\nReturn JSON with: name, level, max_steps, outages. Each outage has step and\\nline_id. The allowed grid is l2rpn_case14_sandbox, with 20 lines. Current memory:\\n[\\n  {\\n    \\\"scenario\\\": {\\n      \\\"name\\\": \\\"case14_contingencies_level_0\\\",\\n      \\\"level\\\": 0,\\n      \\\"max_steps\\\": 8,\\n      \\\"outages\\\": []\\n    },\\n    \\\"valid\\\": true,\\n    \\\"steps_survived\\\": 8,\\n    \\\"survived_fraction\\\": 1.0,\\n    \\\"game_over\\\": false,\\n    \\\"peak_line_loading_rho\\\": 0.9297,\\n    \\\"reference_reward_sum\\\": 517.7195,\\n    \\\"difficulty_probe\\\": \\\"fixed DoNothing agent; no policy training\\\",\\n    \\\"feedback\\\": \\\"reference agent survived the horizon\\\",\\n    \\\"designer_prompt\\\": \\\"You are the Environment Designer for power-grid operations.\\\\nCreate a Grid2Op scenario specification that is valid, executable, and one\\\\nsmall step more challenging than the last accepted scenario. Keep the grid\\\\nphysically connected; use only valid line IDs and scheduled line outages.\\\\nUse the previous evaluation feedback to avoid scenarios that immediately\\\\ncollapse or are indistinguishable from the baseline. Do not write a policy.\\\\n\\\\nReturn JSON with: name, level, max_steps, outages. Each outage has step and\\\\nline_id. The allowed grid is l2rpn_case14_sandbox, with 20 lines. Current memory:\\\\n[]\\\\n\\\\nRequested complexity level: 0.\\\"\\n  },\\n  {\\n    \\\"scenario\\\": {\\n      \\\"name\\\": \\\"case14_contingencies_level_1\\\",\\n      \\\"level\\\": 1,\\n      \\\"max_steps\\\": 10,\\n      \\\"outages\\\": [\\n        {\\n          \\\"step\\\": 3,\\n          \\\"line_id\\\": 0\\n        }\\n      ]\\n    },\\n    \\\"valid\\\": true,\\n    \\\"steps_survived\\\": 10,\\n    \\\"survived_fraction\\\": 1.0,\\n    \\\"game_over\\\": false,\\n    \\\"peak_line_loading_rho\\\": 0.9639,\\n    \\\"reference_reward_sum\\\": 648.6711,\\n    \\\"difficulty_probe\\\": \\\"fixed DoNothing agent; no policy training\\\",\\n    \\\"feedback\\\": \\\"reference agent survived the horizon\\\",\\n    \\\"designer_prompt\\\": \\\"You are the Environment Designer for power-grid operations.\\\\nCreate a Grid2Op scenario specification that is valid, executable, and one\\\\nsmall step more challenging than the last accepted scenario. Keep the grid\\\\nphysically connected; use only valid line IDs and scheduled line outages.\\\\nUse the previous evaluation feedback to avoid scenarios that immediately\\\\ncollapse or are indistinguishable from the baseline. Do not write a policy.\\\\n\\\\nReturn JSON with: name, level, max_steps, outages. Each outage has step and\\\\nline_id. The allowed grid is l2rpn_case14_sandbox, with 20 lines. Current memory:\\\\n[\\\\n  {\\\\n    \\\\\\\"scenario\\\\\\\": {\\\\n      \\\\\\\"name\\\\\\\": \\\\\\\"case14_contingencies_level_0\\\\\\\",\\\\n      \\\\\\\"level\\\\\\\": 0,\\\\n      \\\\\\\"max_steps\\\\\\\": 8,\\\\n      \\\\\\\"outages\\\\\\\": []\\\\n    },\\\\n    \\\\\\\"valid\\\\\\\": true,\\\\n    \\\\\\\"steps_survived\\\\\\\": 8,\\\\n    \\\\\\\"survived_fraction\\\\\\\": 1.0,\\\\n    \\\\\\\"game_over\\\\\\\": false,\\\\n    \\\\\\\"peak_line_loading_rho\\\\\\\": 0.9297,\\\\n    \\\\\\\"reference_reward_sum\\\\\\\": 517.7195,\\\\n    \\\\\\\"difficulty_probe\\\\\\\": \\\\\\\"fixed DoNothing agent; no policy training\\\\\\\",\\\\n    \\\\\\\"feedback\\\\\\\": \\\\\\\"reference agent survived the horizon\\\\\\\",\\\\n    \\\\\\\"designer_prompt\\\\\\\": \\\\\\\"You are the Environment Designer for power-grid operations.\\\\\\\\nCreate a Grid2Op scenario specification that is valid, executable, and one\\\\\\\\nsmall step more challenging than the last accepted scenario. Keep the grid\\\\\\\\nphysically connected; use only valid line IDs and scheduled line outages.\\\\\\\\nUse the previous evaluation feedback to avoid scenarios that immediately\\\\\\\\ncollapse or are indistinguishable from the baseline. Do not write a policy.\\\\\\\\n\\\\\\\\nReturn JSON with: name, level, max_steps, outages. Each outage has step and\\\\\\\\nline_id. The allowed grid is l2rpn_case14_sandbox, with 20 lines. Current memory:\\\\\\\\n[]\\\\\\\\n\\\\\\\\nRequested complexity level: 0.\\\\\\\"\\\\n  }\\\\n]\\\\n\\\\nRequested complexity level: 1.\\\"\\n  }\\n]\\n\\nRequested complexity level: 2.\"\n  }\n]\n\nRequested complexity level: 3."
+  }
+]

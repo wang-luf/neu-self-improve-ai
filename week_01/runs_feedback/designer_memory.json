@@ -1,0 +1,85 @@
+[
+  {
+    "scenario": {
+      "name": "case14_contingencies_level_0",
+      "level": 0,
+      "max_steps": 8,
+      "outages": []
+    },
+    "valid": true,
+    "steps_survived": 8,
+    "survived_fraction": 1.0,
+    "game_over": false,
+    "peak_line_loading_rho": 0.9297,
+    "feedback": "reference agent survived the horizon"
+  },
+  {
+    "scenario": {
+      "name": "case14_contingencies_level_1",
+      "level": 1,
+      "max_steps": 10,
+      "outages": [
+        {
+          "step": 3,
+          "line_id": 0
+        }
+      ]
+    },
+    "valid": true,
+    "steps_survived": 10,
+    "survived_fraction": 1.0,
+    "game_over": false,
+    "peak_line_loading_rho": 0.9639,
+    "feedback": "reference agent survived the horizon"
+  },
+  {
+    "scenario": {
+      "name": "case14_contingencies_level_2",
+      "level": 2,
+      "max_steps": 12,
+      "outages": [
+        {
+          "step": 3,
+          "line_id": 0
+        },
+        {
+          "step": 6,
+          "line_id": 1
+        }
+      ]
+    },
+    "valid": true,
+    "steps_survived": 6,
+    "survived_fraction": 0.5,
+    "game_over": true,
+    "peak_line_loading_rho": 0.9639,
+    "feedback": "reference agent triggered game over before the horizon"
+  },
+  {
+    "scenario": {
+      "name": "case14_contingencies_level_3",
+      "level": 3,
+      "max_steps": 14,
+      "outages": [
+        {
+          "step": 4,
+          "line_id": 0
+        },
+        {
+          "step": 8,
+          "line_id": 1
+        },
+        {
+          "step": 12,
+          "line_id": 2
+        }
+      ]
+    },
+    "valid": true,
+    "steps_survived": 8,
+    "survived_fraction": 0.5714,
+    "game_over": true,
+    "peak_line_loading_rho": 0.9639,
+    "feedback": "reference agent triggered game over before the horizon"
+  }
+]
