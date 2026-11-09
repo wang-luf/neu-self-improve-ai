@@ -1,0 +1,21 @@
+environment,algorithm,mean_final_100_return,sd_across_seeds
+CliffWalking-v1,REINFORCE,-200.00,0.00
+CliffWalking-v1,REINFORCE + baseline,-200.00,0.00
+CliffWalking-v1,Actor-Critic,-200.00,0.00
+Taxi-v4,REINFORCE,-200.00,0.00
+Taxi-v4,REINFORCE + baseline,-200.00,0.00
+Taxi-v4,Actor-Critic,-200.45,0.24
+CartPole-v1,REINFORCE,129.75,61.75
+CartPole-v1,REINFORCE + baseline,39.06,51.03
+CartPole-v1,Actor-Critic,24.62,3.84
+MountainCar-v0,REINFORCE,-200.00,0.00
+MountainCar-v0,REINFORCE + baseline,-200.00,0.00
+MountainCar-v0,Actor-Critic,-200.00,0.00
+Acrobot-v1,REINFORCE,-200.00,0.00
+Acrobot-v1,REINFORCE + baseline,-200.00,0.00
+Acrobot-v1,Actor-Critic,-200.00,0.00
+CliffWalking-v1,PPO,-207.26,1.51
+Taxi-v4,PPO,-201.32,0.21
+CartPole-v1,PPO,164.35,21.27
+MountainCar-v0,PPO,-200.00,0.00
+Acrobot-v1,PPO,-200.00,0.00
