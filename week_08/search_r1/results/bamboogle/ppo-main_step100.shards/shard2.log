@@ -1,0 +1,78 @@
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/434 [00:00<?, ?it/s]Loading weights:   9%|▉         | 39/434 [00:00<00:01, 382.33it/s]Loading weights:  23%|██▎       | 100/434 [00:00<00:00, 511.85it/s]Loading weights:  35%|███▌      | 152/434 [00:00<00:00, 461.34it/s]Loading weights:  51%|█████     | 221/434 [00:00<00:00, 536.38it/s]Loading weights:  64%|██████▎   | 276/434 [00:00<00:00, 328.06it/s]Loading weights:  78%|███████▊  | 339/434 [00:00<00:00, 395.65it/s]Loading weights:  90%|████████▉ | 389/434 [00:00<00:00, 417.87it/s]Loading weights: 100%|██████████| 434/434 [00:01<00:00, 430.42it/s]
+SEARCH_TOOL_CALL query='Fiorello H. La Guardia birth year'
+SEARCH_TOOL_CALL query='mayor ofnewyorkcity born 1882'
+SEARCH_TOOL_CALL query='discovery of superconductivity timeline president of United States'
+SEARCH_TOOL_CALL query='discovery of of superconductivity president of united states'
+SEARCH_TOOL_CALL query='president of of united states 1986'
+SEARCH_TOOL_CALL query='Russ Hanneman birth date'
+SEARCH_TOOL_CALL query="first location world's largest coffeehouse chain opening date"
+SEARCH_TOOL_CALL query='highest grossing film director'
+SEARCH_TOOL_CALL query='longest bridge in the world opening date'
+SEARCH_TOOL_CALL query='largest pharmaceutical settlement company'
+SEARCH_TOOL_CALL query='tallest self-supporting tower completion year'
+SEARCH_TOOL_CALL query='tallest fixed steel structure completion year'
+SEARCH_TOOL_CALL query='tallest lattice tower completion year'
+SEARCH_TOOL_CALL query='Tokyo Skytree completion year'
+SEARCH_TOOL_CALL query='current tallest wooden lattice tower completion year'
+SEARCH_TOOL_CALL query='second tallest statue country'
+SEARCH_TOOL_CALL query='tallest ferris wheel world completion date'
+SEARCH_TOOL_CALL query='tallest lighthouse completion year'
+SEARCH_TOOL_CALL query='world largest desalination plant country'
+SEARCH_TOOL_CALL query='most populous national capital city established year'
+SEARCH_TOOL_CALL query='Quezon City founding year'
+SEARCH_TOOL_CALL query='third largest river by discharge countries'
+SEARCH_TOOL_CALL query='Yangtze River countries'
+SEARCH_TOOL_CALL query='second largest island in the world highest elevation'
+SEARCH_TOOL_CALL query='second deepest river length'
+SEARCH_TOOL_CALL query='third largest stadium country'
+SEARCH_TOOL_CALL query='third largest stadium in the world'
+SEARCH_TOOL_CALL query='third largest stadium in the world'
+SEARCH_TOOL_CALL query='third largest stadium in the world'
+SEARCH_TOOL_CALL query='largest aircraft carrier named after'
+SEARCH_TOOL_CALL query='oldest cat Cat of the Year award'
+SEARCH_TOOL_CALL query='third largest coffee exporter country founded'
+SEARCH_TOOL_CALL query='first spacewalk commander'
+SEARCH_TOOL_CALL query='predecessor longest-reigning British monarch'
+1/25 EM=0.000 latest=0
+2/25 EM=0.000 latest=0
+3/25 EM=0.000 latest=0
+4/25 EM=0.000 latest=0
+5/25 EM=0.000 latest=0
+6/25 EM=0.000 latest=0
+7/25 EM=0.000 latest=0
+8/25 EM=0.000 latest=0
+9/25 EM=0.000 latest=0
+10/25 EM=0.100 latest=1
+11/25 EM=0.091 latest=0
+12/25 EM=0.083 latest=0
+13/25 EM=0.077 latest=0
+14/25 EM=0.071 latest=0
+15/25 EM=0.067 latest=0
+16/25 EM=0.062 latest=0
+17/25 EM=0.059 latest=0
+18/25 EM=0.056 latest=0
+19/25 EM=0.053 latest=0
+20/25 EM=0.050 latest=0
+21/25 EM=0.048 latest=0
+22/25 EM=0.045 latest=0
+23/25 EM=0.043 latest=0
+24/25 EM=0.042 latest=0
+25/25 EM=0.040 latest=0
+{
+  "model": "Qwen/Qwen2.5-3B-Instruct",
+  "adapter": "./week_08/search_r1/results/runs/ppo-main/adapter-step100/lora_adapter",
+  "mode": "tool",
+  "examples": 25,
+  "shard": "2/5",
+  "correct": 1,
+  "exact_match": 0.04,
+  "search_calls": 34,
+  "mean_search_calls": 1.36,
+  "seconds": 201.74417746800464,
+  "temperature": 0.0,
+  "max_new_tokens_per_turn": 512,
+  "max_turns": 4,
+  "topk": 3,
+  "predictions": "./week_08/search_r1/results/bamboogle/ppo-main_step100.shards/shard2.jsonl"
+}

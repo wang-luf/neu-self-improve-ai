@@ -1,0 +1,102 @@
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/434 [00:00<?, ?it/s]Loading weights:  14%|█▍        | 61/434 [00:00<00:00, 596.10it/s]Loading weights:  28%|██▊       | 121/434 [00:00<00:00, 558.58it/s]Loading weights:  41%|████      | 177/434 [00:00<00:00, 345.16it/s]Loading weights:  54%|█████▎    | 233/434 [00:00<00:00, 403.71it/s]Loading weights:  65%|██████▍   | 280/434 [00:01<00:00, 213.45it/s]Loading weights:  73%|███████▎  | 315/434 [00:01<00:00, 234.76it/s]Loading weights:  81%|████████  | 351/434 [00:01<00:00, 257.14it/s]Loading weights:  89%|████████▊ | 385/434 [00:01<00:00, 270.92it/s]Loading weights:  97%|█████████▋| 419/434 [00:01<00:00, 271.23it/s]Loading weights: 100%|██████████| 434/434 [00:01<00:00, 291.26it/s]
+SEARCH_TOOL_CALL query='Lady Godiva husband earl kingdom'
+SEARCH_TOOL_CALL query='machine to extract honey from honeycombs physical force'
+SEARCH_TOOL_CALL query='top level domain for military organization'
+SEARCH_TOOL_CALL query='third letter of of mil domain'
+SEARCH_TOOL_CALL query='government department internet origins'
+SEARCH_TOOL_CALL query='origin of of of the internet government department'
+SEARCH_TOOL_CALL query='founding year U.S. Department of of Defense'
+SEARCH_TOOL_CALL query='main actor Indiana Jones'
+SEARCH_TOOL_CALL query='Harrison Ford licenses'
+SEARCH_TOOL_CALL query='person named after Hubble Space Telescope'
+SEARCH_TOOL_CALL query='Edwin Hubble birth date'
+SEARCH_TOOL_CALL query='Checkers speech giver date date of death'
+SEARCH_TOOL_CALL query='Richard Nixon date of of death'
+SEARCH_TOOL_CALL query='David Chalmers hard problem of of consciousness birth'
+SEARCH_TOOL_CALL query='David Chalmers birth date'
+SEARCH_TOOL_CALL query='list of states by area size'
+SEARCH_TOOL_CALL query='list of of largest statesby area in unitedstates'
+SEARCH_TOOL_CALL query='list ofof largest statesby areain unitedstatesexcludingalaska'
+SEARCH_TOOL_CALL query='capital city of texas'
+SEARCH_TOOL_CALL query='fastest birds speeds'
+SEARCH_TOOL_CALL query='second fastest birds third fastest birds'
+SEARCH_TOOL_CALL query='second fastest birds third fastest birds'
+SEARCH_TOOL_CALL query='founder of of geometry'
+SEARCH_TOOL_CALL query='city where Euclid was active during the reign of of of Ptolemy I'
+SEARCH_TOOL_CALL query='city Alexandria was founded or where the founder of of of of geometry lived'
+SEARCH_TOOL_CALL query='origin of ofoga'
+SEARCH_TOOL_CALL query='capital of of india'
+SEARCH_TOOL_CALL query='fourth largest city in Germany'
+SEARCH_TOOL_CALL query='original name name Essen'
+SEARCH_TOOL_CALL query='Nirvana best selling albums'
+SEARCH_TOOL_CALL query='Nirvana second most selling studio album'
+SEARCH_TOOL_CALL query='Nirvana second most selling studio album release date'
+SEARCH_TOOL_CALL query='Nirvana second most selling studio album release date'
+SEARCH_TOOL_CALL query='founder of of psychoanalysis'
+SEARCH_TOOL_CALL query='father ofof Sigmund Freud job'
+SEARCH_TOOL_CALL query='fatherofof Sigmund Freud job'
+SEARCH_TOOL_CALL query='protein content in egg yolk'
+SEARCH_TOOL_CALL query='how much protein in four egg yolks'
+SEARCH_TOOL_CALL query='calculate protein content in four egg yolks'
+SEARCH_TOOL_CALL query='American president who signed Paris agreement'
+SEARCH_TOOL_CALL query='President Obama political party'
+SEARCH_TOOL_CALL query='most populous city in Punjab, area'
+SEARCH_TOOL_CALL query='Lahore city area Pakistan'
+SEARCH_TOOL_CALL query='area of of Lahore city Pakistan'
+SEARCH_TOOL_CALL query='second largest volcanic eruption 20th century death toll'
+SEARCH_TOOL_CALL query='1991 eruption of mount pinatubo death toll'
+SEARCH_TOOL_CALL query='most intense Atlantic hurricanes'
+SEARCH_TOOL_CALL query='death toll most intense Atlantic hurricanes'
+SEARCH_TOOL_CALL query='timeline of of NASA leadership during Apollo 11 mission'
+SEARCH_TOOL_CALL query='father of George Washington'
+SEARCH_TOOL_CALL query='father of of Augustine Washington'
+SEARCH_TOOL_CALL query='father of George Washington'
+SEARCH_TOOL_CALL query='mother of Augustine Washington'
+SEARCH_TOOL_CALL query='father of of Barack Obama'
+SEARCH_TOOL_CALL query='father of of Barack Obama Sr.'
+SEARCH_TOOL_CALL query='fatherfather of of Barack Obama Sr.'
+SEARCH_TOOL_CALL query='father of Barack Obama'
+SEARCH_TOOL_CALL query='mother of of Barack Obama Sr.'
+1/25 EM=1.000 latest=1
+2/25 EM=1.000 latest=1
+3/25 EM=0.667 latest=0
+4/25 EM=0.500 latest=0
+5/25 EM=0.400 latest=0
+6/25 EM=0.500 latest=1
+7/25 EM=0.571 latest=1
+8/25 EM=0.500 latest=0
+9/25 EM=0.444 latest=0
+10/25 EM=0.400 latest=0
+11/25 EM=0.364 latest=0
+12/25 EM=0.417 latest=1
+13/25 EM=0.385 latest=0
+14/25 EM=0.357 latest=0
+15/25 EM=0.400 latest=1
+16/25 EM=0.375 latest=0
+17/25 EM=0.412 latest=1
+18/25 EM=0.389 latest=0
+19/25 EM=0.421 latest=1
+20/25 EM=0.400 latest=0
+21/25 EM=0.429 latest=1
+22/25 EM=0.409 latest=0
+23/25 EM=0.391 latest=0
+24/25 EM=0.375 latest=0
+25/25 EM=0.360 latest=0
+{
+  "model": "Qwen/Qwen2.5-3B-Instruct",
+  "adapter": "./week_08/search_r1/results/runs/grpo-main/adapter-step100/lora_adapter",
+  "mode": "tool",
+  "examples": 25,
+  "shard": "1/5",
+  "correct": 9,
+  "exact_match": 0.36,
+  "search_calls": 58,
+  "mean_search_calls": 2.32,
+  "seconds": 465.2185384220211,
+  "temperature": 0.0,
+  "max_new_tokens_per_turn": 512,
+  "max_turns": 4,
+  "topk": 3,
+  "predictions": "./week_08/search_r1/results/bamboogle/grpo-main_step100.shards/shard1.jsonl"
+}

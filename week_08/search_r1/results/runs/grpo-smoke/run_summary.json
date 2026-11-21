@@ -1,0 +1,31 @@
+{
+  "algorithm": "GRPO",
+  "status": "passed",
+  "run_name": "grpo-smoke",
+  "host": "reserved-gb300-node",
+  "gpus": [
+    "NVIDIA GB300"
+  ],
+  "cuda_visible_devices": "0",
+  "steps_requested": 1,
+  "last_checkpoint_step": 1,
+  "batch_size_prompts": 2,
+  "rollouts_per_prompt": 2,
+  "retriever": "wiki-18 E5 Flat (exact inner product on GPU), top-k=3, http://127.0.0.1:8000/retrieve",
+  "retriever_probe": "France\nregions (five of which are situated overseas) span a combined area of and a total population of 67.3 million (). France, a sovereign state, is a unitary semi-presidential republic with its capital in Paris, the country's largest city",
+  "tool_calls_logged": 5,
+  "rewards_logged": 4,
+  "mean_logged_reward": 0.0,
+  "lora_metadata_files": [
+    "global_step_1/actor/lora_train_meta.json"
+  ],
+  "exported_adapter_files": [
+    "adapter_config.json",
+    "adapter_model.safetensors"
+  ],
+  "adapter_dir": "week_08/search_r1/results/runs/grpo-smoke/adapter-export/lora_adapter",
+  "adapter_export_returncode": 0,
+  "trainer_exit_code": 0,
+  "train_seconds": 146.4,
+  "overrides": []
+}

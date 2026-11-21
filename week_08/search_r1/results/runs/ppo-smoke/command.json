@@ -1,0 +1,28 @@
+{
+  "command": [
+    "bash",
+    "./week_08/search_r1/train_verl.sh",
+    "ppo",
+    "trainer.val_before_train=False",
+    "trainer.save_freq=1",
+    "trainer.test_freq=-1"
+  ],
+  "env": {
+    "ACTOR_LR": "2e-5",
+    "CUDA_VISIBLE_DEVICES": "1",
+    "MICRO_BATCH_SIZE": "4",
+    "MINI_BATCH_SIZE": "2",
+    "MODEL_PATH": "Qwen/Qwen2.5-3B-Instruct",
+    "NGPUS": "1",
+    "OUTPUT_DIR": "./week_08/search_r1/results/runs/ppo-smoke",
+    "ROLLOUT_N": "2",
+    "SEARCH_R1_LOG_REWARD": "1",
+    "SEARCH_R1_RETRIEVAL_URL": "http://127.0.0.1:8000/retrieve",
+    "SEARCH_R1_TOPK": "3",
+    "TOTAL_EPOCHS": "1",
+    "TOTAL_STEPS": "1",
+    "TRAIN_BATCH_SIZE": "2",
+    "TRAIN_FILE": "/workspace/assignment5/sr1data/processed/smoke_train.parquet",
+    "VAL_FILE": "/workspace/assignment5/sr1data/processed/smoke_test.parquet"
+  }
+}

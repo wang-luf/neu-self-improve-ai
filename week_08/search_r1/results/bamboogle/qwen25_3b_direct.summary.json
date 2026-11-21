@@ -1,0 +1,16 @@
+{
+  "model": "Qwen/Qwen2.5-3B-Instruct",
+  "adapter": null,
+  "mode": "direct",
+  "examples": 125,
+  "correct": 4,
+  "exact_match": 0.032,
+  "search_calls": 0,
+  "mean_search_calls": 0.0,
+  "seconds": 49.5597259280039,
+  "temperature": 0.0,
+  "max_new_tokens_per_turn": 512,
+  "max_turns": 4,
+  "topk": 3,
+  "predictions": "results/bamboogle/qwen25_3b_direct.jsonl"
+}

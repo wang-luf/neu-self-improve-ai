@@ -1,0 +1,8 @@
+57c57
+<     output_dir = "qwen-r1-aha-moment"
+---
+>     output_dir = "./week_08/search_r1/results/tiny_zero_starter/checkpoint"
+81c81
+<         max_steps=2000,
+---
+>         max_steps=60,

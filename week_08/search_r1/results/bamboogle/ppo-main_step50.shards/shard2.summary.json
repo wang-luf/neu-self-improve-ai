@@ -1,0 +1,17 @@
+{
+  "model": "Qwen/Qwen2.5-3B-Instruct",
+  "adapter": "./week_08/search_r1/results/runs/ppo-main/adapter-step50/lora_adapter",
+  "mode": "tool",
+  "examples": 25,
+  "shard": "2/5",
+  "correct": 2,
+  "exact_match": 0.08,
+  "search_calls": 28,
+  "mean_search_calls": 1.12,
+  "seconds": 192.96567865402903,
+  "temperature": 0.0,
+  "max_new_tokens_per_turn": 512,
+  "max_turns": 4,
+  "topk": 3,
+  "predictions": "./week_08/search_r1/results/bamboogle/ppo-main_step50.shards/shard2.jsonl"
+}

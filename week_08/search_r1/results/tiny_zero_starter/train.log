@@ -1,0 +1,713 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/434 [00:00<?, ?it/s]Loading weights:  17%|█▋        | 75/434 [00:00<00:00, 733.90it/s]Loading weights:  34%|███▍      | 149/434 [00:00<00:00, 620.47it/s]Loading weights:  53%|█████▎    | 229/434 [00:00<00:00, 694.18it/s]Loading weights:  69%|██████▉   | 300/434 [00:00<00:00, 419.70it/s]Loading weights:  87%|████████▋ | 376/434 [00:00<00:00, 497.05it/s]Loading weights: 100%|██████████| 434/434 [00:00<00:00, 548.16it/s]
+Parse safetensors files:   0%|          | 0/2 [00:00<?, ?it/s]Parse safetensors files:  50%|█████     | 1/2 [00:00<00:00,  2.78it/s]Parse safetensors files: 100%|██████████| 2/2 [00:00<00:00,  5.44it/s]
+Fetching 10 files:   0%|          | 0/10 [00:00<?, ?it/s]Fetching 10 files: 100%|██████████| 10/10 [00:00<00:00, 2355.56it/s]
+Loading safetensors checkpoint shards:   0% Completed | 0/2 [00:00<?, ?it/s]
+Loading safetensors checkpoint shards:  50% Completed | 1/2 [00:02<00:02,  2.48s/it]
+Loading safetensors checkpoint shards: 100% Completed | 2/2 [00:03<00:00,  1.57s/it]
+Loading safetensors checkpoint shards: 100% Completed | 2/2 [00:03<00:00,  1.71s/it]
+
+Capturing CUDA graphs (PIECEWISE):   0%|          | 0/11 [00:00<?, ?it/s]2026-11-20 23:18:10,455 - INFO - core.py:564 - flashinfer.jit: Building JIT module fmha_gen; this can take several minutes on first use.
+2026-11-20 23:19:07,061 - INFO - cubin_loader.py:231 - flashinfer.jit: Fetching 2d6a5a029eefcc388ec0ceb87efb55d8bcce5c3c/fmha/trtllm-gen//fmhaSm103aKernel_QkvBfloat16OBfloat16H128PagedKvCausalP16VarSeqQ256Kv128PersistentContext.cubin from https://edge.urm.nvidia.com/artifactory/sw-kernelinferencelibrary-public-generic-local/2d6a5a029eefcc388ec0ceb87efb55d8bcce5c3c/fmha/trtllm-gen/fmhaSm103aKernel_QkvBfloat16OBfloat16H128PagedKvCausalP16VarSeqQ256Kv128PersistentContext.cubin
+2026-11-20 23:19:07,062 - INFO - cubin_loader.py:84 - flashinfer.jit: Acquired lock for /workspace/assignment5/.cache/flashinfer/cubins/2d6a5a029eefcc388ec0ceb87efb55d8bcce5c3c/fmha/trtllm-gen/fmhaSm103aKernel_QkvBfloat16OBfloat16H128PagedKvCausalP16VarSeqQ256Kv128PersistentContext.cubin
+2026-11-20 23:19:07,365 - INFO - cubin_loader.py:114 - flashinfer.jit: File downloaded successfully: https://edge.urm.nvidia.com/artifactory/sw-kernelinferencelibrary-public-generic-local/2d6a5a029eefcc388ec0ceb87efb55d8bcce5c3c/fmha/trtllm-gen/fmhaSm103aKernel_QkvBfloat16OBfloat16H128PagedKvCausalP16VarSeqQ256Kv128PersistentContext.cubin -> /workspace/assignment5/.cache/flashinfer/cubins/2d6a5a029eefcc388ec0ceb87efb55d8bcce5c3c/fmha/trtllm-gen/fmhaSm103aKernel_QkvBfloat16OBfloat16H128PagedKvCausalP16VarSeqQ256Kv128PersistentContext.cubin
+Capturing CUDA graphs (PIECEWISE):   9%|▉         | 1/11 [00:57<09:30, 57.07s/it]2026-11-20 23:19:07,481 - INFO - cubin_loader.py:231 - flashinfer.jit: Fetching 2d6a5a029eefcc388ec0ceb87efb55d8bcce5c3c/fmha/trtllm-gen//fmhaSm100fKernel_QkvBfloat16OBfloat16H128PagedKvCausalP16MultiCtasKvVarSeqQ8Kv256StaticGroupedSwapsAbForGen.cubin from https://edge.urm.nvidia.com/artifactory/sw-kernelinferencelibrary-public-generic-local/2d6a5a029eefcc388ec0ceb87efb55d8bcce5c3c/fmha/trtllm-gen/fmhaSm100fKernel_QkvBfloat16OBfloat16H128PagedKvCausalP16MultiCtasKvVarSeqQ8Kv256StaticGroupedSwapsAbForGen.cubin
+2026-11-20 23:19:07,481 - INFO - cubin_loader.py:84 - flashinfer.jit: Acquired lock for /workspace/assignment5/.cache/flashinfer/cubins/2d6a5a029eefcc388ec0ceb87efb55d8bcce5c3c/fmha/trtllm-gen/fmhaSm100fKernel_QkvBfloat16OBfloat16H128PagedKvCausalP16MultiCtasKvVarSeqQ8Kv256StaticGroupedSwapsAbForGen.cubin
+2026-11-20 23:19:07,797 - INFO - cubin_loader.py:114 - flashinfer.jit: File downloaded successfully: https://edge.urm.nvidia.com/artifactory/sw-kernelinferencelibrary-public-generic-local/2d6a5a029eefcc388ec0ceb87efb55d8bcce5c3c/fmha/trtllm-gen/fmhaSm100fKernel_QkvBfloat16OBfloat16H128PagedKvCausalP16MultiCtasKvVarSeqQ8Kv256StaticGroupedSwapsAbForGen.cubin -> /workspace/assignment5/.cache/flashinfer/cubins/2d6a5a029eefcc388ec0ceb87efb55d8bcce5c3c/fmha/trtllm-gen/fmhaSm100fKernel_QkvBfloat16OBfloat16H128PagedKvCausalP16MultiCtasKvVarSeqQ8Kv256StaticGroupedSwapsAbForGen.cubin
+2026-11-20 23:19:07,814 - INFO - cubin_loader.py:231 - flashinfer.jit: Fetching 2d6a5a029eefcc388ec0ceb87efb55d8bcce5c3c/fmha/trtllm-gen//fmhaSm100fKernel_QkvBfloat16OBfloat16H128PagedKvCausalP16VarSeqQ8Kv256PersistentGroupedSwapsAbForGen.cubin from https://edge.urm.nvidia.com/artifactory/sw-kernelinferencelibrary-public-generic-local/2d6a5a029eefcc388ec0ceb87efb55d8bcce5c3c/fmha/trtllm-gen/fmhaSm100fKernel_QkvBfloat16OBfloat16H128PagedKvCausalP16VarSeqQ8Kv256PersistentGroupedSwapsAbForGen.cubin
+2026-11-20 23:19:07,815 - INFO - cubin_loader.py:84 - flashinfer.jit: Acquired lock for /workspace/assignment5/.cache/flashinfer/cubins/2d6a5a029eefcc388ec0ceb87efb55d8bcce5c3c/fmha/trtllm-gen/fmhaSm100fKernel_QkvBfloat16OBfloat16H128PagedKvCausalP16VarSeqQ8Kv256PersistentGroupedSwapsAbForGen.cubin
+2026-11-20 23:19:08,087 - INFO - cubin_loader.py:114 - flashinfer.jit: File downloaded successfully: https://edge.urm.nvidia.com/artifactory/sw-kernelinferencelibrary-public-generic-local/2d6a5a029eefcc388ec0ceb87efb55d8bcce5c3c/fmha/trtllm-gen/fmhaSm100fKernel_QkvBfloat16OBfloat16H128PagedKvCausalP16VarSeqQ8Kv256PersistentGroupedSwapsAbForGen.cubin -> /workspace/assignment5/.cache/flashinfer/cubins/2d6a5a029eefcc388ec0ceb87efb55d8bcce5c3c/fmha/trtllm-gen/fmhaSm100fKernel_QkvBfloat16OBfloat16H128PagedKvCausalP16VarSeqQ8Kv256PersistentGroupedSwapsAbForGen.cubin
+Capturing CUDA graphs (PIECEWISE):  18%|█▊        | 2/11 [00:57<03:35, 23.92s/it]Capturing CUDA graphs (PIECEWISE):  36%|███▋      | 4/11 [00:57<01:02,  8.96s/it]Capturing CUDA graphs (PIECEWISE):  64%|██████▎   | 7/11 [00:58<00:15,  3.85s/it]Capturing CUDA graphs (PIECEWISE):  91%|█████████ | 10/11 [00:58<00:02,  2.13s/it]Capturing CUDA graphs (PIECEWISE): 100%|██████████| 11/11 [00:58<00:00,  5.29s/it]
+Capturing CUDA graphs (FULL):   0%|          | 0/2 [00:00<?, ?it/s]2026-11-20 23:19:08,568 - INFO - cubin_loader.py:231 - flashinfer.jit: Fetching 2d6a5a029eefcc388ec0ceb87efb55d8bcce5c3c/fmha/trtllm-gen//fmhaSm100fKernel_QkvBfloat16OBfloat16H128PagedKvCausalP16MultiCtasKvCgaVarSeqQ8Kv256StaticGroupedSwapsAbForGen.cubin from https://edge.urm.nvidia.com/artifactory/sw-kernelinferencelibrary-public-generic-local/2d6a5a029eefcc388ec0ceb87efb55d8bcce5c3c/fmha/trtllm-gen/fmhaSm100fKernel_QkvBfloat16OBfloat16H128PagedKvCausalP16MultiCtasKvCgaVarSeqQ8Kv256StaticGroupedSwapsAbForGen.cubin
+2026-11-20 23:19:08,569 - INFO - cubin_loader.py:84 - flashinfer.jit: Acquired lock for /workspace/assignment5/.cache/flashinfer/cubins/2d6a5a029eefcc388ec0ceb87efb55d8bcce5c3c/fmha/trtllm-gen/fmhaSm100fKernel_QkvBfloat16OBfloat16H128PagedKvCausalP16MultiCtasKvCgaVarSeqQ8Kv256StaticGroupedSwapsAbForGen.cubin
+2026-11-20 23:19:08,865 - INFO - cubin_loader.py:114 - flashinfer.jit: File downloaded successfully: https://edge.urm.nvidia.com/artifactory/sw-kernelinferencelibrary-public-generic-local/2d6a5a029eefcc388ec0ceb87efb55d8bcce5c3c/fmha/trtllm-gen/fmhaSm100fKernel_QkvBfloat16OBfloat16H128PagedKvCausalP16MultiCtasKvCgaVarSeqQ8Kv256StaticGroupedSwapsAbForGen.cubin -> /workspace/assignment5/.cache/flashinfer/cubins/2d6a5a029eefcc388ec0ceb87efb55d8bcce5c3c/fmha/trtllm-gen/fmhaSm100fKernel_QkvBfloat16OBfloat16H128PagedKvCausalP16MultiCtasKvCgaVarSeqQ8Kv256StaticGroupedSwapsAbForGen.cubin
+Capturing CUDA graphs (FULL):  50%|█████     | 1/2 [00:00<00:00,  2.87it/s]Capturing CUDA graphs (FULL): 100%|██████████| 2/2 [00:00<00:00,  5.25it/s]
+2026-11-20 23:19:09,987 - INFO - autotuner.py:1046 - flashinfer.jit: [Autotuner]: Autotuning process starts ...
+2026-11-20 23:19:10,013 - INFO - autotuner.py:1069 - flashinfer.jit: [Autotuner]: Autotuning process ends
+Capturing CUDA graphs (PIECEWISE):   0%|          | 0/11 [00:00<?, ?it/s]Capturing CUDA graphs (PIECEWISE):  18%|█▊        | 2/11 [00:00<00:00, 16.89it/s]Capturing CUDA graphs (PIECEWISE):  36%|███▋      | 4/11 [00:00<00:00, 18.50it/s]Capturing CUDA graphs (PIECEWISE):  64%|██████▎   | 7/11 [00:00<00:00, 21.23it/s]Capturing CUDA graphs (PIECEWISE):  91%|█████████ | 10/11 [00:00<00:00, 22.39it/s]Capturing CUDA graphs (PIECEWISE): 100%|██████████| 11/11 [00:00<00:00, 21.57it/s]
+Capturing CUDA graphs (FULL):   0%|          | 0/7 [00:00<?, ?it/s]Capturing CUDA graphs (FULL):  43%|████▎     | 3/7 [00:00<00:00, 29.92it/s]Capturing CUDA graphs (FULL): 100%|██████████| 7/7 [00:00<00:00, 31.22it/s]Capturing CUDA graphs (FULL): 100%|██████████| 7/7 [00:00<00:00, 31.03it/s]
+Held-out evaluation · Step 0
+  Results    | solve rate [1;32m4.0%[0m | format [36m32.5%[0m | time [2m29.60[0m s
+
+GPU · Step 1
+  Device     | used [36m201.63[0m GiB / [2m276.62[0m GiB | free [2m74.98[0m GiB | usage [36m72.9%[0m
+  PyTorch    | allocated [36m88.89[0m GiB | reserved [2m200.59[0m GiB
+  Step peaks | allocated [33m196.87[0m GiB | reserved [2m200.59[0m GiB
+
+Training · Step 1/60
+  Optimize   | loss [33m0.1755[0m | grad norm [33m0.1771[0m | lr [2m2.00e-05[0m | time [2m11.14[0m s
+  Rewards    | solve rate [1;32m6.2%[0m | format [36m50.0%[0m | total [1;32m0.562[0m | zero-std [2m0.0%[0m
+  Outputs    | mean [36m319.6[0m tokens | range [2m82[0m–[2m1024[0m | truncated [33m3.1%[0m
+  Policy     | KL [2m0.0000[0m | entropy [2m1.0507[0m | clipped [2m0.0%[0m
+
+GPU · Step 2
+  Device     | used [36m201.82[0m GiB / [2m276.62[0m GiB | free [2m74.79[0m GiB | usage [36m73.0%[0m
+  PyTorch    | allocated [36m88.89[0m GiB | reserved [2m200.78[0m GiB
+  Step peaks | allocated [33m197.02[0m GiB | reserved [2m200.78[0m GiB
+
+Training · Step 2/60
+  Optimize   | loss [33m0.2050[0m | grad norm [33m0.1537[0m | lr [2m1.97e-05[0m | time [2m5.16[0m s
+  Rewards    | solve rate [1;32m6.2%[0m | format [36m28.1%[0m | total [1;32m0.344[0m | zero-std [2m0.0%[0m
+  Outputs    | mean [36m332.3[0m tokens | range [2m107[0m–[2m1024[0m | truncated [33m3.1%[0m
+  Policy     | KL [2m0.0010[0m | entropy [2m1.0767[0m | clipped [2m0.2%[0m
+
+GPU · Step 3
+  Device     | used [36m201.83[0m GiB / [2m276.62[0m GiB | free [2m74.79[0m GiB | usage [36m73.0%[0m
+  PyTorch    | allocated [36m88.89[0m GiB | reserved [2m200.78[0m GiB
+  Step peaks | allocated [33m175.83[0m GiB | reserved [2m200.78[0m GiB
+
+Training · Step 3/60
+  Optimize   | loss [33m-0.0963[0m | grad norm [33m0.2007[0m | lr [2m1.93e-05[0m | time [2m4.27[0m s
+  Rewards    | solve rate [1;32m18.8%[0m | format [36m34.4%[0m | total [1;32m0.531[0m | zero-std [2m0.0%[0m
+  Outputs    | mean [36m270.9[0m tokens | range [2m95[0m–[2m805[0m | truncated [33m0.0%[0m
+  Policy     | KL [2m0.0010[0m | entropy [2m0.9906[0m | clipped [2m0.1%[0m
+
+GPU · Step 4
+  Device     | used [36m201.83[0m GiB / [2m276.62[0m GiB | free [2m74.79[0m GiB | usage [36m73.0%[0m
+  PyTorch    | allocated [36m88.89[0m GiB | reserved [2m200.78[0m GiB
+  Step peaks | allocated [33m177.72[0m GiB | reserved [2m200.78[0m GiB
+
+Training · Step 4/60
+  Optimize   | loss [33m0.1779[0m | grad norm [33m0.1773[0m | lr [2m1.90e-05[0m | time [2m4.37[0m s
+  Rewards    | solve rate [1;32m3.1%[0m | format [36m34.4%[0m | total [1;32m0.375[0m | zero-std [2m0.0%[0m
+  Outputs    | mean [36m300.3[0m tokens | range [2m67[0m–[2m820[0m | truncated [33m0.0%[0m
+  Policy     | KL [2m0.0011[0m | entropy [2m1.0898[0m | clipped [2m0.2%[0m
+
+GPU · Step 5
+  Device     | used [36m201.83[0m GiB / [2m276.62[0m GiB | free [2m74.79[0m GiB | usage [36m73.0%[0m
+  PyTorch    | allocated [36m88.89[0m GiB | reserved [2m200.78[0m GiB
+  Step peaks | allocated [33m197.09[0m GiB | reserved [2m200.78[0m GiB
+
+Training · Step 5/60
+  Optimize   | loss [33m0.0655[0m | grad norm [33m0.1696[0m | lr [2m1.87e-05[0m | time [2m5.36[0m s
+  Rewards    | solve rate [1;32m0.0%[0m | format [36m43.8%[0m | total [1;32m0.438[0m | zero-std [2m0.0%[0m
+  Outputs    | mean [36m351.4[0m tokens | range [2m107[0m–[2m1024[0m | truncated [33m3.1%[0m
+  Policy     | KL [2m0.0012[0m | entropy [2m0.9382[0m | clipped [2m0.1%[0m
+
+GPU · Step 6
+  Device     | used [36m201.83[0m GiB / [2m276.62[0m GiB | free [2m74.79[0m GiB | usage [36m73.0%[0m
+  PyTorch    | allocated [36m88.89[0m GiB | reserved [2m200.78[0m GiB
+  Step peaks | allocated [33m196.68[0m GiB | reserved [2m200.78[0m GiB
+
+Training · Step 6/60
+  Optimize   | loss [33m0.1072[0m | grad norm [33m0.1341[0m | lr [2m1.83e-05[0m | time [2m5.37[0m s
+  Rewards    | solve rate [1;32m12.5%[0m | format [36m53.1%[0m | total [1;32m0.656[0m | zero-std [2m0.0%[0m
+  Outputs    | mean [36m264.1[0m tokens | range [2m83[0m–[2m1024[0m | truncated [33m3.1%[0m
+  Policy     | KL [2m0.0017[0m | entropy [2m1.0026[0m | clipped [2m0.2%[0m
+
+GPU · Step 7
+  Device     | used [36m201.83[0m GiB / [2m276.62[0m GiB | free [2m74.79[0m GiB | usage [36m73.0%[0m
+  PyTorch    | allocated [36m88.89[0m GiB | reserved [2m200.78[0m GiB
+  Step peaks | allocated [33m196.85[0m GiB | reserved [2m200.78[0m GiB
+
+Training · Step 7/60
+  Optimize   | loss [33m0.3369[0m | grad norm [33m0.2541[0m | lr [2m1.80e-05[0m | time [2m5.24[0m s
+  Rewards    | solve rate [1;32m12.5%[0m | format [36m53.1%[0m | total [1;32m0.656[0m | zero-std [2m0.0%[0m
+  Outputs    | mean [36m320.4[0m tokens | range [2m101[0m–[2m1024[0m | truncated [33m3.1%[0m
+  Policy     | KL [2m0.0019[0m | entropy [2m0.9985[0m | clipped [2m0.2%[0m
+
+GPU · Step 8
+  Device     | used [36m201.83[0m GiB / [2m276.62[0m GiB | free [2m74.79[0m GiB | usage [36m73.0%[0m
+  PyTorch    | allocated [36m88.89[0m GiB | reserved [2m200.78[0m GiB
+  Step peaks | allocated [33m196.68[0m GiB | reserved [2m200.78[0m GiB
+
+Training · Step 8/60
+  Optimize   | loss [33m0.1124[0m | grad norm [33m0.2212[0m | lr [2m1.77e-05[0m | time [2m5.28[0m s
+  Rewards    | solve rate [1;32m3.1%[0m | format [36m62.5%[0m | total [1;32m0.656[0m | zero-std [2m0.0%[0m
+  Outputs    | mean [36m300.3[0m tokens | range [2m91[0m–[2m1024[0m | truncated [33m3.1%[0m
+  Policy     | KL [2m0.0024[0m | entropy [2m0.9518[0m | clipped [2m0.3%[0m
+
+GPU · Step 9
+  Device     | used [36m201.83[0m GiB / [2m276.62[0m GiB | free [2m74.79[0m GiB | usage [36m73.0%[0m
+  PyTorch    | allocated [36m88.89[0m GiB | reserved [2m200.78[0m GiB
+  Step peaks | allocated [33m196.68[0m GiB | reserved [2m200.78[0m GiB
+
+Training · Step 9/60
+  Optimize   | loss [33m0.0450[0m | grad norm [33m0.1891[0m | lr [2m1.73e-05[0m | time [2m5.20[0m s
+  Rewards    | solve rate [1;32m3.1%[0m | format [36m65.6%[0m | total [1;32m0.688[0m | zero-std [2m0.0%[0m
+  Outputs    | mean [36m293.4[0m tokens | range [2m99[0m–[2m1024[0m | truncated [33m3.1%[0m
+  Policy     | KL [2m0.0028[0m | entropy [2m1.0252[0m | clipped [2m0.3%[0m
+
+GPU · Step 10
+  Device     | used [36m201.83[0m GiB / [2m276.62[0m GiB | free [2m74.79[0m GiB | usage [36m73.0%[0m
+  PyTorch    | allocated [36m88.89[0m GiB | reserved [2m200.78[0m GiB
+  Step peaks | allocated [33m171.49[0m GiB | reserved [2m200.78[0m GiB
+
+Training · Step 10/60
+  Optimize   | loss [33m0.1885[0m | grad norm [33m0.1882[0m | lr [2m1.70e-05[0m | time [2m3.93[0m s
+  Rewards    | solve rate [1;32m21.9%[0m | format [36m87.5%[0m | total [1;32m1.094[0m | zero-std [2m0.0%[0m
+  Outputs    | mean [36m262.8[0m tokens | range [2m135[0m–[2m758[0m | truncated [33m0.0%[0m
+  Policy     | KL [2m0.0034[0m | entropy [2m0.9901[0m | clipped [2m0.2%[0m
+
+Held-out evaluation · Step 10
+  Results    | solve rate [1;32m4.0%[0m | format [36m73.5%[0m | time [2m19.57[0m s
+
+GPU · Step 11
+  Device     | used [36m201.83[0m GiB / [2m276.62[0m GiB | free [2m74.79[0m GiB | usage [36m73.0%[0m
+  PyTorch    | allocated [36m88.89[0m GiB | reserved [2m200.78[0m GiB
+  Step peaks | allocated [33m140.01[0m GiB | reserved [2m200.78[0m GiB
+
+Training · Step 11/60
+  Optimize   | loss [33m-0.0298[0m | grad norm [33m0.1788[0m | lr [2m1.67e-05[0m | time [2m2.14[0m s
+  Rewards    | solve rate [1;32m6.2%[0m | format [36m78.1%[0m | total [1;32m0.844[0m | zero-std [2m0.0%[0m
+  Outputs    | mean [36m209.8[0m tokens | range [2m114[0m–[2m423[0m | truncated [33m0.0%[0m
+  Policy     | KL [2m0.0082[0m | entropy [2m0.9697[0m | clipped [2m0.3%[0m
+
+GPU · Step 12
+  Device     | used [36m201.83[0m GiB / [2m276.62[0m GiB | free [2m74.79[0m GiB | usage [36m73.0%[0m
+  PyTorch    | allocated [36m88.89[0m GiB | reserved [2m200.78[0m GiB
+  Step peaks | allocated [33m153.98[0m GiB | reserved [2m200.78[0m GiB
+
+Training · Step 12/60
+  Optimize   | loss [33m0.1503[0m | grad norm [33m0.2597[0m | lr [2m1.63e-05[0m | time [2m3.14[0m s
+  Rewards    | solve rate [1;32m9.4%[0m | format [36m68.8%[0m | total [1;32m0.781[0m | zero-std [2m0.0%[0m
+  Outputs    | mean [36m234.6[0m tokens | range [2m83[0m–[2m568[0m | truncated [33m0.0%[0m
+  Policy     | KL [2m0.0087[0m | entropy [2m1.0270[0m | clipped [2m0.4%[0m
+
+GPU · Step 13
+  Device     | used [36m201.83[0m GiB / [2m276.62[0m GiB | free [2m74.79[0m GiB | usage [36m73.0%[0m
+  PyTorch    | allocated [36m88.89[0m GiB | reserved [2m200.78[0m GiB
+  Step peaks | allocated [33m159.90[0m GiB | reserved [2m200.78[0m GiB
+
+Training · Step 13/60
+  Optimize   | loss [33m0.0586[0m | grad norm [33m0.1908[0m | lr [2m1.60e-05[0m | time [2m3.39[0m s
+  Rewards    | solve rate [1;32m9.4%[0m | format [36m90.6%[0m | total [1;32m1.000[0m | zero-std [2m0.0%[0m
+  Outputs    | mean [36m202.4[0m tokens | range [2m80[0m–[2m635[0m | truncated [33m0.0%[0m
+  Policy     | KL [2m0.0090[0m | entropy [2m1.0324[0m | clipped [2m0.2%[0m
+
+GPU · Step 14
+  Device     | used [36m201.83[0m GiB / [2m276.62[0m GiB | free [2m74.79[0m GiB | usage [36m73.0%[0m
+  PyTorch    | allocated [36m88.89[0m GiB | reserved [2m200.78[0m GiB
+  Step peaks | allocated [33m171.11[0m GiB | reserved [2m200.78[0m GiB
+
+Training · Step 14/60
+  Optimize   | loss [33m-0.0824[0m | grad norm [33m0.0951[0m | lr [2m1.57e-05[0m | time [2m3.92[0m s
+  Rewards    | solve rate [1;32m9.4%[0m | format [36m90.6%[0m | total [1;32m1.000[0m | zero-std [2m0.0%[0m
+  Outputs    | mean [36m300.3[0m tokens | range [2m110[0m–[2m750[0m | truncated [33m0.0%[0m
+  Policy     | KL [2m0.0064[0m | entropy [2m0.9759[0m | clipped [2m0.3%[0m
+
+GPU · Step 15
+  Device     | used [36m201.84[0m GiB / [2m276.62[0m GiB | free [2m74.78[0m GiB | usage [36m73.0%[0m
+  PyTorch    | allocated [36m88.89[0m GiB | reserved [2m200.79[0m GiB
+  Step peaks | allocated [33m181.80[0m GiB | reserved [2m200.79[0m GiB
+
+Training · Step 15/60
+  Optimize   | loss [33m-0.2132[0m | grad norm [33m0.0653[0m | lr [2m1.53e-05[0m | time [2m4.44[0m s
+  Rewards    | solve rate [1;32m0.0%[0m | format [36m87.5%[0m | total [1;32m0.875[0m | zero-std [2m0.0%[0m
+  Outputs    | mean [36m316.2[0m tokens | range [2m115[0m–[2m864[0m | truncated [33m0.0%[0m
+  Policy     | KL [2m0.0186[0m | entropy [2m1.0099[0m | clipped [2m0.3%[0m
+
+GPU · Step 16
+  Device     | used [36m201.84[0m GiB / [2m276.62[0m GiB | free [2m74.78[0m GiB | usage [36m73.0%[0m
+  PyTorch    | allocated [36m88.89[0m GiB | reserved [2m200.79[0m GiB
+  Step peaks | allocated [33m166.02[0m GiB | reserved [2m200.79[0m GiB
+
+Training · Step 16/60
+  Optimize   | loss [33m-0.0515[0m | grad norm [33m0.1779[0m | lr [2m1.50e-05[0m | time [2m3.70[0m s
+  Rewards    | solve rate [1;32m12.5%[0m | format [36m90.6%[0m | total [1;32m1.031[0m | zero-std [2m0.0%[0m
+  Outputs    | mean [36m280.9[0m tokens | range [2m86[0m–[2m700[0m | truncated [33m0.0%[0m
+  Policy     | KL [2m0.0099[0m | entropy [2m1.0004[0m | clipped [2m0.3%[0m
+
+GPU · Step 17
+  Device     | used [36m201.84[0m GiB / [2m276.62[0m GiB | free [2m74.78[0m GiB | usage [36m73.0%[0m
+  PyTorch    | allocated [36m88.89[0m GiB | reserved [2m200.79[0m GiB
+  Step peaks | allocated [33m196.68[0m GiB | reserved [2m200.79[0m GiB
+
+Training · Step 17/60
+  Optimize   | loss [33m0.0424[0m | grad norm [33m0.0801[0m | lr [2m1.47e-05[0m | time [2m5.16[0m s
+  Rewards    | solve rate [1;32m15.6%[0m | format [36m87.5%[0m | total [1;32m1.031[0m | zero-std [2m0.0%[0m
+  Outputs    | mean [36m284.8[0m tokens | range [2m91[0m–[2m1024[0m | truncated [33m3.1%[0m
+  Policy     | KL [2m0.0960[0m | entropy [2m0.9280[0m | clipped [2m0.1%[0m
+
+GPU · Step 18
+  Device     | used [36m201.84[0m GiB / [2m276.62[0m GiB | free [2m74.78[0m GiB | usage [36m73.0%[0m
+  PyTorch    | allocated [36m88.89[0m GiB | reserved [2m200.79[0m GiB
+  Step peaks | allocated [33m197.02[0m GiB | reserved [2m200.79[0m GiB
+
+Training · Step 18/60
+  Optimize   | loss [33m-0.0378[0m | grad norm [33m0.1050[0m | lr [2m1.43e-05[0m | time [2m5.15[0m s
+  Rewards    | solve rate [1;32m6.2%[0m | format [36m81.2%[0m | total [1;32m0.875[0m | zero-std [2m0.0%[0m
+  Outputs    | mean [36m321.0[0m tokens | range [2m101[0m–[2m1024[0m | truncated [33m3.1%[0m
+  Policy     | KL [2m0.0149[0m | entropy [2m0.9888[0m | clipped [2m0.3%[0m
+
+GPU · Step 19
+  Device     | used [36m201.84[0m GiB / [2m276.62[0m GiB | free [2m74.78[0m GiB | usage [36m73.0%[0m
+  PyTorch    | allocated [36m88.89[0m GiB | reserved [2m200.79[0m GiB
+  Step peaks | allocated [33m165.46[0m GiB | reserved [2m200.79[0m GiB
+
+Training · Step 19/60
+  Optimize   | loss [33m0.0419[0m | grad norm [33m0.1060[0m | lr [2m1.40e-05[0m | time [2m3.72[0m s
+  Rewards    | solve rate [1;32m0.0%[0m | format [36m93.8%[0m | total [1;32m0.938[0m | zero-std [2m50.0%[0m
+  Outputs    | mean [36m378.0[0m tokens | range [2m131[0m–[2m690[0m | truncated [33m0.0%[0m
+  Policy     | KL [2m0.0101[0m | entropy [2m1.1238[0m | clipped [2m0.1%[0m
+
+GPU · Step 20
+  Device     | used [36m201.84[0m GiB / [2m276.62[0m GiB | free [2m74.78[0m GiB | usage [36m73.0%[0m
+  PyTorch    | allocated [36m88.89[0m GiB | reserved [2m200.79[0m GiB
+  Step peaks | allocated [33m197.09[0m GiB | reserved [2m200.79[0m GiB
+
+Training · Step 20/60
+  Optimize   | loss [33m0.0148[0m | grad norm [33m0.1136[0m | lr [2m1.37e-05[0m | time [2m5.22[0m s
+  Rewards    | solve rate [1;32m3.1%[0m | format [36m78.1%[0m | total [1;32m0.812[0m | zero-std [2m0.0%[0m
+  Outputs    | mean [36m338.2[0m tokens | range [2m119[0m–[2m1024[0m | truncated [33m6.2%[0m
+  Policy     | KL [2m0.0302[0m | entropy [2m0.9448[0m | clipped [2m0.3%[0m
+
+Held-out evaluation · Step 20
+  Results    | solve rate [1;32m10.0%[0m | format [36m92.0%[0m | time [2m17.99[0m s
+
+GPU · Step 21
+  Device     | used [36m201.84[0m GiB / [2m276.62[0m GiB | free [2m74.78[0m GiB | usage [36m73.0%[0m
+  PyTorch    | allocated [36m88.89[0m GiB | reserved [2m200.79[0m GiB
+  Step peaks | allocated [33m196.68[0m GiB | reserved [2m200.79[0m GiB
+
+Training · Step 21/60
+  Optimize   | loss [33m-0.0613[0m | grad norm [33m0.2198[0m | lr [2m1.33e-05[0m | time [2m4.80[0m s
+  Rewards    | solve rate [1;32m12.5%[0m | format [36m90.6%[0m | total [1;32m1.031[0m | zero-std [2m0.0%[0m
+  Outputs    | mean [36m313.7[0m tokens | range [2m101[0m–[2m1024[0m | truncated [33m3.1%[0m
+  Policy     | KL [2m0.5061[0m | entropy [2m1.0604[0m | clipped [2m0.2%[0m
+
+GPU · Step 22
+  Device     | used [36m201.84[0m GiB / [2m276.62[0m GiB | free [2m74.78[0m GiB | usage [36m73.0%[0m
+  PyTorch    | allocated [36m88.89[0m GiB | reserved [2m200.79[0m GiB
+  Step peaks | allocated [33m158.69[0m GiB | reserved [2m200.79[0m GiB
+
+Training · Step 22/60
+  Optimize   | loss [33m0.0501[0m | grad norm [33m0.1154[0m | lr [2m1.30e-05[0m | time [2m3.32[0m s
+  Rewards    | solve rate [1;32m15.6%[0m | format [36m96.9%[0m | total [1;32m1.125[0m | zero-std [2m0.0%[0m
+  Outputs    | mean [36m275.4[0m tokens | range [2m135[0m–[2m623[0m | truncated [33m0.0%[0m
+  Policy     | KL [2m0.0171[0m | entropy [2m0.9899[0m | clipped [2m0.1%[0m
+
+GPU · Step 23
+  Device     | used [36m201.84[0m GiB / [2m276.62[0m GiB | free [2m74.78[0m GiB | usage [36m73.0%[0m
+  PyTorch    | allocated [36m88.89[0m GiB | reserved [2m200.79[0m GiB
+  Step peaks | allocated [33m152.38[0m GiB | reserved [2m200.79[0m GiB
+
+Training · Step 23/60
+  Optimize   | loss [33m-0.0125[0m | grad norm [33m0.0675[0m | lr [2m1.27e-05[0m | time [2m3.06[0m s
+  Rewards    | solve rate [1;32m6.2%[0m | format [36m90.6%[0m | total [1;32m0.969[0m | zero-std [2m50.0%[0m
+  Outputs    | mean [36m285.0[0m tokens | range [2m125[0m–[2m551[0m | truncated [33m0.0%[0m
+  Policy     | KL [2m0.0242[0m | entropy [2m0.9907[0m | clipped [2m0.1%[0m
+
+GPU · Step 24
+  Device     | used [36m201.84[0m GiB / [2m276.62[0m GiB | free [2m74.78[0m GiB | usage [36m73.0%[0m
+  PyTorch    | allocated [36m88.89[0m GiB | reserved [2m200.79[0m GiB
+  Step peaks | allocated [33m168.57[0m GiB | reserved [2m200.79[0m GiB
+
+Training · Step 24/60
+  Optimize   | loss [33m0.1157[0m | grad norm [33m0.3429[0m | lr [2m1.23e-05[0m | time [2m3.80[0m s
+  Rewards    | solve rate [1;32m0.0%[0m | format [36m96.9%[0m | total [1;32m0.969[0m | zero-std [2m50.0%[0m
+  Outputs    | mean [36m320.8[0m tokens | range [2m132[0m–[2m727[0m | truncated [33m0.0%[0m
+  Policy     | KL [2m0.0197[0m | entropy [2m0.9988[0m | clipped [2m0.2%[0m
+
+GPU · Step 25
+  Device     | used [36m201.84[0m GiB / [2m276.62[0m GiB | free [2m74.78[0m GiB | usage [36m73.0%[0m
+  PyTorch    | allocated [36m88.89[0m GiB | reserved [2m200.79[0m GiB
+  Step peaks | allocated [33m160.94[0m GiB | reserved [2m200.79[0m GiB
+
+Training · Step 25/60
+  Optimize   | loss [33m-0.1345[0m | grad norm [33m0.0551[0m | lr [2m1.20e-05[0m | time [2m3.49[0m s
+  Rewards    | solve rate [1;32m0.0%[0m | format [36m93.8%[0m | total [1;32m0.938[0m | zero-std [2m50.0%[0m
+  Outputs    | mean [36m324.1[0m tokens | range [2m127[0m–[2m643[0m | truncated [33m0.0%[0m
+  Policy     | KL [2m0.0174[0m | entropy [2m0.9975[0m | clipped [2m0.1%[0m
+
+GPU · Step 26
+  Device     | used [36m201.84[0m GiB / [2m276.62[0m GiB | free [2m74.78[0m GiB | usage [36m73.0%[0m
+  PyTorch    | allocated [36m88.89[0m GiB | reserved [2m200.79[0m GiB
+  Step peaks | allocated [33m196.76[0m GiB | reserved [2m200.79[0m GiB
+
+Training · Step 26/60
+  Optimize   | loss [33m0.3757[0m | grad norm [33m0.2480[0m | lr [2m1.17e-05[0m | time [2m5.17[0m s
+  Rewards    | solve rate [1;32m9.4%[0m | format [36m96.9%[0m | total [1;32m1.062[0m | zero-std [2m0.0%[0m
+  Outputs    | mean [36m331.3[0m tokens | range [2m126[0m–[2m1024[0m | truncated [33m3.1%[0m
+  Policy     | KL [2m0.0193[0m | entropy [2m0.9609[0m | clipped [2m0.3%[0m
+
+GPU · Step 27
+  Device     | used [36m201.84[0m GiB / [2m276.62[0m GiB | free [2m74.78[0m GiB | usage [36m73.0%[0m
+  PyTorch    | allocated [36m88.89[0m GiB | reserved [2m200.79[0m GiB
+  Step peaks | allocated [33m163.10[0m GiB | reserved [2m200.79[0m GiB
+
+Training · Step 27/60
+  Optimize   | loss [33m-0.2240[0m | grad norm [33m0.1153[0m | lr [2m1.13e-05[0m | time [2m3.59[0m s
+  Rewards    | solve rate [1;32m0.0%[0m | format [36m90.6%[0m | total [1;32m0.906[0m | zero-std [2m0.0%[0m
+  Outputs    | mean [36m278.3[0m tokens | range [2m131[0m–[2m670[0m | truncated [33m0.0%[0m
+  Policy     | KL [2m0.0695[0m | entropy [2m0.9391[0m | clipped [2m0.3%[0m
+
+GPU · Step 28
+  Device     | used [36m201.84[0m GiB / [2m276.62[0m GiB | free [2m74.78[0m GiB | usage [36m73.0%[0m
+  PyTorch    | allocated [36m88.89[0m GiB | reserved [2m200.79[0m GiB
+  Step peaks | allocated [33m148.35[0m GiB | reserved [2m200.79[0m GiB
+
+Training · Step 28/60
+  Optimize   | loss [33m-0.0200[0m | grad norm [33m0.1679[0m | lr [2m1.10e-05[0m | time [2m2.85[0m s
+  Rewards    | solve rate [1;32m3.1%[0m | format [36m96.9%[0m | total [1;32m1.000[0m | zero-std [2m50.0%[0m
+  Outputs    | mean [36m248.8[0m tokens | range [2m124[0m–[2m508[0m | truncated [33m0.0%[0m
+  Policy     | KL [2m0.0617[0m | entropy [2m0.9572[0m | clipped [2m0.0%[0m
+
+GPU · Step 29
+  Device     | used [36m201.84[0m GiB / [2m276.62[0m GiB | free [2m74.78[0m GiB | usage [36m73.0%[0m
+  PyTorch    | allocated [36m88.89[0m GiB | reserved [2m200.79[0m GiB
+  Step peaks | allocated [33m165.55[0m GiB | reserved [2m200.79[0m GiB
+
+Training · Step 29/60
+  Optimize   | loss [33m-0.1291[0m | grad norm [33m0.0827[0m | lr [2m1.07e-05[0m | time [2m3.67[0m s
+  Rewards    | solve rate [1;32m3.1%[0m | format [36m96.9%[0m | total [1;32m1.000[0m | zero-std [2m0.0%[0m
+  Outputs    | mean [36m294.1[0m tokens | range [2m118[0m–[2m691[0m | truncated [33m0.0%[0m
+  Policy     | KL [2m0.0520[0m | entropy [2m0.9554[0m | clipped [2m0.2%[0m
+
+GPU · Step 30
+  Device     | used [36m201.84[0m GiB / [2m276.62[0m GiB | free [2m74.78[0m GiB | usage [36m73.0%[0m
+  PyTorch    | allocated [36m88.89[0m GiB | reserved [2m200.79[0m GiB
+  Step peaks | allocated [33m197.09[0m GiB | reserved [2m200.79[0m GiB
+
+Training · Step 30/60
+  Optimize   | loss [33m0.6129[0m | grad norm [33m0.4647[0m | lr [2m1.03e-05[0m | time [2m5.23[0m s
+  Rewards    | solve rate [1;32m6.2%[0m | format [36m93.8%[0m | total [1;32m1.000[0m | zero-std [2m0.0%[0m
+  Outputs    | mean [36m311.8[0m tokens | range [2m113[0m–[2m1024[0m | truncated [33m3.1%[0m
+  Policy     | KL [2m0.0303[0m | entropy [2m0.9999[0m | clipped [2m0.3%[0m
+
+Held-out evaluation · Step 30
+  Results    | solve rate [1;32m4.0%[0m | format [36m93.5%[0m | time [2m16.79[0m s
+
+GPU · Step 31
+  Device     | used [36m201.84[0m GiB / [2m276.62[0m GiB | free [2m74.78[0m GiB | usage [36m73.0%[0m
+  PyTorch    | allocated [36m88.89[0m GiB | reserved [2m200.79[0m GiB
+  Step peaks | allocated [33m159.72[0m GiB | reserved [2m200.79[0m GiB
+
+Training · Step 31/60
+  Optimize   | loss [33m0.1327[0m | grad norm [33m0.1379[0m | lr [2m1.00e-05[0m | time [2m3.03[0m s
+  Rewards    | solve rate [1;32m21.9%[0m | format [36m93.8%[0m | total [1;32m1.156[0m | zero-std [2m0.0%[0m
+  Outputs    | mean [36m237.8[0m tokens | range [2m120[0m–[2m633[0m | truncated [33m0.0%[0m
+  Policy     | KL [2m0.0259[0m | entropy [2m0.9116[0m | clipped [2m0.3%[0m
+
+GPU · Step 32
+  Device     | used [36m201.84[0m GiB / [2m276.62[0m GiB | free [2m74.78[0m GiB | usage [36m73.0%[0m
+  PyTorch    | allocated [36m88.89[0m GiB | reserved [2m200.79[0m GiB
+  Step peaks | allocated [33m168.01[0m GiB | reserved [2m200.79[0m GiB
+
+Training · Step 32/60
+  Optimize   | loss [33m0.1067[0m | grad norm [33m0.1317[0m | lr [2m9.67e-06[0m | time [2m3.81[0m s
+  Rewards    | solve rate [1;32m3.1%[0m | format [36m96.9%[0m | total [1;32m1.000[0m | zero-std [2m0.0%[0m
+  Outputs    | mean [36m278.8[0m tokens | range [2m120[0m–[2m718[0m | truncated [33m0.0%[0m
+  Policy     | KL [2m0.1733[0m | entropy [2m0.9115[0m | clipped [2m0.2%[0m
+
+GPU · Step 33
+  Device     | used [36m201.84[0m GiB / [2m276.62[0m GiB | free [2m74.78[0m GiB | usage [36m73.0%[0m
+  PyTorch    | allocated [36m88.89[0m GiB | reserved [2m200.79[0m GiB
+  Step peaks | allocated [33m161.60[0m GiB | reserved [2m200.79[0m GiB
+
+Training · Step 33/60
+  Optimize   | loss [33m0.0833[0m | grad norm [33m0.0516[0m | lr [2m9.33e-06[0m | time [2m3.52[0m s
+  Rewards    | solve rate [1;32m9.4%[0m | format [36m100.0%[0m | total [1;32m1.094[0m | zero-std [2m0.0%[0m
+  Outputs    | mean [36m318.0[0m tokens | range [2m141[0m–[2m649[0m | truncated [33m0.0%[0m
+  Policy     | KL [2m0.0301[0m | entropy [2m0.9633[0m | clipped [2m0.2%[0m
+
+GPU · Step 34
+  Device     | used [36m201.84[0m GiB / [2m276.62[0m GiB | free [2m74.78[0m GiB | usage [36m73.0%[0m
+  PyTorch    | allocated [36m88.89[0m GiB | reserved [2m200.79[0m GiB
+  Step peaks | allocated [33m166.40[0m GiB | reserved [2m200.79[0m GiB
+
+Training · Step 34/60
+  Optimize   | loss [33m0.0000[0m | grad norm [33m0.0005[0m | lr [2m9.00e-06[0m | time [2m3.73[0m s
+  Rewards    | solve rate [1;32m0.0%[0m | format [36m100.0%[0m | total [1;32m1.000[0m | zero-std [2m100.0%[0m
+  Outputs    | mean [36m294.2[0m tokens | range [2m142[0m–[2m702[0m | truncated [33m0.0%[0m
+  Policy     | KL [2m0.0282[0m | entropy [2m0.9445[0m | clipped [2m0.0%[0m
+
+GPU · Step 35
+  Device     | used [36m201.84[0m GiB / [2m276.62[0m GiB | free [2m74.78[0m GiB | usage [36m73.0%[0m
+  PyTorch    | allocated [36m88.89[0m GiB | reserved [2m200.79[0m GiB
+  Step peaks | allocated [33m197.09[0m GiB | reserved [2m200.79[0m GiB
+
+Training · Step 35/60
+  Optimize   | loss [33m0.8092[0m | grad norm [33m0.4235[0m | lr [2m8.67e-06[0m | time [2m5.22[0m s
+  Rewards    | solve rate [1;32m15.6%[0m | format [36m90.6%[0m | total [1;32m1.062[0m | zero-std [2m0.0%[0m
+  Outputs    | mean [36m296.6[0m tokens | range [2m78[0m–[2m1024[0m | truncated [33m3.1%[0m
+  Policy     | KL [2m0.0205[0m | entropy [2m0.8951[0m | clipped [2m0.3%[0m
+
+GPU · Step 36
+  Device     | used [36m201.84[0m GiB / [2m276.62[0m GiB | free [2m74.78[0m GiB | usage [36m73.0%[0m
+  PyTorch    | allocated [36m88.89[0m GiB | reserved [2m200.79[0m GiB
+  Step peaks | allocated [33m157.28[0m GiB | reserved [2m200.79[0m GiB
+
+Training · Step 36/60
+  Optimize   | loss [33m-0.0642[0m | grad norm [33m0.0687[0m | lr [2m8.33e-06[0m | time [2m3.30[0m s
+  Rewards    | solve rate [1;32m3.1%[0m | format [36m93.8%[0m | total [1;32m0.969[0m | zero-std [2m0.0%[0m
+  Outputs    | mean [36m308.1[0m tokens | range [2m123[0m–[2m603[0m | truncated [33m0.0%[0m
+  Policy     | KL [2m0.0859[0m | entropy [2m0.9366[0m | clipped [2m0.2%[0m
+
+GPU · Step 37
+  Device     | used [36m201.84[0m GiB / [2m276.62[0m GiB | free [2m74.78[0m GiB | usage [36m73.0%[0m
+  PyTorch    | allocated [36m88.89[0m GiB | reserved [2m200.79[0m GiB
+  Step peaks | allocated [33m158.10[0m GiB | reserved [2m200.79[0m GiB
+
+Training · Step 37/60
+  Optimize   | loss [33m0.0000[0m | grad norm [33m0.0006[0m | lr [2m8.00e-06[0m | time [2m3.30[0m s
+  Rewards    | solve rate [1;32m0.0%[0m | format [36m100.0%[0m | total [1;32m1.000[0m | zero-std [2m100.0%[0m
+  Outputs    | mean [36m265.6[0m tokens | range [2m107[0m–[2m611[0m | truncated [33m0.0%[0m
+  Policy     | KL [2m0.0361[0m | entropy [2m0.9025[0m | clipped [2m0.0%[0m
+
+GPU · Step 38
+  Device     | used [36m201.84[0m GiB / [2m276.62[0m GiB | free [2m74.78[0m GiB | usage [36m73.0%[0m
+  PyTorch    | allocated [36m88.89[0m GiB | reserved [2m200.79[0m GiB
+  Step peaks | allocated [33m166.96[0m GiB | reserved [2m200.79[0m GiB
+
+Training · Step 38/60
+  Optimize   | loss [33m-0.1746[0m | grad norm [33m0.0739[0m | lr [2m7.67e-06[0m | time [2m3.76[0m s
+  Rewards    | solve rate [1;32m0.0%[0m | format [36m90.6%[0m | total [1;32m0.906[0m | zero-std [2m0.0%[0m
+  Outputs    | mean [36m290.6[0m tokens | range [2m129[0m–[2m706[0m | truncated [33m0.0%[0m
+  Policy     | KL [2m1.4387[0m | entropy [2m0.9419[0m | clipped [2m0.2%[0m
+
+GPU · Step 39
+  Device     | used [36m201.84[0m GiB / [2m276.62[0m GiB | free [2m74.78[0m GiB | usage [36m73.0%[0m
+  PyTorch    | allocated [36m88.89[0m GiB | reserved [2m200.79[0m GiB
+  Step peaks | allocated [33m197.09[0m GiB | reserved [2m200.79[0m GiB
+
+Training · Step 39/60
+  Optimize   | loss [33m0.1236[0m | grad norm [33m0.1186[0m | lr [2m7.33e-06[0m | time [2m5.24[0m s
+  Rewards    | solve rate [1;32m12.5%[0m | format [36m93.8%[0m | total [1;32m1.062[0m | zero-std [2m0.0%[0m
+  Outputs    | mean [36m275.1[0m tokens | range [2m73[0m–[2m1024[0m | truncated [33m3.1%[0m
+  Policy     | KL [2m0.0896[0m | entropy [2m0.9124[0m | clipped [2m0.3%[0m
+
+GPU · Step 40
+  Device     | used [36m201.84[0m GiB / [2m276.62[0m GiB | free [2m74.78[0m GiB | usage [36m73.0%[0m
+  PyTorch    | allocated [36m88.89[0m GiB | reserved [2m200.79[0m GiB
+  Step peaks | allocated [33m145.35[0m GiB | reserved [2m200.79[0m GiB
+
+Training · Step 40/60
+  Optimize   | loss [33m0.0563[0m | grad norm [33m0.1646[0m | lr [2m7.00e-06[0m | time [2m2.71[0m s
+  Rewards    | solve rate [1;32m21.9%[0m | format [36m100.0%[0m | total [1;32m1.219[0m | zero-std [2m50.0%[0m
+  Outputs    | mean [36m244.6[0m tokens | range [2m104[0m–[2m476[0m | truncated [33m0.0%[0m
+  Policy     | KL [2m0.0360[0m | entropy [2m0.8950[0m | clipped [2m0.2%[0m
+
+Held-out evaluation · Step 40
+  Results    | solve rate [1;32m4.5%[0m | format [36m96.0%[0m | time [2m19.03[0m s
+
+GPU · Step 41
+  Device     | used [36m201.84[0m GiB / [2m276.62[0m GiB | free [2m74.78[0m GiB | usage [36m73.0%[0m
+  PyTorch    | allocated [36m88.89[0m GiB | reserved [2m200.79[0m GiB
+  Step peaks | allocated [33m181.13[0m GiB | reserved [2m200.79[0m GiB
+
+Training · Step 41/60
+  Optimize   | loss [33m0.0379[0m | grad norm [33m0.1127[0m | lr [2m6.67e-06[0m | time [2m4.06[0m s
+  Rewards    | solve rate [1;32m15.6%[0m | format [36m100.0%[0m | total [1;32m1.156[0m | zero-std [2m50.0%[0m
+  Outputs    | mean [36m277.0[0m tokens | range [2m106[0m–[2m856[0m | truncated [33m0.0%[0m
+  Policy     | KL [2m0.0394[0m | entropy [2m0.8492[0m | clipped [2m0.1%[0m
+
+GPU · Step 42
+  Device     | used [36m201.84[0m GiB / [2m276.62[0m GiB | free [2m74.78[0m GiB | usage [36m73.0%[0m
+  PyTorch    | allocated [36m88.89[0m GiB | reserved [2m200.79[0m GiB
+  Step peaks | allocated [33m140.20[0m GiB | reserved [2m200.79[0m GiB
+
+Training · Step 42/60
+  Optimize   | loss [33m-0.1618[0m | grad norm [33m0.2791[0m | lr [2m6.33e-06[0m | time [2m2.52[0m s
+  Rewards    | solve rate [1;32m6.2%[0m | format [36m96.9%[0m | total [1;32m1.031[0m | zero-std [2m0.0%[0m
+  Outputs    | mean [36m233.4[0m tokens | range [2m98[0m–[2m423[0m | truncated [33m0.0%[0m
+  Policy     | KL [2m0.0272[0m | entropy [2m0.8721[0m | clipped [2m0.3%[0m
+
+GPU · Step 43
+  Device     | used [36m201.84[0m GiB / [2m276.62[0m GiB | free [2m74.78[0m GiB | usage [36m73.0%[0m
+  PyTorch    | allocated [36m88.89[0m GiB | reserved [2m200.79[0m GiB
+  Step peaks | allocated [33m144.51[0m GiB | reserved [2m200.79[0m GiB
+
+Training · Step 43/60
+  Optimize   | loss [33m-0.0458[0m | grad norm [33m0.1419[0m | lr [2m6.00e-06[0m | time [2m2.70[0m s
+  Rewards    | solve rate [1;32m6.2%[0m | format [36m100.0%[0m | total [1;32m1.062[0m | zero-std [2m50.0%[0m
+  Outputs    | mean [36m254.2[0m tokens | range [2m132[0m–[2m471[0m | truncated [33m0.0%[0m
+  Policy     | KL [2m0.0326[0m | entropy [2m0.8896[0m | clipped [2m0.1%[0m
+
+GPU · Step 44
+  Device     | used [36m201.84[0m GiB / [2m276.62[0m GiB | free [2m74.78[0m GiB | usage [36m73.0%[0m
+  PyTorch    | allocated [36m88.89[0m GiB | reserved [2m200.79[0m GiB
+  Step peaks | allocated [33m197.09[0m GiB | reserved [2m200.79[0m GiB
+
+Training · Step 44/60
+  Optimize   | loss [33m0.2097[0m | grad norm [33m0.1922[0m | lr [2m5.67e-06[0m | time [2m5.23[0m s
+  Rewards    | solve rate [1;32m6.2%[0m | format [36m93.8%[0m | total [1;32m1.000[0m | zero-std [2m50.0%[0m
+  Outputs    | mean [36m307.3[0m tokens | range [2m124[0m–[2m1024[0m | truncated [33m3.1%[0m
+  Policy     | KL [2m0.0311[0m | entropy [2m0.8760[0m | clipped [2m0.1%[0m
+
+GPU · Step 45
+  Device     | used [36m201.84[0m GiB / [2m276.62[0m GiB | free [2m74.78[0m GiB | usage [36m73.0%[0m
+  PyTorch    | allocated [36m88.89[0m GiB | reserved [2m200.79[0m GiB
+  Step peaks | allocated [33m181.60[0m GiB | reserved [2m200.79[0m GiB
+
+Training · Step 45/60
+  Optimize   | loss [33m0.0468[0m | grad norm [33m0.1177[0m | lr [2m5.33e-06[0m | time [2m4.43[0m s
+  Rewards    | solve rate [1;32m9.4%[0m | format [36m96.9%[0m | total [1;32m1.062[0m | zero-std [2m0.0%[0m
+  Outputs    | mean [36m240.8[0m tokens | range [2m98[0m–[2m862[0m | truncated [33m0.0%[0m
+  Policy     | KL [2m0.0287[0m | entropy [2m0.8854[0m | clipped [2m0.2%[0m
+
+GPU · Step 46
+  Device     | used [36m201.84[0m GiB / [2m276.62[0m GiB | free [2m74.78[0m GiB | usage [36m73.0%[0m
+  PyTorch    | allocated [36m88.89[0m GiB | reserved [2m200.79[0m GiB
+  Step peaks | allocated [33m197.09[0m GiB | reserved [2m200.79[0m GiB
+
+Training · Step 46/60
+  Optimize   | loss [33m0.0199[0m | grad norm [33m0.1391[0m | lr [2m5.00e-06[0m | time [2m5.21[0m s
+  Rewards    | solve rate [1;32m15.6%[0m | format [36m96.9%[0m | total [1;32m1.125[0m | zero-std [2m0.0%[0m
+  Outputs    | mean [36m302.7[0m tokens | range [2m106[0m–[2m1024[0m | truncated [33m3.1%[0m
+  Policy     | KL [2m0.0254[0m | entropy [2m0.8970[0m | clipped [2m0.1%[0m
+
+GPU · Step 47
+  Device     | used [36m201.84[0m GiB / [2m276.62[0m GiB | free [2m74.78[0m GiB | usage [36m73.0%[0m
+  PyTorch    | allocated [36m88.89[0m GiB | reserved [2m200.79[0m GiB
+  Step peaks | allocated [33m151.76[0m GiB | reserved [2m200.79[0m GiB
+
+Training · Step 47/60
+  Optimize   | loss [33m0.0001[0m | grad norm [33m0.0007[0m | lr [2m4.67e-06[0m | time [2m3.03[0m s
+  Rewards    | solve rate [1;32m0.0%[0m | format [36m100.0%[0m | total [1;32m1.000[0m | zero-std [2m100.0%[0m
+  Outputs    | mean [36m233.2[0m tokens | range [2m82[0m–[2m545[0m | truncated [33m0.0%[0m
+  Policy     | KL [2m0.0498[0m | entropy [2m0.9087[0m | clipped [2m0.0%[0m
+
+GPU · Step 48
+  Device     | used [36m201.84[0m GiB / [2m276.62[0m GiB | free [2m74.78[0m GiB | usage [36m73.0%[0m
+  PyTorch    | allocated [36m88.89[0m GiB | reserved [2m200.79[0m GiB
+  Step peaks | allocated [33m197.02[0m GiB | reserved [2m200.79[0m GiB
+
+Training · Step 48/60
+  Optimize   | loss [33m0.3671[0m | grad norm [33m0.2682[0m | lr [2m4.33e-06[0m | time [2m5.14[0m s
+  Rewards    | solve rate [1;32m6.2%[0m | format [36m90.6%[0m | total [1;32m0.969[0m | zero-std [2m0.0%[0m
+  Outputs    | mean [36m277.0[0m tokens | range [2m98[0m–[2m1024[0m | truncated [33m3.1%[0m
+  Policy     | KL [2m0.0279[0m | entropy [2m0.8715[0m | clipped [2m0.2%[0m
+
+GPU · Step 49
+  Device     | used [36m201.84[0m GiB / [2m276.62[0m GiB | free [2m74.78[0m GiB | usage [36m73.0%[0m
+  PyTorch    | allocated [36m88.89[0m GiB | reserved [2m200.79[0m GiB
+  Step peaks | allocated [33m156.73[0m GiB | reserved [2m200.79[0m GiB
+
+Training · Step 49/60
+  Optimize   | loss [33m0.0000[0m | grad norm [33m0.0007[0m | lr [2m4.00e-06[0m | time [2m3.29[0m s
+  Rewards    | solve rate [1;32m0.0%[0m | format [36m100.0%[0m | total [1;32m1.000[0m | zero-std [2m100.0%[0m
+  Outputs    | mean [36m271.3[0m tokens | range [2m133[0m–[2m597[0m | truncated [33m0.0%[0m
+  Policy     | KL [2m0.0338[0m | entropy [2m0.8991[0m | clipped [2m0.0%[0m
+
+GPU · Step 50
+  Device     | used [36m201.84[0m GiB / [2m276.62[0m GiB | free [2m74.78[0m GiB | usage [36m73.0%[0m
+  PyTorch    | allocated [36m88.89[0m GiB | reserved [2m200.79[0m GiB
+  Step peaks | allocated [33m168.01[0m GiB | reserved [2m200.79[0m GiB
+
+Training · Step 50/60
+  Optimize   | loss [33m-0.0363[0m | grad norm [33m0.1735[0m | lr [2m3.67e-06[0m | time [2m3.79[0m s
+  Rewards    | solve rate [1;32m9.4%[0m | format [36m100.0%[0m | total [1;32m1.094[0m | zero-std [2m0.0%[0m
+  Outputs    | mean [36m283.2[0m tokens | range [2m90[0m–[2m722[0m | truncated [33m0.0%[0m
+  Policy     | KL [2m0.0299[0m | entropy [2m0.8910[0m | clipped [2m0.2%[0m
+
+Held-out evaluation · Step 50
+  Results    | solve rate [1;32m7.0%[0m | format [36m96.0%[0m | time [2m18.90[0m s
+
+GPU · Step 51
+  Device     | used [36m201.84[0m GiB / [2m276.62[0m GiB | free [2m74.78[0m GiB | usage [36m73.0%[0m
+  PyTorch    | allocated [36m88.89[0m GiB | reserved [2m200.79[0m GiB
+  Step peaks | allocated [33m169.61[0m GiB | reserved [2m200.79[0m GiB
+
+Training · Step 51/60
+  Optimize   | loss [33m-0.0185[0m | grad norm [33m0.1113[0m | lr [2m3.33e-06[0m | time [2m3.49[0m s
+  Rewards    | solve rate [1;32m0.0%[0m | format [36m93.8%[0m | total [1;32m0.938[0m | zero-std [2m50.0%[0m
+  Outputs    | mean [36m347.1[0m tokens | range [2m116[0m–[2m734[0m | truncated [33m0.0%[0m
+  Policy     | KL [2m0.0194[0m | entropy [2m0.9726[0m | clipped [2m0.2%[0m
+
+GPU · Step 52
+  Device     | used [36m201.84[0m GiB / [2m276.62[0m GiB | free [2m74.78[0m GiB | usage [36m73.0%[0m
+  PyTorch    | allocated [36m88.89[0m GiB | reserved [2m200.79[0m GiB
+  Step peaks | allocated [33m154.54[0m GiB | reserved [2m200.79[0m GiB
+
+Training · Step 52/60
+  Optimize   | loss [33m0.2575[0m | grad norm [33m0.2961[0m | lr [2m3.00e-06[0m | time [2m3.14[0m s
+  Rewards    | solve rate [1;32m0.0%[0m | format [36m96.9%[0m | total [1;32m0.969[0m | zero-std [2m50.0%[0m
+  Outputs    | mean [36m285.4[0m tokens | range [2m99[0m–[2m574[0m | truncated [33m0.0%[0m
+  Policy     | KL [2m0.0273[0m | entropy [2m0.9545[0m | clipped [2m0.2%[0m
+
+GPU · Step 53
+  Device     | used [36m201.84[0m GiB / [2m276.62[0m GiB | free [2m74.78[0m GiB | usage [36m73.0%[0m
+  PyTorch    | allocated [36m88.89[0m GiB | reserved [2m200.79[0m GiB
+  Step peaks | allocated [33m150.98[0m GiB | reserved [2m200.79[0m GiB
+
+Training · Step 53/60
+  Optimize   | loss [33m0.0322[0m | grad norm [33m0.1178[0m | lr [2m2.67e-06[0m | time [2m3.04[0m s
+  Rewards    | solve rate [1;32m6.2%[0m | format [36m100.0%[0m | total [1;32m1.062[0m | zero-std [2m50.0%[0m
+  Outputs    | mean [36m286.6[0m tokens | range [2m147[0m–[2m541[0m | truncated [33m0.0%[0m
+  Policy     | KL [2m0.0250[0m | entropy [2m0.9486[0m | clipped [2m0.1%[0m
+
+GPU · Step 54
+  Device     | used [36m201.84[0m GiB / [2m276.62[0m GiB | free [2m74.78[0m GiB | usage [36m73.0%[0m
+  PyTorch    | allocated [36m88.89[0m GiB | reserved [2m200.79[0m GiB
+  Step peaks | allocated [33m158.10[0m GiB | reserved [2m200.79[0m GiB
+
+Training · Step 54/60
+  Optimize   | loss [33m-0.0242[0m | grad norm [33m0.1789[0m | lr [2m2.33e-06[0m | time [2m3.34[0m s
+  Rewards    | solve rate [1;32m15.6%[0m | format [36m96.9%[0m | total [1;32m1.125[0m | zero-std [2m0.0%[0m
+  Outputs    | mean [36m301.8[0m tokens | range [2m130[0m–[2m615[0m | truncated [33m0.0%[0m
+  Policy     | KL [2m0.0353[0m | entropy [2m0.9412[0m | clipped [2m0.3%[0m
+
+GPU · Step 55
+  Device     | used [36m201.84[0m GiB / [2m276.62[0m GiB | free [2m74.78[0m GiB | usage [36m73.0%[0m
+  PyTorch    | allocated [36m88.89[0m GiB | reserved [2m200.79[0m GiB
+  Step peaks | allocated [33m163.20[0m GiB | reserved [2m200.79[0m GiB
+
+Training · Step 55/60
+  Optimize   | loss [33m0.0786[0m | grad norm [33m0.0866[0m | lr [2m2.00e-06[0m | time [2m3.58[0m s
+  Rewards    | solve rate [1;32m9.4%[0m | format [36m100.0%[0m | total [1;32m1.094[0m | zero-std [2m50.0%[0m
+  Outputs    | mean [36m291.8[0m tokens | range [2m132[0m–[2m667[0m | truncated [33m0.0%[0m
+  Policy     | KL [2m0.0344[0m | entropy [2m0.8800[0m | clipped [2m0.1%[0m
+
+GPU · Step 56
+  Device     | used [36m201.84[0m GiB / [2m276.62[0m GiB | free [2m74.78[0m GiB | usage [36m73.0%[0m
+  PyTorch    | allocated [36m88.89[0m GiB | reserved [2m200.79[0m GiB
+  Step peaks | allocated [33m180.19[0m GiB | reserved [2m200.79[0m GiB
+
+Training · Step 56/60
+  Optimize   | loss [33m0.0565[0m | grad norm [33m0.1998[0m | lr [2m1.67e-06[0m | time [2m4.35[0m s
+  Rewards    | solve rate [1;32m12.5%[0m | format [36m93.8%[0m | total [1;32m1.062[0m | zero-std [2m0.0%[0m
+  Outputs    | mean [36m232.7[0m tokens | range [2m76[0m–[2m850[0m | truncated [33m0.0%[0m
+  Policy     | KL [2m0.0299[0m | entropy [2m0.8301[0m | clipped [2m0.1%[0m
+
+GPU · Step 57
+  Device     | used [36m201.84[0m GiB / [2m276.62[0m GiB | free [2m74.78[0m GiB | usage [36m73.0%[0m
+  PyTorch    | allocated [36m88.89[0m GiB | reserved [2m200.79[0m GiB
+  Step peaks | allocated [33m166.40[0m GiB | reserved [2m200.79[0m GiB
+
+Training · Step 57/60
+  Optimize   | loss [33m-0.1993[0m | grad norm [33m0.1433[0m | lr [2m1.33e-06[0m | time [2m3.71[0m s
+  Rewards    | solve rate [1;32m9.4%[0m | format [36m93.8%[0m | total [1;32m1.031[0m | zero-std [2m0.0%[0m
+  Outputs    | mean [36m288.0[0m tokens | range [2m140[0m–[2m700[0m | truncated [33m0.0%[0m
+  Policy     | KL [2m0.0301[0m | entropy [2m0.8890[0m | clipped [2m0.2%[0m
+
+GPU · Step 58
+  Device     | used [36m201.84[0m GiB / [2m276.62[0m GiB | free [2m74.78[0m GiB | usage [36m73.0%[0m
+  PyTorch    | allocated [36m88.89[0m GiB | reserved [2m200.79[0m GiB
+  Step peaks | allocated [33m160.37[0m GiB | reserved [2m200.79[0m GiB
+
+Training · Step 58/60
+  Optimize   | loss [33m0.0217[0m | grad norm [33m0.1351[0m | lr [2m1.00e-06[0m | time [2m3.40[0m s
+  Rewards    | solve rate [1;32m12.5%[0m | format [36m100.0%[0m | total [1;32m1.125[0m | zero-std [2m50.0%[0m
+  Outputs    | mean [36m253.8[0m tokens | range [2m107[0m–[2m640[0m | truncated [33m0.0%[0m
+  Policy     | KL [2m0.0266[0m | entropy [2m0.8828[0m | clipped [2m0.1%[0m
+
+GPU · Step 59
+  Device     | used [36m201.84[0m GiB / [2m276.62[0m GiB | free [2m74.78[0m GiB | usage [36m73.0%[0m
+  PyTorch    | allocated [36m88.89[0m GiB | reserved [2m200.79[0m GiB
+  Step peaks | allocated [33m147.04[0m GiB | reserved [2m200.79[0m GiB
+
+Training · Step 59/60
+  Optimize   | loss [33m-0.0106[0m | grad norm [33m0.1104[0m | lr [2m6.67e-07[0m | time [2m2.79[0m s
+  Rewards    | solve rate [1;32m6.2%[0m | format [36m96.9%[0m | total [1;32m1.031[0m | zero-std [2m0.0%[0m
+  Outputs    | mean [36m251.4[0m tokens | range [2m93[0m–[2m495[0m | truncated [33m0.0%[0m
+  Policy     | KL [2m0.0296[0m | entropy [2m0.9044[0m | clipped [2m0.3%[0m
+
+GPU · Step 60
+  Device     | used [36m201.84[0m GiB / [2m276.62[0m GiB | free [2m74.78[0m GiB | usage [36m73.0%[0m
+  PyTorch    | allocated [36m88.89[0m GiB | reserved [2m200.79[0m GiB
+  Step peaks | allocated [33m159.25[0m GiB | reserved [2m200.79[0m GiB
+
+Training · Step 60/60
+  Optimize   | loss [33m0.0281[0m | grad norm [33m0.1063[0m | lr [2m3.33e-07[0m | time [2m3.36[0m s
+  Rewards    | solve rate [1;32m15.6%[0m | format [36m100.0%[0m | total [1;32m1.156[0m | zero-std [2m50.0%[0m
+  Outputs    | mean [36m267.7[0m tokens | range [2m110[0m–[2m624[0m | truncated [33m0.0%[0m
+  Policy     | KL [2m0.0319[0m | entropy [2m0.8718[0m | clipped [2m0.1%[0m
+
+Held-out evaluation · Step 60
+  Results    | solve rate [1;32m7.5%[0m | format [36m96.0%[0m | time [2m17.03[0m s
+
+Training finished
+  Summary    | total time [36m396.08[0m s | training loss [33m0.0586[0m
+
+EXIT=0

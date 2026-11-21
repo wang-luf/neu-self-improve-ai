@@ -1,0 +1,103 @@
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/434 [00:00<?, ?it/s]Loading weights:  12%|█▏        | 53/434 [00:00<00:00, 521.02it/s]Loading weights:  28%|██▊       | 123/434 [00:00<00:00, 512.34it/s]Loading weights:  42%|████▏     | 183/434 [00:00<00:00, 523.48it/s]Loading weights:  54%|█████▍    | 236/434 [00:00<00:00, 435.60it/s]Loading weights:  65%|██████▍   | 281/434 [00:00<00:00, 223.04it/s]Loading weights:  74%|███████▍  | 321/434 [00:01<00:00, 253.96it/s]Loading weights:  83%|████████▎ | 359/434 [00:01<00:00, 279.16it/s]Loading weights:  93%|█████████▎| 405/434 [00:01<00:00, 319.47it/s]Loading weights: 100%|██████████| 434/434 [00:01<00:00, 336.94it/s]
+SEARCH_TOOL_CALL query='longest railway tunnel'
+SEARCH_TOOL_CALL query='Gotthard railway tunnel lowest elevation'
+SEARCH_TOOL_CALL query='Cogito, ergo sum who said what'
+SEARCH_TOOL_CALL query='René Descartes death date'
+SEARCH_TOOL_CALL query='Gettysburg Address speaker death date'
+SEARCH_TOOL_CALL query='Abraham Lincoln death date'
+SEARCH_TOOL_CALL query='Hurricane Irma dates'
+SEARCH_TOOL_CALL query='Governor of ofFlorida HurricaneIrma 2017'
+SEARCH_TOOL_CALL query='Governor of ofFloridaduringHurricaneIrma2017'
+SEARCH_TOOL_CALL query="2007 Ballon d'Or winner"
+SEARCH_TOOL_CALL query='Kaká 2012 club'
+SEARCH_TOOL_CALL query='2010 FIFA World Cup winner'
+SEARCH_TOOL_CALL query='capital city of of Spain'
+SEARCH_TOOL_CALL query='Sword Art Online production company'
+SEARCH_TOOL_CALL query='studio 3Hz founding year'
+SEARCH_TOOL_CALL query='Studio 3Hz founding date'
+SEARCH_TOOL_CALL query='longest chinese dynasties'
+SEARCH_TOOL_CALL query='first king king of zhou dynasty'
+SEARCH_TOOL_CALL query='dynasty that succeeded the Song dynasty'
+SEARCH_TOOL_CALL query='dynasty that succeeded the Song dynasty list of of emperors'
+SEARCH_TOOL_CALL query='last emperor after Song dynasty'
+SEARCH_TOOL_CALL query='oldest california state university'
+SEARCH_TOOL_CALL query='California State University Chico motto'
+SEARCH_TOOL_CALL query='motto California State University Chico'
+SEARCH_TOOL_CALL query='College of William & Mary location'
+SEARCH_TOOL_CALL query='capital of of virginia'
+SEARCH_TOOL_CALL query='Washington University in St. Louis location'
+SEARCH_TOOL_CALL query='St. Louis metropolitan area states'
+SEARCH_TOOL_CALL query='capital Missouri'
+SEARCH_TOOL_CALL query='Harvard University location'
+SEARCH_TOOL_CALL query='Boston metropolitan area states'
+SEARCH_TOOL_CALL query='capital of of massachusetts'
+SEARCH_TOOL_CALL query='Space Needle location'
+SEARCH_TOOL_CALL query='capital ofof washington state'
+SEARCH_TOOL_CALL query='Most recent Summer Olympics held in London'
+SEARCH_TOOL_CALL query="2012 Summer Olympics women's volleyball winner"
+SEARCH_TOOL_CALL query='easternmost state in the United States'
+SEARCH_TOOL_CALL query='nickname of of easternmost state in the united states'
+SEARCH_TOOL_CALL query='nickname of of the easternmost state in the united states'
+SEARCH_TOOL_CALL query='Avocado Capital of of the World state'
+SEARCH_TOOL_CALL query='Fallbrook California state nickname'
+SEARCH_TOOL_CALL query='Fallbrook California state nickname'
+SEARCH_TOOL_CALL query='California state nickname'
+SEARCH_TOOL_CALL query='first human moon landing mission name'
+SEARCH_TOOL_CALL query='Apollo 11 rocket used'
+SEARCH_TOOL_CALL query='Neil Armstrong military service'
+SEARCH_TOOL_CALL query='Korean War end date'
+SEARCH_TOOL_CALL query='Mount Rainier location'
+SEARCH_TOOL_CALL query='Washington nickname'
+SEARCH_TOOL_CALL query='Carol of of the Bells composer'
+SEARCH_TOOL_CALL query='Mykola Leontovych birth date'
+SEARCH_TOOL_CALL query='Queen Elizabeth Prize for Engineering 2013 winner'
+SEARCH_TOOL_CALL query='father of of Robert Langer scientist MIT Queen Elizabeth Prize 2013'
+SEARCH_TOOL_CALL query='emperor of of japan during world war i'
+SEARCH_TOOL_CALL query='emperor meiji mother'
+SEARCH_TOOL_CALL query='elements with atomic number 2'
+SEARCH_TOOL_CALL query='element with atomic number 2 besides helium'
+SEARCH_TOOL_CALL query='Fuwa mascots Olympic Games'
+SEARCH_TOOL_CALL query='Motto 2008 Summer Olympics'
+1/25 EM=0.000 latest=0
+2/25 EM=0.000 latest=0
+3/25 EM=0.333 latest=1
+4/25 EM=0.250 latest=0
+5/25 EM=0.400 latest=1
+6/25 EM=0.500 latest=1
+7/25 EM=0.429 latest=0
+8/25 EM=0.375 latest=0
+9/25 EM=0.333 latest=0
+10/25 EM=0.300 latest=0
+11/25 EM=0.364 latest=1
+12/25 EM=0.417 latest=1
+13/25 EM=0.462 latest=1
+14/25 EM=0.500 latest=1
+15/25 EM=0.467 latest=0
+16/25 EM=0.438 latest=0
+17/25 EM=0.412 latest=0
+18/25 EM=0.444 latest=1
+19/25 EM=0.474 latest=1
+20/25 EM=0.500 latest=1
+21/25 EM=0.476 latest=0
+22/25 EM=0.455 latest=0
+23/25 EM=0.435 latest=0
+24/25 EM=0.458 latest=1
+25/25 EM=0.480 latest=1
+{
+  "model": "Qwen/Qwen2.5-3B-Instruct",
+  "adapter": "./week_08/search_r1/results/runs/grpo-main/adapter-step100/lora_adapter",
+  "mode": "tool",
+  "examples": 25,
+  "shard": "4/5",
+  "correct": 12,
+  "exact_match": 0.48,
+  "search_calls": 59,
+  "mean_search_calls": 2.36,
+  "seconds": 455.59390789910685,
+  "temperature": 0.0,
+  "max_new_tokens_per_turn": 512,
+  "max_turns": 4,
+  "topk": 3,
+  "predictions": "./week_08/search_r1/results/bamboogle/grpo-main_step100.shards/shard4.jsonl"
+}

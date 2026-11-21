@@ -1,0 +1,91 @@
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/434 [00:00<?, ?it/s]Loading weights:  12%|█▏        | 53/434 [00:00<00:00, 485.23it/s]Loading weights:  24%|██▎       | 102/434 [00:00<00:00, 449.87it/s]Loading weights:  34%|███▍      | 148/434 [00:00<00:00, 386.45it/s]Loading weights:  45%|████▍     | 195/434 [00:00<00:00, 409.68it/s]Loading weights:  56%|█████▌    | 242/434 [00:00<00:00, 396.95it/s]Loading weights:  65%|██████▌   | 283/434 [00:00<00:00, 257.51it/s]Loading weights:  76%|███████▌  | 328/434 [00:00<00:00, 295.47it/s]Loading weights:  87%|████████▋ | 377/434 [00:01<00:00, 338.41it/s]Loading weights: 100%|██████████| 434/434 [00:01<00:00, 370.69it/s]
+SEARCH_TOOL_CALL query='Fiorello H. La Guardia birth year'
+SEARCH_TOOL_CALL query='Mayor of New York City 1882'
+SEARCH_TOOL_CALL query='Year superconductivity was first observed'
+SEARCH_TOOL_CALL query='President of of the United States in 1911'
+SEARCH_TOOL_CALL query='Russ Hanneman real person'
+SEARCH_TOOL_CALL query='Craig Hanneman birth date'
+SEARCH_TOOL_CALL query="world's largest coffeehouse chain first location opened"
+SEARCH_TOOL_CALL query='first Starbucks location opened'
+SEARCH_TOOL_CALL query='highest grossing film director'
+SEARCH_TOOL_CALL query='James Cameron director other highly grossing films'
+SEARCH_TOOL_CALL query='longest bridge in the world opened'
+SEARCH_TOOL_CALL query='Danyang–Kunshan Grand Bridge opened'
+SEARCH_TOOL_CALL query='list of oflargestpharmaceuticalsettlements'
+SEARCH_TOOL_CALL query='largest pharmaceutical settlements companies involved'
+SEARCH_TOOL_CALL query='tallest self-supporting tower name'
+SEARCH_TOOL_CALL query='CN Tower completion year'
+SEARCH_TOOL_CALL query='tallest fixed steel structure name'
+SEARCH_TOOL_CALL query='U.S. Steel Tower completion year'
+SEARCH_TOOL_CALL query='tallest lattice tower year completed'
+SEARCH_TOOL_CALL query='Tokyo Skytree year completed'
+SEARCH_TOOL_CALL query='current tallest wooden lattice tower'
+SEARCH_TOOL_CALL query='tallest statue in the world'
+SEARCH_TOOL_CALL query='second tallest statue in the world'
+SEARCH_TOOL_CALL query='tallest Ferris wheel in the world name'
+SEARCH_TOOL_CALL query='tallest lighthouse name'
+SEARCH_TOOL_CALL query='Lange Jaap lighthouse completion year'
+SEARCH_TOOL_CALL query='world largest desalination plant country'
+SEARCH_TOOL_CALL query='Jebel Ali Desalination Plant (Phase 2) location'
+SEARCH_TOOL_CALL query='most populous national capital city'
+SEARCH_TOOL_CALL query='establishment year Delhi as national capital city'
+SEARCH_TOOL_CALL query='third largest river by discharge name'
+SEARCH_TOOL_CALL query='Yangtze River countries'
+SEARCH_TOOL_CALL query='second largest island in the world'
+SEARCH_TOOL_CALL query='highest elevation of of of New Guinea'
+SEARCH_TOOL_CALL query='list of ofdeepestriversintheworld seconddeepestriver'
+SEARCH_TOOL_CALL query='second deepest river in the world length'
+SEARCH_TOOL_CALL query='third largest stadium name'
+SEARCH_TOOL_CALL query='AT&T Stadium location'
+SEARCH_TOOL_CALL query='largest aircraft carrier name'
+SEARCH_TOOL_CALL query='USS Enterprise (CVN-65) named after whom'
+SEARCH_TOOL_CALL query='oldest cat Cat of the year award name'
+SEARCH_TOOL_CALL query='Creme Puff Cat of the year award year'
+SEARCH_TOOL_CALL query='third largest exporter of of coffee country'
+SEARCH_TOOL_CALL query='founding year of indonesia'
+SEARCH_TOOL_CALL query='first spacewalk space mission commander'
+SEARCH_TOOL_CALL query='longest reigning British monarch predecessor'
+SEARCH_TOOL_CALL query='predecessor of of longest reigning british monarch'
+1/25 EM=0.000 latest=0
+2/25 EM=0.000 latest=0
+3/25 EM=0.000 latest=0
+4/25 EM=0.000 latest=0
+5/25 EM=0.000 latest=0
+6/25 EM=0.000 latest=0
+7/25 EM=0.000 latest=0
+8/25 EM=0.000 latest=0
+9/25 EM=0.000 latest=0
+10/25 EM=0.100 latest=1
+11/25 EM=0.091 latest=0
+12/25 EM=0.083 latest=0
+13/25 EM=0.077 latest=0
+14/25 EM=0.071 latest=0
+15/25 EM=0.067 latest=0
+16/25 EM=0.062 latest=0
+17/25 EM=0.059 latest=0
+18/25 EM=0.056 latest=0
+19/25 EM=0.053 latest=0
+20/25 EM=0.100 latest=1
+21/25 EM=0.095 latest=0
+22/25 EM=0.136 latest=1
+23/25 EM=0.130 latest=0
+24/25 EM=0.167 latest=1
+25/25 EM=0.160 latest=0
+{
+  "model": "Qwen/Qwen2.5-3B-Instruct",
+  "adapter": "./week_08/search_r1/results/runs/grpo-main/adapter-step150/lora_adapter",
+  "mode": "tool",
+  "examples": 25,
+  "shard": "2/5",
+  "correct": 4,
+  "exact_match": 0.16,
+  "search_calls": 47,
+  "mean_search_calls": 1.88,
+  "seconds": 397.3260630450677,
+  "temperature": 0.0,
+  "max_new_tokens_per_turn": 512,
+  "max_turns": 4,
+  "topk": 3,
+  "predictions": "./week_08/search_r1/results/bamboogle/grpo-main_step150.shards/shard2.jsonl"
+}

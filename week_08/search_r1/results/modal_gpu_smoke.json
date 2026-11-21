@@ -1,0 +1,18 @@
+{
+  "date": "2026-11-20",
+  "modal_app_id": "ap-DOAKMhhAQLCzMsB6XN04aX",
+  "test_type": "single synthetic-text LoRA optimizer update; not Search-R1 RL",
+  "status": "passed",
+  "model": "Qwen/Qwen2.5-3B-Instruct",
+  "gpu": "NVIDIA A10",
+  "cuda": "12.4",
+  "lora_rank": 16,
+  "lora_alpha": 32,
+  "lora_dropout": 0.05,
+  "trainable_parameters": 29933568,
+  "loss": 7.893069267272949,
+  "gradient_norm": 53.74073028564453,
+  "adapter_updated": true,
+  "active_container_after_run": false,
+  "run_url": "https://modal.com/apps/neu-info5100-oak-spr-2025/main/ap-DOAKMhhAQLCzMsB6XN04aX"
+}

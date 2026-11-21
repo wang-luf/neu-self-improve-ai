@@ -1,0 +1,91 @@
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/434 [00:00<?, ?it/s]Loading weights:  15%|█▍        | 65/434 [00:00<00:00, 636.90it/s]Loading weights:  30%|██▉       | 129/434 [00:00<00:00, 428.43it/s]Loading weights:  43%|████▎     | 185/434 [00:00<00:00, 470.20it/s]Loading weights:  54%|█████▍    | 236/434 [00:00<00:00, 432.50it/s]Loading weights:  65%|██████▍   | 282/434 [00:00<00:00, 219.99it/s]Loading weights:  73%|███████▎  | 315/434 [00:01<00:00, 236.87it/s]Loading weights:  80%|████████  | 348/434 [00:01<00:00, 245.14it/s]Loading weights:  87%|████████▋ | 379/434 [00:01<00:00, 240.72it/s]Loading weights:  94%|█████████▍| 408/434 [00:01<00:00, 250.44it/s]Loading weights: 100%|██████████| 434/434 [00:01<00:00, 285.17it/s]
+SEARCH_TOOL_CALL query='Lady Godiva husband earl of of england'
+SEARCH_TOOL_CALL query='how honey is extracted from honeycombs'
+SEARCH_TOOL_CALL query='top-level domain for military organization'
+SEARCH_TOOL_CALL query='third letter of of mil top level domain'
+SEARCH_TOOL_CALL query='United States Department of of Defense Advanced Research Projects Agency founding year'
+SEARCH_TOOL_CALL query='main actor of Indiana Jones'
+SEARCH_TOOL_CALL query='Harrison Ford awards'
+SEARCH_TOOL_CALL query='Edwin Hubble birth year'
+SEARCH_TOOL_CALL query='Richard Nixon death date'
+SEARCH_TOOL_CALL query='David Chalmers hard problem of of consciousness'
+SEARCH_TOOL_CALL query='David Chalmers birth date'
+SEARCH_TOOL_CALL query='list of ofthestatesoftheunitedstatesbylandarea'
+SEARCH_TOOL_CALL query='second largest state by area in united states and its capital city'
+SEARCH_TOOL_CALL query='fastest birds'
+SEARCH_TOOL_CALL query='top three fastest birds'
+SEARCH_TOOL_CALL query='Euclid city founded'
+SEARCH_TOOL_CALL query='country where yoga originated'
+SEARCH_TOOL_CALL query='capital of country where yoga originated'
+SEARCH_TOOL_CALL query='fourth largest city in Germany'
+SEARCH_TOOL_CALL query='original name of of of fourth largest city in Germany'
+SEARCH_TOOL_CALL query='Nirvana best selling albums'
+SEARCH_TOOL_CALL query='"In Utero" release date'
+SEARCH_TOOL_CALL query='Sigmund Freud father occupation'
+SEARCH_TOOL_CALL query='Jacob Freud occupation'
+SEARCH_TOOL_CALL query='protein content in egg yolk'
+SEARCH_TOOL_CALL query='2.8 grams protein in 1 egg yolk multiplied by 4'
+SEARCH_TOOL_CALL query='list of ofpresidentsoftheunitedstates paris agreement'
+SEARCH_TOOL_CALL query='president ofoftheunitedstates paris agreement'
+SEARCH_TOOL_CALL query='political party of of donald trump president of united states'
+SEARCH_TOOL_CALL query='most populous city in Punjab'
+SEARCH_TOOL_CALL query='most populous city in Punjab, Pakistan'
+SEARCH_TOOL_CALL query='area of of lahore punjab pakistan'
+SEARCH_TOOL_CALL query='largest volcanic eruptions 20th century'
+SEARCH_TOOL_CALL query='death toll 1912 novarupta eruption'
+SEARCH_TOOL_CALL query='impact ofvolcaniceruptiononhumans'
+SEARCH_TOOL_CALL query='most intense Atlantic hurricanes'
+SEARCH_TOOL_CALL query='death toll most intense Atlantic hurricanes'
+SEARCH_TOOL_CALL query='Apollo 11 launch date'
+SEARCH_TOOL_CALL query='NASA administrator July 16 1969'
+SEARCH_TOOL_CALL query='George Washington father parent lineage'
+SEARCH_TOOL_CALL query='Augustine Washington father parent lineage'
+SEARCH_TOOL_CALL query='George Washington father'
+SEARCH_TOOL_CALL query='Augustine Washington mother'
+SEARCH_TOOL_CALL query='father of Barack Obama'
+SEARCH_TOOL_CALL query='father of of Barack Obama Sr.'
+SEARCH_TOOL_CALL query='Barack Obama father'
+SEARCH_TOOL_CALL query='Barack Hussein Obama Sr. mother'
+1/25 EM=1.000 latest=1
+2/25 EM=0.500 latest=0
+3/25 EM=0.333 latest=0
+4/25 EM=0.250 latest=0
+5/25 EM=0.200 latest=0
+6/25 EM=0.167 latest=0
+7/25 EM=0.286 latest=1
+8/25 EM=0.250 latest=0
+9/25 EM=0.222 latest=0
+10/25 EM=0.200 latest=0
+11/25 EM=0.182 latest=0
+12/25 EM=0.250 latest=1
+13/25 EM=0.231 latest=0
+14/25 EM=0.214 latest=0
+15/25 EM=0.267 latest=1
+16/25 EM=0.250 latest=0
+17/25 EM=0.235 latest=0
+18/25 EM=0.222 latest=0
+19/25 EM=0.211 latest=0
+20/25 EM=0.200 latest=0
+21/25 EM=0.238 latest=1
+22/25 EM=0.273 latest=1
+23/25 EM=0.304 latest=1
+24/25 EM=0.292 latest=0
+25/25 EM=0.320 latest=1
+{
+  "model": "Qwen/Qwen2.5-3B-Instruct",
+  "adapter": "./week_08/search_r1/results/runs/grpo-main/adapter-step25/lora_adapter",
+  "mode": "tool",
+  "examples": 25,
+  "shard": "1/5",
+  "correct": 8,
+  "exact_match": 0.32,
+  "search_calls": 47,
+  "mean_search_calls": 1.88,
+  "seconds": 382.4774484009249,
+  "temperature": 0.0,
+  "max_new_tokens_per_turn": 512,
+  "max_turns": 4,
+  "topk": 3,
+  "predictions": "./week_08/search_r1/results/bamboogle/grpo-main_step25.shards/shard1.jsonl"
+}

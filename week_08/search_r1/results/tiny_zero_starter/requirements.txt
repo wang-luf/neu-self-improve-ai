@@ -1,0 +1,9 @@
+# CUDA/PyTorch/Transformers pins match vLLM 0.32.0's published CUDA dependencies.
+torch==2.13.0
+transformers==5.19.0
+datasets==5.1.0
+trl[vllm]==1.17.1
+peft==0.21.2
+typing_extensions==4.16.0
+aiohttp==3.14.5
+vllm==0.32.0

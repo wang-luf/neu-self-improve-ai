@@ -1,0 +1,100 @@
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/434 [00:00<?, ?it/s]Loading weights:  18%|█▊        | 77/434 [00:00<00:00, 706.21it/s]Loading weights:  34%|███▍      | 148/434 [00:00<00:01, 233.87it/s]Loading weights:  43%|████▎     | 187/434 [00:00<00:00, 259.31it/s]Loading weights:  52%|█████▏    | 224/434 [00:00<00:00, 280.26it/s]Loading weights:  60%|█████▉    | 260/434 [00:01<00:00, 188.59it/s]Loading weights:  68%|██████▊   | 297/434 [00:01<00:00, 219.07it/s]Loading weights:  81%|████████  | 351/434 [00:01<00:00, 282.92it/s]Loading weights:  92%|█████████▏| 400/434 [00:01<00:00, 322.71it/s]Loading weights: 100%|██████████| 434/434 [00:01<00:00, 288.64it/s]
+SEARCH_TOOL_CALL query='Citibank founding year'
+SEARCH_TOOL_CALL query='president ofofus in 1812'
+SEARCH_TOOL_CALL query='first spacecraft to approach Uranus'
+SEARCH_TOOL_CALL query='Voyager 2 launch vehicle'
+SEARCH_TOOL_CALL query='company founded as Sound sound music'
+SEARCH_TOOL_CALL query='company founded as SoundSound Music'
+SEARCH_TOOL_CALL query='SoundIdeas added to S&P 500 year'
+SEARCH_TOOL_CALL query='first African American mayor of New York City'
+SEARCH_TOOL_CALL query='Cornelius Lawrence African American mayor New York City'
+SEARCH_TOOL_CALL query='last king king house house hanover hanover britain'
+SEARCH_TOOL_CALL query='death date william iv king house hanover'
+SEARCH_TOOL_CALL query='presidents of two term limit'
+SEARCH_TOOL_CALL query='ratification of of 22nd amendment to us constitution'
+SEARCH_TOOL_CALL query='john f kennedy inauguration date'
+SEARCH_TOOL_CALL query='president two-term limit precedent'
+SEARCH_TOOL_CALL query='Franklin D. Roosevelt leave office'
+SEARCH_TOOL_CALL query='second most powerful earthquake'
+SEARCH_TOOL_CALL query='1964 Alaska earthquake death toll'
+SEARCH_TOOL_CALL query='celiac disease safe foods camel meat'
+SEARCH_TOOL_CALL query='author of on the origin of species'
+SEARCH_TOOL_CALL query='final book written by charles darwin'
+SEARCH_TOOL_CALL query='title of of of of his final book'
+SEARCH_TOOL_CALL query='title of of of his final book'
+SEARCH_TOOL_CALL query='company that built first passenger-carrying steam locomotive'
+SEARCH_TOOL_CALL query='Robert Stephenson and Company founded when'
+SEARCH_TOOL_CALL query='Theranos whistleblowers government officials'
+SEARCH_TOOL_CALL query='Theranos whistleblowers government officials relationship'
+SEARCH_TOOL_CALL query='Theranos whistleblowers non-governmental affiliations'
+SEARCH_TOOL_CALL query='fastest air-breathing manned aircraft'
+SEARCH_TOOL_CALL query='Lockheed SR-71 Blackbird made of of of what material'
+SEARCH_TOOL_CALL query='fastest air-breathing manned aircraft builder'
+SEARCH_TOOL_CALL query='Lockheed SR-71 Blackbird builder'
+SEARCH_TOOL_CALL query='The Population Bomb author'
+SEARCH_TOOL_CALL query='Paul R. Ehrlich birth year'
+SEARCH_TOOL_CALL query='author of annabel lee'
+SEARCH_TOOL_CALL query='Edgar Allan Poe military service'
+SEARCH_TOOL_CALL query='inventor of of Polio vaccine'
+SEARCH_TOOL_CALL query='Albert Sabin religion'
+SEARCH_TOOL_CALL query='Albert Sabin religion'
+SEARCH_TOOL_CALL query='founder of of cnn'
+SEARCH_TOOL_CALL query='second wife of of ted turner founder of cnn'
+SEARCH_TOOL_CALL query='First Prime Minister of Russian Empire'
+SEARCH_TOOL_CALL query='Georgy Lvov first prime minister start date'
+SEARCH_TOOL_CALL query='primary male hormone derivation'
+SEARCH_TOOL_CALL query='Filipino statesman government-in-exile World War II'
+SEARCH_TOOL_CALL query='Joaquin Elizalde mayor city'
+SEARCH_TOOL_CALL query='Joaquín Miguel Elizalde mayor'
+SEARCH_TOOL_CALL query='Nobel Prize in Physics 1954 collaborators Max Born'
+SEARCH_TOOL_CALL query='Walther Bothe birth place'
+SEARCH_TOOL_CALL query='Nobel Prize in Physics 1954 co-winner with Max Born'
+SEARCH_TOOL_CALL query='Walther Bothe birth date'
+SEARCH_TOOL_CALL query='Plotonium university'
+SEARCH_TOOL_CALL query='university Plotonium discovered'
+SEARCH_TOOL_CALL query='Freiberg University of Mining and Technology founding date'
+SEARCH_TOOL_CALL query='Great Sphinx of materials mineral composition'
+SEARCH_TOOL_CALL query='Alabaster Sphinx of of Memphis calcite mineral'
+1/25 EM=1.000 latest=1
+2/25 EM=0.500 latest=0
+3/25 EM=0.333 latest=0
+4/25 EM=0.500 latest=1
+5/25 EM=0.600 latest=1
+6/25 EM=0.500 latest=0
+7/25 EM=0.429 latest=0
+8/25 EM=0.375 latest=0
+9/25 EM=0.444 latest=1
+10/25 EM=0.400 latest=0
+11/25 EM=0.455 latest=1
+12/25 EM=0.417 latest=0
+13/25 EM=0.462 latest=1
+14/25 EM=0.429 latest=0
+15/25 EM=0.467 latest=1
+16/25 EM=0.438 latest=0
+17/25 EM=0.412 latest=0
+18/25 EM=0.389 latest=0
+19/25 EM=0.368 latest=0
+20/25 EM=0.350 latest=0
+21/25 EM=0.333 latest=0
+22/25 EM=0.318 latest=0
+23/25 EM=0.304 latest=0
+24/25 EM=0.292 latest=0
+25/25 EM=0.320 latest=1
+{
+  "model": "Qwen/Qwen2.5-3B-Instruct",
+  "adapter": "./week_08/search_r1/results/runs/grpo-main/adapter-step100/lora_adapter",
+  "mode": "tool",
+  "examples": 25,
+  "shard": "0/5",
+  "correct": 8,
+  "exact_match": 0.32,
+  "search_calls": 56,
+  "mean_search_calls": 2.24,
+  "seconds": 459.6058538260404,
+  "temperature": 0.0,
+  "max_new_tokens_per_turn": 512,
+  "max_turns": 4,
+  "topk": 3,
+  "predictions": "./week_08/search_r1/results/bamboogle/grpo-main_step100.shards/shard0.jsonl"
+}

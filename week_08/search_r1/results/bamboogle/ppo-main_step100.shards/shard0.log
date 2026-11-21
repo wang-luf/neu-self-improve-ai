@@ -1,0 +1,76 @@
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/434 [00:00<?, ?it/s]Loading weights:  15%|█▍        | 65/434 [00:00<00:00, 626.51it/s]Loading weights:  29%|██▉       | 128/434 [00:00<00:00, 367.71it/s]Loading weights:  43%|████▎     | 185/434 [00:00<00:00, 428.62it/s]Loading weights:  56%|█████▌    | 241/434 [00:00<00:00, 469.75it/s]Loading weights:  68%|██████▊   | 293/434 [00:00<00:00, 313.18it/s]Loading weights:  82%|████████▏ | 357/434 [00:00<00:00, 385.80it/s]Loading weights:  95%|█████████▍| 411/434 [00:01<00:00, 411.18it/s]Loading weights: 100%|██████████| 434/434 [00:01<00:00, 412.06it/s]
+SEARCH_TOOL_CALL query='Citibank founding year president of the United States'
+SEARCH_TOOL_CALL query='first spacecraft to approach Uranus launch rocket'
+SEARCH_TOOL_CALL query='Voyager 2 launch rocket'
+SEARCH_TOOL_CALL query='Sound of Music S&P 500'
+SEARCH_TOOL_CALL query='company that produced The Sound of Movie S&P 500'
+SEARCH_TOOL_CALL query='Warner Brothers S&P 500'
+SEARCH_TOOL_CALL query='first African American mayor most populous city United States'
+SEARCH_TOOL_CALL query='last king House of Hanover died'
+SEARCH_TOOL_CALL query='president two term limit precedent entered office'
+SEARCH_TOOL_CALL query='president two term limit precedent left office'
+SEARCH_TOOL_CALL query='second most powerful earthquake ever recorded death toll'
+SEARCH_TOOL_CALL query='can people with celiac disease eat camel meat'
+SEARCH_TOOL_CALL query='author of On the origin of species final book'
+SEARCH_TOOL_CALL query='first steam locomotive carrying passengers company foundation year'
+SEARCH_TOOL_CALL query='Robert Stephenson and Company founding date'
+SEARCH_TOOL_CALL query='Theranos whistleblower senior American government official'
+SEARCH_TOOL_CALL query='Theranos whistleblower non-governmental connection'
+SEARCH_TOOL_CALL query='fastest air-breathing manned aircraft mostly made out of'
+SEARCH_TOOL_CALL query='fastest air-breathing manned aircraft builder'
+SEARCH_TOOL_CALL query='author The Population Bomb birth date'
+SEARCH_TOOL_CALL query='author of Annabel Lee enlisted in army'
+SEARCH_TOOL_CALL query='inventor of Polio vaccine religion'
+SEARCH_TOOL_CALL query='Jonas Salk religion'
+SEARCH_TOOL_CALL query='second wife CNN founder'
+SEARCH_TOOL_CALL query='first prime minister russian empire came into office'
+SEARCH_TOOL_CALL query='primary male hormone derivation'
+SEARCH_TOOL_CALL query='Filipino statesman World War II government-in-exile mayor'
+SEARCH_TOOL_CALL query='Nobel Prize in Physics 1954 recipient birth place'
+SEARCH_TOOL_CALL query='Nobel Prize in Physics 1954 winner birth year'
+SEARCH_TOOL_CALL query='Plotonium discovery university founding date'
+SEARCH_TOOL_CALL query='Freiberg University of Mining and Technology founding date'
+SEARCH_TOOL_CALL query='Great Sphinx of Giza material composition'
+1/25 EM=1.000 latest=1
+2/25 EM=0.500 latest=0
+3/25 EM=0.333 latest=0
+4/25 EM=0.250 latest=0
+5/25 EM=0.200 latest=0
+6/25 EM=0.167 latest=0
+7/25 EM=0.143 latest=0
+8/25 EM=0.125 latest=0
+9/25 EM=0.222 latest=1
+10/25 EM=0.200 latest=0
+11/25 EM=0.273 latest=1
+12/25 EM=0.250 latest=0
+13/25 EM=0.231 latest=0
+14/25 EM=0.214 latest=0
+15/25 EM=0.267 latest=1
+16/25 EM=0.250 latest=0
+17/25 EM=0.235 latest=0
+18/25 EM=0.222 latest=0
+19/25 EM=0.211 latest=0
+20/25 EM=0.200 latest=0
+21/25 EM=0.190 latest=0
+22/25 EM=0.182 latest=0
+23/25 EM=0.174 latest=0
+24/25 EM=0.167 latest=0
+25/25 EM=0.160 latest=0
+{
+  "model": "Qwen/Qwen2.5-3B-Instruct",
+  "adapter": "./week_08/search_r1/results/runs/ppo-main/adapter-step100/lora_adapter",
+  "mode": "tool",
+  "examples": 25,
+  "shard": "0/5",
+  "correct": 4,
+  "exact_match": 0.16,
+  "search_calls": 32,
+  "mean_search_calls": 1.28,
+  "seconds": 219.0537535479525,
+  "temperature": 0.0,
+  "max_new_tokens_per_turn": 512,
+  "max_turns": 4,
+  "topk": 3,
+  "predictions": "./week_08/search_r1/results/bamboogle/ppo-main_step100.shards/shard0.jsonl"
+}

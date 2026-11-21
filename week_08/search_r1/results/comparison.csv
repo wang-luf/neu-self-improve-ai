@@ -1,0 +1,7 @@
+label,mode,model,adapter,examples,correct,exact_match,mean_search_calls,paper_reference_em,paper_reference_correct,paper_reference_source
+Direct (Qwen2.5-3B-it),direct,Qwen/Qwen2.5-3B-Instruct,,125,4,0.032,0.0,0.024,3,"Direct inference (none), Search-R1 v5 Table 2 Qwen2.5-3B Base/Instruct Bamboogle"
+Untrained Qwen + search tool,tool,Qwen/Qwen2.5-3B-Instruct,,125,23,0.184,1.552,,,
+Published Search-R1 PPO,search,PeterJinGo/SearchR1-nq_hotpotqa_train-qwen2.5-3b-it-em-ppo,,125,30,0.24,1.968,0.264,33,"Search-R1-Instruct (PPO), Search-R1 v5 Table 3 Qwen2.5-3B-Instruct Bamboogle"
+Published Search-R1 GRPO,search,PeterJinGo/SearchR1-nq_hotpotqa_train-qwen2.5-3b-it-em-grpo,,125,43,0.344,1.92,0.232,29,"Search-R1-Instruct (GRPO), Search-R1 v5 Table 3 Qwen2.5-3B-Instruct Bamboogle"
+Ours LoRA PPO (150 steps),tool,Qwen/Qwen2.5-3B-Instruct,week_08/search_r1/results/runs/ppo-main/adapter-export/lora_adapter,125,26,0.208,2.104,0.264,33,"Search-R1-Instruct (PPO), Search-R1 v5 Table 3 Qwen2.5-3B-Instruct Bamboogle"
+Ours LoRA GRPO (150 steps),tool,Qwen/Qwen2.5-3B-Instruct,week_08/search_r1/results/runs/grpo-main/adapter-export/lora_adapter,125,39,0.312,2.232,0.232,29,"Search-R1-Instruct (GRPO), Search-R1 v5 Table 3 Qwen2.5-3B-Instruct Bamboogle"

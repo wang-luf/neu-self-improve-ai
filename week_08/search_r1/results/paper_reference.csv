@@ -1,0 +1,5 @@
+method,algorithm,accuracy,correct_of_125,source
+Direct inference,none,0.024,3,Search-R1 v5 Table 2 Qwen2.5-3B Base/Instruct Bamboogle
+Search-R1-Instruct,unspecified in Table 2; PPO is default,0.264,33,Search-R1 v5 Table 2 Qwen2.5-3B Base/Instruct Bamboogle
+Search-R1-Instruct,GRPO,0.232,29,Search-R1 v5 Table 3 Qwen2.5-3B-Instruct Bamboogle
+Search-R1-Instruct,PPO,0.264,33,Search-R1 v5 Table 3 Qwen2.5-3B-Instruct Bamboogle

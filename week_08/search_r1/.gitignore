@@ -1,0 +1,13 @@
+# Large training artifacts stay on the GPU host. Tracked: configs, logs,
+# metrics, predictions, and the two final step-150 LoRA adapters
+# (results/runs/{grpo,ppo}-main/adapter-export/lora_adapter).
+results/runs/*/global_step_*/
+results/runs/*/adapter-*/*.safetensors
+results/runs/*/adapter-*/tokenizer.json
+results/runs/*/adapter-step*/lora_adapter/adapter_model.safetensors
+results/runs/*-smoke/adapter-export/lora_adapter/adapter_model.safetensors
+results/tiny_zero_starter/checkpoint/checkpoint-*/
+results/tiny_zero_starter/checkpoint/tokenizer.json
+results/tiny_zero_starter/checkpoint/adapter_model.safetensors
+__pycache__/
+results/tiny_zero_starter/checkpoint/training_args.bin

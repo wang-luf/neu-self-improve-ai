@@ -1,0 +1,97 @@
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/434 [00:00<?, ?it/s]Loading weights:  15%|█▍        | 65/434 [00:00<00:00, 589.77it/s]Loading weights:  29%|██▊       | 124/434 [00:00<00:00, 406.60it/s]Loading weights:  41%|████      | 179/434 [00:00<00:00, 455.74it/s]Loading weights:  53%|█████▎    | 228/434 [00:00<00:00, 441.99it/s]Loading weights:  63%|██████▎   | 274/434 [00:00<00:00, 217.54it/s]Loading weights:  71%|███████   | 308/434 [00:01<00:00, 225.90it/s]Loading weights:  78%|███████▊  | 339/434 [00:01<00:00, 238.39it/s]Loading weights:  85%|████████▌ | 369/434 [00:01<00:00, 239.39it/s]Loading weights:  92%|█████████▏| 399/434 [00:01<00:00, 243.04it/s]Loading weights:  98%|█████████▊| 427/434 [00:01<00:00, 246.08it/s]Loading weights: 100%|██████████| 434/434 [00:01<00:00, 280.37it/s]
+SEARCH_TOOL_CALL query='longest running talk show'
+SEARCH_TOOL_CALL query='"The Tonight Show" host 2016'
+SEARCH_TOOL_CALL query='longest-running American game show'
+SEARCH_TOOL_CALL query='host of The Price Is Right 2016'
+SEARCH_TOOL_CALL query='longest-running Broadway show'
+SEARCH_TOOL_CALL query='novel The Phantom of of the Opera based'
+SEARCH_TOOL_CALL query='American cruise line'
+SEARCH_TOOL_CALL query='American Cruise Lines incorporation location'
+SEARCH_TOOL_CALL query='longest road tunnel world'
+SEARCH_TOOL_CALL query='second longest road tunnel world'
+SEARCH_TOOL_CALL query='third oldest surviving university'
+SEARCH_TOOL_CALL query='third oldest surviving university'
+SEARCH_TOOL_CALL query='University of London official colors'
+SEARCH_TOOL_CALL query='longest reigning Roman emperor'
+SEARCH_TOOL_CALL query='longest reigning Roman emperor after augustus'
+SEARCH_TOOL_CALL query='successor of romulus augustulus'
+SEARCH_TOOL_CALL query='notable Roman emperors who declared wars against maritime adversaries'
+SEARCH_TOOL_CALL query='emperor who preceded Marcus Aurelius'
+SEARCH_TOOL_CALL query='list of longest running video game franchises'
+SEARCH_TOOL_CALL query='start and end dates of of The Sims franchise'
+SEARCH_TOOL_CALL query='Sigmund Freud father figure'
+SEARCH_TOOL_CALL query='father of of empiricism'
+SEARCH_TOOL_CALL query='father of of empiricism John Locke'
+SEARCH_TOOL_CALL query='father of ofobservationalastronomy'
+SEARCH_TOOL_CALL query='father of of colinpittendrigh'
+SEARCH_TOOL_CALL query='father of oficial language of Israel'
+SEARCH_TOOL_CALL query='father of of eliezer ben yehuda'
+SEARCH_TOOL_CALL query='father of of modern experimental psychology'
+SEARCH_TOOL_CALL query='father of Wilhelm Wundt'
+SEARCH_TOOL_CALL query='originator of of cybernetics'
+SEARCH_TOOL_CALL query='father of of Norbert Wiener'
+SEARCH_TOOL_CALL query='father of of Leo Wiener'
+SEARCH_TOOL_CALL query='creation of of of hydrogen bomb'
+SEARCH_TOOL_CALL query='development of of hydrogen bomb'
+SEARCH_TOOL_CALL query='Andrei Sakharov development ofof hydrogen bomb'
+SEARCH_TOOL_CALL query='father of ofcomputer science'
+SEARCH_TOOL_CALL query='father of of computer science'
+SEARCH_TOOL_CALL query='father of ofbehaviorism'
+SEARCH_TOOL_CALL query='father of of behaviorism'
+SEARCH_TOOL_CALL query='father of of john b watson'
+SEARCH_TOOL_CALL query='founder of of modern human anatomy'
+SEARCH_TOOL_CALL query='father of of Andreas Vesalius'
+SEARCH_TOOL_CALL query='list of fathers of Confederation'
+SEARCH_TOOL_CALL query='last surviving Fathers of of Confederation'
+SEARCH_TOOL_CALL query='Samuel Leonard Tilley father'
+SEARCH_TOOL_CALL query='J. Robert Oppenheimer birth year'
+SEARCH_TOOL_CALL query='father of ofinformationtheory'
+SEARCH_TOOL_CALL query='founder of of information theory'
+SEARCH_TOOL_CALL query='father of of information theory Claude Shannon'
+SEARCH_TOOL_CALL query='Quit India speech deliverer'
+SEARCH_TOOL_CALL query='Mahatma Gandhi birth date'
+SEARCH_TOOL_CALL query='John F. Kennedy death date'
+SEARCH_TOOL_CALL query='Ronald Reagan death date'
+1/25 EM=0.000 latest=0
+2/25 EM=0.000 latest=0
+3/25 EM=0.333 latest=1
+4/25 EM=0.250 latest=0
+5/25 EM=0.200 latest=0
+6/25 EM=0.167 latest=0
+7/25 EM=0.143 latest=0
+8/25 EM=0.125 latest=0
+9/25 EM=0.111 latest=0
+10/25 EM=0.200 latest=1
+11/25 EM=0.182 latest=0
+12/25 EM=0.167 latest=0
+13/25 EM=0.154 latest=0
+14/25 EM=0.143 latest=0
+15/25 EM=0.133 latest=0
+16/25 EM=0.125 latest=0
+17/25 EM=0.118 latest=0
+18/25 EM=0.111 latest=0
+19/25 EM=0.105 latest=0
+20/25 EM=0.100 latest=0
+21/25 EM=0.143 latest=1
+22/25 EM=0.136 latest=0
+23/25 EM=0.130 latest=0
+24/25 EM=0.125 latest=0
+25/25 EM=0.160 latest=1
+{
+  "model": "Qwen/Qwen2.5-3B-Instruct",
+  "adapter": "./week_08/search_r1/results/runs/grpo-main/adapter-step25/lora_adapter",
+  "mode": "tool",
+  "examples": 25,
+  "shard": "3/5",
+  "correct": 4,
+  "exact_match": 0.16,
+  "search_calls": 53,
+  "mean_search_calls": 2.12,
+  "seconds": 449.5462073669769,
+  "temperature": 0.0,
+  "max_new_tokens_per_turn": 512,
+  "max_turns": 4,
+  "topk": 3,
+  "predictions": "./week_08/search_r1/results/bamboogle/grpo-main_step25.shards/shard3.jsonl"
+}

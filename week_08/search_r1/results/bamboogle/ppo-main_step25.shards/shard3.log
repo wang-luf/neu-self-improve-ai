@@ -1,0 +1,80 @@
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/434 [00:00<?, ?it/s]Loading weights:  12%|█▏        | 51/434 [00:00<00:00, 464.01it/s]Loading weights:  23%|██▎       | 100/434 [00:00<00:00, 476.32it/s]Loading weights:  34%|███▍      | 148/434 [00:00<00:00, 458.32it/s]Loading weights:  45%|████▍     | 195/434 [00:00<00:00, 450.60it/s]Loading weights:  56%|█████▌    | 243/434 [00:00<00:00, 409.33it/s]Loading weights:  66%|██████▌   | 285/434 [00:00<00:00, 250.79it/s]Loading weights:  77%|███████▋  | 335/434 [00:00<00:00, 302.27it/s]Loading weights:  90%|████████▉ | 389/434 [00:01<00:00, 356.37it/s]Loading weights: 100%|██████████| 434/434 [00:01<00:00, 381.90it/s]
+SEARCH_TOOL_CALL query='longest running talk show 2016 host'
+SEARCH_TOOL_CALL query='longest running American game show 2016 host'
+SEARCH_TOOL_CALL query='longest running show in Broadway history novel'
+SEARCH_TOOL_CALL query='only cruise line that flies American flag incorporated country'
+SEARCH_TOOL_CALL query='second longest road tunnel in the world construction year'
+SEARCH_TOOL_CALL query='third oldest surviving university official color'
+SEARCH_TOOL_CALL query='longest reigning Roman emperor successor'
+SEARCH_TOOL_CALL query='longest reigning roman emperor successor'
+SEARCH_TOOL_CALL query='Roman emperor declared war on the sea predecessor'
+SEARCH_TOOL_CALL query='Roman emperor Mare Clausum predecessor'
+SEARCH_TOOL_CALL query='longest running video game franchise producer'
+SEARCH_TOOL_CALL query='father of psychoanalysis father'
+SEARCH_TOOL_CALL query='father of father of empiricism'
+SEARCH_TOOL_CALL query='John Locke father'
+SEARCH_TOOL_CALL query='father of the father of observational astronomy'
+SEARCH_TOOL_CALL query='father of modern Hebrew father'
+SEARCH_TOOL_CALL query='father of the father of modern experimental psychology'
+SEARCH_TOOL_CALL query='father of cybernetics originator'
+SEARCH_TOOL_CALL query='Victor Glushkov father'
+SEARCH_TOOL_CALL query='father of the hydrogen bomb father'
+SEARCH_TOOL_CALL query='father of computer science father'
+SEARCH_TOOL_CALL query='father of behaviorism father'
+SEARCH_TOOL_CALL query='John B. Watson father'
+SEARCH_TOOL_CALL query='father of founder of modern human anatomy'
+SEARCH_TOOL_CALL query='Andreas Vesalius father country'
+SEARCH_TOOL_CALL query='last surviving Canadian father of Confederation father'
+SEARCH_TOOL_CALL query='Charles Tupper father'
+SEARCH_TOOL_CALL query='Sir Charles Tupper Sr father'
+SEARCH_TOOL_CALL query='Now, I am become Death, the destroyer of worlds. birth date'
+SEARCH_TOOL_CALL query='father of information theory father'
+SEARCH_TOOL_CALL query='Claude Shannon father'
+SEARCH_TOOL_CALL query='Quit India speech birth date'
+SEARCH_TOOL_CALL query='Mahatma Gandhi birth date'
+SEARCH_TOOL_CALL query='president military industrial complex died'
+SEARCH_TOOL_CALL query='president Tear Down This Wall death'
+SEARCH_TOOL_CALL query='Ronald Reagan death date'
+1/25 EM=0.000 latest=0
+2/25 EM=0.000 latest=0
+3/25 EM=0.000 latest=0
+4/25 EM=0.000 latest=0
+5/25 EM=0.000 latest=0
+6/25 EM=0.000 latest=0
+7/25 EM=0.000 latest=0
+8/25 EM=0.000 latest=0
+9/25 EM=0.000 latest=0
+10/25 EM=0.100 latest=1
+11/25 EM=0.091 latest=0
+12/25 EM=0.083 latest=0
+13/25 EM=0.077 latest=0
+14/25 EM=0.071 latest=0
+15/25 EM=0.067 latest=0
+16/25 EM=0.062 latest=0
+17/25 EM=0.059 latest=0
+18/25 EM=0.056 latest=0
+19/25 EM=0.053 latest=0
+20/25 EM=0.050 latest=0
+21/25 EM=0.095 latest=1
+22/25 EM=0.136 latest=1
+23/25 EM=0.130 latest=0
+24/25 EM=0.125 latest=0
+25/25 EM=0.160 latest=1
+{
+  "model": "Qwen/Qwen2.5-3B-Instruct",
+  "adapter": "./week_08/search_r1/results/runs/ppo-main/adapter-step25/lora_adapter",
+  "mode": "tool",
+  "examples": 25,
+  "shard": "3/5",
+  "correct": 4,
+  "exact_match": 0.16,
+  "search_calls": 36,
+  "mean_search_calls": 1.44,
+  "seconds": 277.989685793058,
+  "temperature": 0.0,
+  "max_new_tokens_per_turn": 512,
+  "max_turns": 4,
+  "topk": 3,
+  "predictions": "./week_08/search_r1/results/bamboogle/ppo-main_step25.shards/shard3.jsonl"
+}

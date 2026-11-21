@@ -1,0 +1,50 @@
+{
+  "algorithm": "GRPO",
+  "status": "stopped_at_planned_step",
+  "run_name": "grpo-main",
+  "host": "reserved-gb300-node",
+  "gpus": [
+    "NVIDIA GB300"
+  ],
+  "cuda_visible_devices": "0",
+  "steps_requested": 300,
+  "last_checkpoint_step": 150,
+  "batch_size_prompts": 64,
+  "rollouts_per_prompt": 5,
+  "mini_batch_size_prompts": 32,
+  "actor_lr": "2e-5",
+  "retriever": "wiki-18 E5 Flat (exact inner product on GPU), top-k=3, http://127.0.0.1:8000/retrieve",
+  "retriever_probe": "France\nregions (five of which are situated overseas) span a combined area of and a total population of 67.3 million (). France, a sovereign state, is a unitary semi-presidential republic with its capital in Paris, the country's largest city",
+  "tool_calls_logged": 92057,
+  "rewards_logged": 36706,
+  "mean_logged_reward": 0.3298098403530758,
+  "lora_metadata_files": [
+    "global_step_100/actor/lora_train_meta.json",
+    "global_step_125/actor/lora_train_meta.json",
+    "global_step_150/actor/lora_train_meta.json",
+    "global_step_25/actor/lora_train_meta.json",
+    "global_step_50/actor/lora_train_meta.json",
+    "global_step_75/actor/lora_train_meta.json"
+  ],
+  "exported_adapter_files": [
+    "adapter_config.json",
+    "adapter_model.safetensors"
+  ],
+  "adapter_dir": "week_08/search_r1/results/runs/grpo-main/adapter-export/lora_adapter",
+  "adapter_export_returncode": 0,
+  "trainer_exit_code": 134,
+  "train_seconds": 8677.3,
+  "overrides": [],
+  "planned_stop": {
+    "stopped_at_step": 150,
+    "reason": "planned budget: both algorithms stopped at the same step",
+    "time_utc": "2026-11-21T01:57:32Z"
+  },
+  "evidence_checks": {
+    "checkpoint_at_planned_step": true,
+    "lora_metadata": true,
+    "adapter_exported": true,
+    "tool_calls_logged": true,
+    "rewards_logged": true
+  }
+}

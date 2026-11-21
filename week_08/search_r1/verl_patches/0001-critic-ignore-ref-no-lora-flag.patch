@@ -1,0 +1,14 @@
+diff --git a/verl/trainer/ppo/v1/trainer_base.py b/verl/trainer/ppo/v1/trainer_base.py
+index bfea42fb..4ff18a53 100644
+--- a/verl/trainer/ppo/v1/trainer_base.py
++++ b/verl/trainer/ppo/v1/trainer_base.py
+@@ -1872,6 +1872,9 @@ class PPOTrainer(ABC):
+             {
+                 "compute_loss": False,
+                 "temperature": self.config.actor_rollout_ref.rollout.temperature,
++                # _compute_ref_log_prob leaves no_lora_adapter=True in the shared extra_info when the
++                # LoRA reference lives in the actor; the (non-LoRA) critic must not inherit it.
++                "no_lora_adapter": False,
+             }
+         )
+         output = self.critic_wg.infer_batch(batch)

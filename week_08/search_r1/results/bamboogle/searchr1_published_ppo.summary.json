@@ -1,0 +1,16 @@
+{
+  "model": "PeterJinGo/SearchR1-nq_hotpotqa_train-qwen2.5-3b-it-em-ppo",
+  "adapter": null,
+  "mode": "search",
+  "examples": 125,
+  "correct": 30,
+  "exact_match": 0.24,
+  "search_calls": 246,
+  "mean_search_calls": 1.968,
+  "seconds": 971.2773990639253,
+  "temperature": 0.0,
+  "max_new_tokens_per_turn": 512,
+  "max_turns": 4,
+  "topk": 3,
+  "predictions": "results/bamboogle/searchr1_published_ppo.jsonl"
+}
