@@ -1,6 +1,5 @@
 # config.yaml
 env:
-  OPENAI_API_KEY: "YOUR_ONENAI_API" # Not that neccesary.
   CUDA_VISIBLE_DEVICES: '0'
   HYDRA_FULL_ERROR: 1
   N_GPUS: 1
