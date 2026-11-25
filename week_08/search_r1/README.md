@@ -60,6 +60,11 @@ Group member: **Lufei Wang** (individual submission).
 
 ## Current run status
 
+Supplemental step-25/50/100 adapter artifacts are indexed separately in
+[`results/EXTERNAL_ADAPTERS.md`](results/EXTERNAL_ADAPTERS.md). They are linked
+to their pinned source commit and are not counted as the local step-150 results
+below.
+
 Completed on a reserved 4x NVIDIA GB300 node (2026-11-20); see
 [`REPLICATION_REPORT.md`](REPLICATION_REPORT.md#results) for the full results
 and [`RUNBOOK.md`](RUNBOOK.md#gb300-local-execution-what-was-actually-run) for
