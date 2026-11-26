@@ -1,0 +1,10 @@
+{
+  "pid": "115",
+  "query": "What is the nickname of the easternmost U.S. state?When ready, output the final answer enclosed in <answer> and </answer> tags. Do not generate any content after the </answer> tag.",
+  "answer": [
+    "Pine Tree State"
+  ],
+  "direct_output": "<answer>The Easternmost U.S. state has the nickname \"The Pine State\".</answer>",
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "direct_no_tools"
+}

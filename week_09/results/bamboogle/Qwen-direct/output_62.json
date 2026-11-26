@@ -1,0 +1,10 @@
+{
+  "pid": "62",
+  "query": "When was the tallest ferris wheel in the world completed?When ready, output the final answer enclosed in <answer> and </answer> tags. Do not generate any content after the </answer> tag.",
+  "answer": [
+    "2021"
+  ],
+  "direct_output": "<answer>2016</answer>",
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "direct_no_tools"
+}

@@ -1,0 +1,10 @@
+{
+  "pid": "43",
+  "query": "What was the death toll of the second largest volcanic eruption in the 20th century?When ready, output the final answer enclosed in <answer> and </answer> tags. Do not generate any content after the </answer> tag.",
+  "answer": [
+    "847"
+  ],
+  "direct_output": "<answer>22,000</answer>",
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "direct_no_tools"
+}

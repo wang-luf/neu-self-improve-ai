@@ -1,0 +1,10 @@
+{
+  "pid": "32",
+  "query": "When was the philosopher that formulated the hard problem of consciousness born?When ready, output the final answer enclosed in <answer> and </answer> tags. Do not generate any content after the </answer> tag.",
+  "answer": [
+    "April 20, 1966"
+  ],
+  "direct_output": "<answer>1956</answer>",
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "direct_no_tools"
+}

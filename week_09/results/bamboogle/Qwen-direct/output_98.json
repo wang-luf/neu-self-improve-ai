@@ -1,0 +1,10 @@
+{
+  "pid": "98",
+  "query": "When did the president who warned about the military industrial complex die?When ready, output the final answer enclosed in <answer> and </answer> tags. Do not generate any content after the </answer> tag.",
+  "answer": [
+    "March 28, 1969"
+  ],
+  "direct_output": "<answer>Dwight D. Eisenhower, the president who warned about the military-industrial complex, died on March 28, 1969.</answer>",
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "direct_no_tools"
+}

@@ -1,0 +1,10 @@
+{
+  "pid": "81",
+  "query": "Who succeeded the longest reigning Roman emperor?When ready, output the final answer enclosed in <answer> and </answer> tags. Do not generate any content after the </answer> tag.",
+  "answer": [
+    "Tiberius"
+  ],
+  "direct_output": "<answer>Constantine VII succeeded Romanus IV, who had the longest reign among Byzantine emperors in the 11th century.</answer>",
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "direct_no_tools"
+}

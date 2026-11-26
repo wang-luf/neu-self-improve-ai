@@ -1,0 +1,10 @@
+{
+  "pid": "105",
+  "query": "What's the capital city of the country that was the champion of the 2010 World Cup?When ready, output the final answer enclosed in <answer> and </answer> tags. Do not generate any content after the </answer> tag.",
+  "answer": [
+    "Madrid"
+  ],
+  "direct_output": "<answer>Buenos Aires</answer>",
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "direct_no_tools"
+}

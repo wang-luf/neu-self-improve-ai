@@ -1,3 +1,4 @@
+import os
 import re
 from pydantic import BaseModel
 from agentflow.engine.openai import ChatOpenAI
@@ -8,11 +9,15 @@ class AnswerVerification(BaseModel):
     true_false: bool
 
 try:
-    llm_scorer_engine = ChatOpenAI(
-        model_string="gpt-4o", 
-        is_multimodal=False, 
-        enable_cache=True
-    )
+    if os.environ.get("JUDGE_BASE_URL"):  # assignment: local vLLM judge instead of gpt-4o
+        from agentflow.engine.local_judge import LocalJudge
+        llm_scorer_engine = LocalJudge()
+    else:
+        llm_scorer_engine = ChatOpenAI(
+            model_string="gpt-4o",
+            is_multimodal=False,
+            enable_cache=True
+        )
     print(f"\nLLM Scorer engine '{llm_scorer_engine.model_string}' initialized successfully.\n")
 except Exception as e:
     print(f"Failed to initialize LLM Scorer engine: {e}")
@@ -98,7 +103,7 @@ D) 10
     latex_groundtruth = "C"
     latex_model_answer = r"""
 To solve this, we need to compute the integral $\int_{1}^{3} 2x \,dx$.
-The antiderivative of $2x$ is $x^2$. 
+The antiderivative of $2x$ is $x^2$.
 Using the Fundamental Theorem of Calculus, we evaluate this at the bounds:
 $F(b) - F(a) = 3^2 - 1^2 = 9 - 1 = 8$.
 """

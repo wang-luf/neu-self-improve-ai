@@ -1,0 +1,10 @@
+{
+  "pid": "108",
+  "query": "Who was the last emperor of the dynasty that succeeded the Song dynasty?When ready, output the final answer enclosed in <answer> and </answer> tags. Do not generate any content after the </answer> tag.",
+  "answer": [
+    "Toghon Temür"
+  ],
+  "direct_output": "<answer>Daoguang Emperor</answer>",
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "direct_no_tools"
+}

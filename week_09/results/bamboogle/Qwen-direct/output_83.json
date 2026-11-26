@@ -1,0 +1,10 @@
+{
+  "pid": "83",
+  "query": "Who produced the longest running video game franchise?When ready, output the final answer enclosed in <answer> and </answer> tags. Do not generate any content after the </answer> tag.",
+  "answer": [
+    "MECC"
+  ],
+  "direct_output": "<answer>Mario</answer>",
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "direct_no_tools"
+}

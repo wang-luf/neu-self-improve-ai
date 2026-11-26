@@ -1,0 +1,10 @@
+{
+  "pid": "103",
+  "query": "Who was governor of Florida during Hurricane Irma?When ready, output the final answer enclosed in <answer> and </answer> tags. Do not generate any content after the </answer> tag.",
+  "answer": [
+    "Rick Scott"
+  ],
+  "direct_output": "<answer>Rick Scott</answer>",
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "direct_no_tools"
+}

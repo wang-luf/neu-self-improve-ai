@@ -243,6 +243,7 @@ class Rollout(LitAgent):
             json.dump(rollout_data, f, indent=2)
 
         print(f"Rollout data saved to: {save_path}")
+        return reward_value  # assignment fix: report the outcome reward as the rollout final_reward
 
 
     async def _initialize_run_once(self, resources: NamedResources):
@@ -320,7 +321,7 @@ class Rollout(LitAgent):
             
             step_n = current_step_n
 
-        await self._solve_and_evaluate(self.training_agent, task, step_n, val)
+        return await self._solve_and_evaluate(self.training_agent, task, step_n, val)
 
 
 
@@ -357,7 +358,7 @@ class Rollout(LitAgent):
             self.val_step_n = current_train_step
             print(f"Validation run started. Synchronizing with training progress. Saving results to validation step folder: {self.val_step_n}")
 
-        await self._solve_and_evaluate(self.validation_agent, task, self.val_step_n, val)
+        return await self._solve_and_evaluate(self.validation_agent, task, self.val_step_n, val)
 
 if __name__ == "__main__":
     from util.parse_config import get_values_from_yaml

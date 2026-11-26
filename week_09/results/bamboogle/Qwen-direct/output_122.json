@@ -1,0 +1,10 @@
+{
+  "pid": "122",
+  "query": "Who was the mother of the emperor of Japan during World War I?When ready, output the final answer enclosed in <answer> and </answer> tags. Do not generate any content after the </answer> tag.",
+  "answer": [
+    "Yanagiwara Naruko"
+  ],
+  "direct_output": "<answer>Empress Teimei</answer>",
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "direct_no_tools"
+}

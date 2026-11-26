@@ -1,0 +1,10 @@
+{
+  "pid": "113",
+  "query": "What's the capital of the state that the Space Needle is at?When ready, output the final answer enclosed in <answer> and </answer> tags. Do not generate any content after the </answer> tag.",
+  "answer": [
+    "Olympia"
+  ],
+  "direct_output": "<answer>Seattle</answer>",
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "direct_no_tools"
+}

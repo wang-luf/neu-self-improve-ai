@@ -1,0 +1,10 @@
+{
+  "pid": "2",
+  "query": "In what year was the company that was founded as Sound of Music added to the S&P 500?When ready, output the final answer enclosed in <answer> and </answer> tags. Do not generate any content after the </answer> tag.",
+  "answer": [
+    "1999"
+  ],
+  "direct_output": "<answer>2013</answer>",
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "direct_no_tools"
+}

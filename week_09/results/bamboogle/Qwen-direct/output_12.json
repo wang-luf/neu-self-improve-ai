@@ -1,0 +1,10 @@
+{
+  "pid": "12",
+  "query": "What is the fastest air-breathing manned aircraft mostly made out of?When ready, output the final answer enclosed in <answer> and </answer> tags. Do not generate any content after the </answer> tag.",
+  "answer": [
+    "Titanium"
+  ],
+  "direct_output": "<answer>composite materials</answer>",
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "direct_no_tools"
+}

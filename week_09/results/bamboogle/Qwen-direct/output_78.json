@@ -1,0 +1,10 @@
+{
+  "pid": "78",
+  "query": "In what country was the only cruise line that flies the American flag incorporated in?When ready, output the final answer enclosed in <answer> and </answer> tags. Do not generate any content after the </answer> tag.",
+  "answer": [
+    "Bermuda"
+  ],
+  "direct_output": "<answer>United States</answer>",
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "direct_no_tools"
+}

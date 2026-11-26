@@ -1,0 +1,10 @@
+{
+  "pid": "71",
+  "query": "In what year did the oldest cat ever recorded with the Cat of the Year award?When ready, output the final answer enclosed in <answer> and </answer> tags. Do not generate any content after the </answer> tag.",
+  "answer": [
+    "1999"
+  ],
+  "direct_output": "<answer>2005</answer>",
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "direct_no_tools"
+}

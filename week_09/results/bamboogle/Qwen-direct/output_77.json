@@ -1,0 +1,10 @@
+{
+  "pid": "77",
+  "query": "Who wrote the novel on which the longest running show in Broadway history is based on?When ready, output the final answer enclosed in <answer> and </answer> tags. Do not generate any content after the </answer> tag.",
+  "answer": [
+    "Gaston Leroux"
+  ],
+  "direct_output": "<answer>Lillian Hellman wrote the novel on which the longest-running show in Broadway history, \"The Children's Hour,\" was based.</answer>",
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "direct_no_tools"
+}

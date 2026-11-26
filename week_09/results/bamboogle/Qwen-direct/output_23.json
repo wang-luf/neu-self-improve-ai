@@ -1,0 +1,10 @@
+{
+  "pid": "23",
+  "query": "What was the founding date of the university in which Plotonium was discovered?When ready, output the final answer enclosed in <answer> and </answer> tags. Do not generate any content after the </answer> tag.",
+  "answer": [
+    "March 23, 1868"
+  ],
+  "direct_output": "<answer>January 18, 1957</answer>",
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "direct_no_tools"
+}

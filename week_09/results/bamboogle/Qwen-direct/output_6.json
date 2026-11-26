@@ -1,0 +1,10 @@
+{
+  "pid": "6",
+  "query": "When did the president who set the precedent of a two term limit leave office?When ready, output the final answer enclosed in <answer> and </answer> tags. Do not generate any content after the </answer> tag.",
+  "answer": [
+    "March 4, 1797"
+  ],
+  "direct_output": "<answer>March 4, 1809</answer>",
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "direct_no_tools"
+}

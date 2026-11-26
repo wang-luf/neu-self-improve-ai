@@ -1,0 +1,10 @@
+{
+  "pid": "44",
+  "query": "What was the death toll of the most intense Atlantic hurricane?When ready, output the final answer enclosed in <answer> and </answer> tags. Do not generate any content after the </answer> tag.",
+  "answer": [
+    "52"
+  ],
+  "direct_output": "<answer>The Great Hurricane of 1780 is considered the deadliest Atlantic hurricane ever recorded, with a death toll of approximately 22,000 people.</answer>",
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "direct_no_tools"
+}

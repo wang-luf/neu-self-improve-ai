@@ -1,0 +1,10 @@
+{
+  "pid": "123",
+  "query": "Which element has an atomic number that is double that of hydrogen?When ready, output the final answer enclosed in <answer> and </answer> tags. Do not generate any content after the </answer> tag.",
+  "answer": [
+    "Helium"
+  ],
+  "direct_output": "<answer>He</answer>",
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "direct_no_tools"
+}

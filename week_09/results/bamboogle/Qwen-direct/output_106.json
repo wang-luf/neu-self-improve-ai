@@ -1,0 +1,10 @@
+{
+  "pid": "106",
+  "query": "When was the anime studio that made Sword Art Online founded?When ready, output the final answer enclosed in <answer> and </answer> tags. Do not generate any content after the </answer> tag.",
+  "answer": [
+    "May 9, 2005"
+  ],
+  "direct_output": "<answer>2005</answer>",
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "direct_no_tools"
+}

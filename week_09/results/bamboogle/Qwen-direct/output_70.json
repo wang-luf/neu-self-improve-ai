@@ -1,0 +1,10 @@
+{
+  "pid": "70",
+  "query": "Who is the largest aircraft carrier in the world is named after?When ready, output the final answer enclosed in <answer> and </answer> tags. Do not generate any content after the </answer> tag.",
+  "answer": [
+    "Gerald R. Ford"
+  ],
+  "direct_output": "<answer>George Washington</answer>",
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "direct_no_tools"
+}

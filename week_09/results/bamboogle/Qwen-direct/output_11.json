@@ -1,0 +1,10 @@
+{
+  "pid": "11",
+  "query": "Which Theranos whistleblower is not related to a senior American government official?When ready, output the final answer enclosed in <answer> and </answer> tags. Do not generate any content after the </answer> tag.",
+  "answer": [
+    "Erika Cheung"
+  ],
+  "direct_output": "<answer>Adam Haas</answer>",
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "direct_no_tools"
+}

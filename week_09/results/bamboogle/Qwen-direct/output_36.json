@@ -1,0 +1,10 @@
+{
+  "pid": "36",
+  "query": "What is the capital of the country where yoga originated?When ready, output the final answer enclosed in <answer> and </answer> tags. Do not generate any content after the </answer> tag.",
+  "answer": [
+    "New Delhi"
+  ],
+  "direct_output": "<answer>Kathmandu</answer>",
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "direct_no_tools"
+}

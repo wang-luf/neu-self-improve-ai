@@ -238,7 +238,10 @@ class AgentFlowTrainer(RayPPOTrainer):
             if self.use_reference_policy:
                 # compute reference log_prob
                 with _timer("ref", timing_raw):
-                    ref_log_prob = self.ref_policy_wg.compute_ref_log_prob(batch)
+                    if not self.ref_in_actor:
+                        ref_log_prob = self.ref_policy_wg.compute_ref_log_prob(batch)
+                    else:  # assignment fix: with LoRA the reference policy is the actor with the adapter disabled
+                        ref_log_prob = self.actor_rollout_wg.compute_ref_log_prob(batch)
                     batch = batch.union(ref_log_prob)
 
             # compute values

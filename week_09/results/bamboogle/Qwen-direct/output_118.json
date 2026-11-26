@@ -1,0 +1,10 @@
+{
+  "pid": "118",
+  "query": "When did the war that Neil Armstrong served in end?When ready, output the final answer enclosed in <answer> and </answer> tags. Do not generate any content after the </answer> tag.",
+  "answer": [
+    "July 27, 1953"
+  ],
+  "direct_output": "<answer>1958</answer>",
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "direct_no_tools"
+}

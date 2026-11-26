@@ -1,0 +1,10 @@
+{
+  "pid": "1",
+  "query": "What rocket was the first spacecraft that ever approached Uranus launched on?When ready, output the final answer enclosed in <answer> and </answer> tags. Do not generate any content after the </answer> tag.",
+  "answer": [
+    "Titan IIIE"
+  ],
+  "direct_output": "<answer>Atlas Centaur</answer>",
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "direct_no_tools"
+}

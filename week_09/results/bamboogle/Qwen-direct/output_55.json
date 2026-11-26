@@ -1,0 +1,10 @@
+{
+  "pid": "55",
+  "query": "When was the longest bridge in the world opened?When ready, output the final answer enclosed in <answer> and </answer> tags. Do not generate any content after the </answer> tag.",
+  "answer": [
+    "30 June 2011"
+  ],
+  "direct_output": "<answer>2019</answer>",
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "direct_no_tools"
+}

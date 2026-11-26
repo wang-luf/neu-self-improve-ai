@@ -1,0 +1,10 @@
+{
+  "pid": "24",
+  "query": "The material out of which the Great Sphinx of Giza is made of is mainly composed of what mineral?When ready, output the final answer enclosed in <answer> and </answer> tags. Do not generate any content after the </answer> tag.",
+  "answer": [
+    "calcite"
+  ],
+  "direct_output": "<answer>calcium carbonate</answer>",
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "direct_no_tools"
+}

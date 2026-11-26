@@ -1,0 +1,10 @@
+{
+  "pid": "119",
+  "query": "What is the nickname for the state that Mount Rainier is located in?When ready, output the final answer enclosed in <answer> and </answer> tags. Do not generate any content after the </answer> tag.",
+  "answer": [
+    "Evergreen State"
+  ],
+  "direct_output": "<answer>The nickname for the state that Mount Rainier is located in is \"The Evergreen State\".</answer>",
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "direct_no_tools"
+}

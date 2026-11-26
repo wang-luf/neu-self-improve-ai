@@ -1,0 +1,10 @@
+{
+  "pid": "73",
+  "query": "Who was the commander for the space mission that had the first spacewalk?When ready, output the final answer enclosed in <answer> and </answer> tags. Do not generate any content after the </answer> tag.",
+  "answer": [
+    "Pavel Belyayev"
+  ],
+  "direct_output": "<answer>Gherman Titov</answer>",
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "direct_no_tools"
+}

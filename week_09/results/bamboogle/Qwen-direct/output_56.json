@@ -1,0 +1,10 @@
+{
+  "pid": "56",
+  "query": "Which company was responsible for the largest pharmaceutical settlement?When ready, output the final answer enclosed in <answer> and </answer> tags. Do not generate any content after the </answer> tag.",
+  "answer": [
+    "GlaxoSmithKline"
+  ],
+  "direct_output": "<answer>Janssen Pharmaceutical Companies of Johnson & Johnson</answer>",
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "direct_no_tools"
+}

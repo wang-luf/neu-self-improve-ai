@@ -1,0 +1,10 @@
+{
+  "pid": "60",
+  "query": "In what year was the current tallest wooden lattice tower completed?When ready, output the final answer enclosed in <answer> and </answer> tags. Do not generate any content after the </answer> tag.",
+  "answer": [
+    "1935"
+  ],
+  "direct_output": "<answer>2017</answer>",
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "direct_no_tools"
+}

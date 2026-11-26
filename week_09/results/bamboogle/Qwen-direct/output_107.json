@@ -1,0 +1,10 @@
+{
+  "pid": "107",
+  "query": "Who was the first king of the longest Chinese dynasty?When ready, output the final answer enclosed in <answer> and </answer> tags. Do not generate any content after the </answer> tag.",
+  "answer": [
+    "King Wu of Zhou"
+  ],
+  "direct_output": "<answer>Yellow Emperor</answer>",
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "direct_no_tools"
+}

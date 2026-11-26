@@ -1,0 +1,10 @@
+{
+  "pid": "15",
+  "query": "When did the author of Annabel Lee enlist in the army?When ready, output the final answer enclosed in <answer> and </answer> tags. Do not generate any content after the </answer> tag.",
+  "answer": [
+    "1827"
+  ],
+  "direct_output": "<answer>20 March 1864</answer>",
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "direct_no_tools"
+}

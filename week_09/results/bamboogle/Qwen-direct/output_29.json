@@ -1,0 +1,10 @@
+{
+  "pid": "29",
+  "query": "The main actor of Indiana Jones is a licensed what?When ready, output the final answer enclosed in <answer> and </answer> tags. Do not generate any content after the </answer> tag.",
+  "answer": [
+    "pilot"
+  ],
+  "direct_output": "<answer>licensed archaeologist</answer>",
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "direct_no_tools"
+}

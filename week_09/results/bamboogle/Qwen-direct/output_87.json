@@ -1,0 +1,10 @@
+{
+  "pid": "87",
+  "query": "Who is the father of the father of modern Hebrew?When ready, output the final answer enclosed in <answer> and </answer> tags. Do not generate any content after the </answer> tag.",
+  "answer": [
+    "Yehuda Leib"
+  ],
+  "direct_output": "<answer>Rabbi Yaakov Emden</answer>",
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "direct_no_tools"
+}

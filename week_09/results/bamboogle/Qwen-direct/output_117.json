@@ -1,0 +1,10 @@
+{
+  "pid": "117",
+  "query": "What rocket was used for the mission that landed the first humans on the moon?When ready, output the final answer enclosed in <answer> and </answer> tags. Do not generate any content after the </answer> tag.",
+  "answer": [
+    "Saturn V"
+  ],
+  "direct_output": "<answer>Falcon 9</answer>",
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "direct_no_tools"
+}

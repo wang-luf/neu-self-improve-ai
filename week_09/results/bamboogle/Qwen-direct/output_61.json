@@ -1,0 +1,10 @@
+{
+  "pid": "61",
+  "query": "In what country is the second tallest statue in the world?When ready, output the final answer enclosed in <answer> and </answer> tags. Do not generate any content after the </answer> tag.",
+  "answer": [
+    "China"
+  ],
+  "direct_output": "<answer>Brazil</answer>",
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "direct_no_tools"
+}

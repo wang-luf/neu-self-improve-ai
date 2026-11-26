@@ -1,0 +1,10 @@
+{
+  "pid": "65",
+  "query": "The most populous national capital city was established in what year?When ready, output the final answer enclosed in <answer> and </answer> tags. Do not generate any content after the </answer> tag.",
+  "answer": [
+    "1045 BC"
+  ],
+  "direct_output": "<answer>1908</answer>",
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "direct_no_tools"
+}

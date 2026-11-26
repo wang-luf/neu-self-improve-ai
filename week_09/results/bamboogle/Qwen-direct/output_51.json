@@ -1,0 +1,10 @@
+{
+  "pid": "51",
+  "query": "Who was president of the U.S. when superconductivity was discovered?When ready, output the final answer enclosed in <answer> and </answer> tags. Do not generate any content after the </answer> tag.",
+  "answer": [
+    "William Howard Taft"
+  ],
+  "direct_output": "<answer>Woodrow Wilson</answer>",
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "direct_no_tools"
+}

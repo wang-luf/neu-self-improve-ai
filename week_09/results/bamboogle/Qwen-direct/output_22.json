@@ -1,0 +1,10 @@
+{
+  "pid": "22",
+  "query": "When was the person who shared the Nobel Prize in Physics in 1954 with Max Born born?When ready, output the final answer enclosed in <answer> and </answer> tags. Do not generate any content after the </answer> tag.",
+  "answer": [
+    "January 8, 1891"
+  ],
+  "direct_output": "<answer>1900</answer>",
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "direct_no_tools"
+}

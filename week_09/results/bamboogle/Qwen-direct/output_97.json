@@ -1,0 +1,10 @@
+{
+  "pid": "97",
+  "query": "When was the person who delivered the \"Quit India\" speech born?When ready, output the final answer enclosed in <answer> and </answer> tags. Do not generate any content after the </answer> tag.",
+  "answer": [
+    "October 2, 1869"
+  ],
+  "direct_output": "<answer>1889</answer>",
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "direct_no_tools"
+}

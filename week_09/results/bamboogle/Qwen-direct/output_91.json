@@ -1,0 +1,10 @@
+{
+  "pid": "91",
+  "query": "Who was the father of the father of computer science?When ready, output the final answer enclosed in <answer> and </answer> tags. Do not generate any content after the </answer> tag.",
+  "answer": [
+    "Julius Mathison Turing"
+  ],
+  "direct_output": "<answer>Charles Babbage</answer>",
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "direct_no_tools"
+}

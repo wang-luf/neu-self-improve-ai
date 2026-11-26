@@ -1,0 +1,10 @@
+{
+  "pid": "53",
+  "query": "When was the first location of the world's largest coffeehouse chain opened?When ready, output the final answer enclosed in <answer> and </answer> tags. Do not generate any content after the </answer> tag.",
+  "answer": [
+    "March 30, 1971"
+  ],
+  "direct_output": "<answer>1961</answer>",
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "direct_no_tools"
+}

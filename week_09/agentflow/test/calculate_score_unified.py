@@ -91,6 +91,9 @@ def find_most_similar_candidate(query: str, candidates: list) -> str:
 
 class ResultScorer:
     def __init__(self, llm_engine=None):
+        if llm_engine is None and os.environ.get("JUDGE_BASE_URL"):  # assignment: local vLLM judge instead of gpt-4o
+            from agentflow.agentflow.engine.local_judge import LocalJudge
+            llm_engine = LocalJudge()
         self.llm_engine = llm_engine or ChatOpenAI(model_string="gpt-4o", is_multimodal=False, enable_cache=True)
         print(f"\nLocal OpenAI engine {self.llm_engine.model_string} initialized.\n")
 

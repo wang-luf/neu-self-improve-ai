@@ -1,0 +1,10 @@
+{
+  "pid": "4",
+  "query": "When did the last king from Britain's House of Hanover die?When ready, output the final answer enclosed in <answer> and </answer> tags. Do not generate any content after the </answer> tag.",
+  "answer": [
+    "20 June 1837"
+  ],
+  "direct_output": "<answer>1801</answer>",
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "direct_no_tools"
+}

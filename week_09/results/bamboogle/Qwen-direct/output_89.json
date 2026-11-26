@@ -1,0 +1,10 @@
+{
+  "pid": "89",
+  "query": "Who is the father of the originator of cybernetics?When ready, output the final answer enclosed in <answer> and </answer> tags. Do not generate any content after the </answer> tag.",
+  "answer": [
+    "Leo Wiener"
+  ],
+  "direct_output": "<answer>Norbert Wiener's father was Joseph Henry Wiener.</answer>",
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "direct_no_tools"
+}

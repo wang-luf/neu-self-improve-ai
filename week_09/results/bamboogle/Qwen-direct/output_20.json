@@ -1,0 +1,10 @@
+{
+  "pid": "20",
+  "query": "The Filipino statesman who established the government-in-exile during the outbreak of World War II was also the mayor of what city?When ready, output the final answer enclosed in <answer> and </answer> tags. Do not generate any content after the </answer> tag.",
+  "answer": [
+    "Quezon City"
+  ],
+  "direct_output": "<answer>Manila</answer>",
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "direct_no_tools"
+}

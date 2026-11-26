@@ -1,0 +1,10 @@
+{
+  "pid": "111",
+  "query": "What's the capital of the state that Washington University in St. Louis is in?When ready, output the final answer enclosed in <answer> and </answer> tags. Do not generate any content after the </answer> tag.",
+  "answer": [
+    "Jefferson City"
+  ],
+  "direct_output": "<answer>St. Louis</answer>",
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "direct_no_tools"
+}

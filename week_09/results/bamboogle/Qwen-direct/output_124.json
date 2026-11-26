@@ -1,0 +1,10 @@
+{
+  "pid": "124",
+  "query": "What was the motto of the Olympics that had Fuwa as the mascots?When ready, output the final answer enclosed in <answer> and </answer> tags. Do not generate any content after the </answer> tag.",
+  "answer": [
+    "One World, One Dream"
+  ],
+  "direct_output": "<answer>The 2008 Beijing Olympics</answer>",
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "direct_no_tools"
+}

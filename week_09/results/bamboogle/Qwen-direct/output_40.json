@@ -1,0 +1,10 @@
+{
+  "pid": "40",
+  "query": "How much protein in four boiled egg yolks?When ready, output the final answer enclosed in <answer> and </answer> tags. Do not generate any content after the </answer> tag.",
+  "answer": [
+    "10.8"
+  ],
+  "direct_output": "<answer>Approximately 6.3 grams</answer>",
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "direct_no_tools"
+}

@@ -1,0 +1,39 @@
+--- a/verl/workers/sharding_manager/fsdp_vllm.py
++++ b/verl/workers/sharding_manager/fsdp_vllm.py
+@@ -182,6 +182,21 @@
+                     model = model.to(orig_dev)
+             return lora_params
+ 
++        def __collect_merged_lora_params() -> OrderedDict:
++            """Week 9 patch: full weights with the current LoRA delta merged in (FSDP1, writeback=False)."""
++            peft_model = getattr(self.module, "_fsdp_wrapped_module", self.module)
++            merged_params = OrderedDict()
++            with FSDP.summon_full_params(self.module, writeback=False):
++                peft_model.merge_adapter()
++                for name, param in peft_model.base_model.model.state_dict().items():
++                    if any(x in name for x in ["_flat_param", "lora_"]):
++                        continue
++                    name = name.replace("_fsdp_wrapped_module.", "").replace(".base_layer", "")
++                    merged_params[name] = (param.full_tensor() if hasattr(param, "full_tensor") else param).detach().cpu()
++                peft_model.unmerge_adapter()
++            get_torch_device().empty_cache()
++            return merged_params
++
+         # NOTE: Basically, we only need `get_torch_device().empty_cache()` before vllm wake_up and
+         # after vllm sleep, since vllm has its own caching memory allocator CuMemAllocator.
+         # Out of vllm scope, we should avoid empty cache to let pytorch using caching memory
+@@ -201,7 +216,13 @@
+             peft_model = getattr(self.module, "_fsdp_wrapped_module", self.module)
+             if hasattr(peft_model, "peft_config"):
+                 peft_config = peft_model.peft_config.get("default", None)
+-                params = __collect_lora_params()
++                if not hasattr(self.inference_engine, "llm_engine"):
++                    # Week 9 patch: the async rollout server (AgentFlow) runs vLLM without LoRA support,
++                    # so push the merged base+LoRA weights as plain model weights on every sync.
++                    params = __collect_merged_lora_params()
++                    peft_config = None
++                else:
++                    params = __collect_lora_params()
+             else:
+                 params = self.module.state_dict()
+             params = convert_weight_keys(params, getattr(self.module, "_fsdp_wrapped_module", self.module))

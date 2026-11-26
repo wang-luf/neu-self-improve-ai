@@ -1,0 +1,10 @@
+{
+  "pid": "95",
+  "query": "When was the person who said “Now, I am become Death, the destroyer of worlds.” born?When ready, output the final answer enclosed in <answer> and </answer> tags. Do not generate any content after the </answer> tag.",
+  "answer": [
+    "April 22, 1904"
+  ],
+  "direct_output": "<answer>1894</answer>",
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "direct_no_tools"
+}

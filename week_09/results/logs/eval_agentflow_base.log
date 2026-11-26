@@ -1,0 +1,165 @@
+done 4
+done 1
+done 5
+done 6
+done 0
+done 7
+done 10
+done 9
+done 3
+done 8
+done 11
+done 13
+done 15
+done 17
+done 19
+done 2
+done 14
+done 12
+done 18
+done 22
+done 23
+done 26
+done 16
+done 25
+done 27
+done 20
+done 24
+done 30
+done 21
+done 32
+done 33
+done 37
+done 31
+done 39
+done 28
+done 29
+done 40
+done 36
+done 41
+done 35
+done 38
+done 44
+done 47
+done 45
+done 42
+done 46
+done 49
+done 48
+done 34
+done 51
+done 56
+done 54
+done 43
+done 53
+done 55
+done 59
+done 58
+done 61
+done 57
+done 60
+done 52
+done 50
+done 66
+done 67
+done 63
+done 65
+done 70
+done 68
+done 64
+done 73
+done 62
+done 71
+done 77
+done 69
+done 76
+done 78
+done 72
+done 75
+done 74
+done 84
+done 79
+done 86
+done 85
+done 83
+done 88
+done 80
+done 89
+done 81
+done 82
+done 93
+done 95
+done 97
+done 87
+done 96
+done 94
+done 98
+done 99
+done 101
+done 90
+done 102
+done 103
+done 91
+done 92
+done 110
+done 105
+done 104
+done 108
+done 111
+done 113
+done 112
+done 116
+done 100
+done 106
+done 109
+done 107
+done 117
+done 119
+done 115
+done 118
+done 114
+done 124
+done 123
+done 120
+done 122
+done 121
+##################################################
+Task: bamboogle
+📊 Using SINGLE-STAGE scoring for BAMBOOGLE
+Arguments: Namespace(task_name='bamboogle', data_file='bamboogle/data/data.json', result_dir='bamboogle/results/AgentFlow-base', exp_name=None, output_file='final_scores_direct_output.json', log_dir=None, response_type='direct_output', max_workers=16)
+# task_name: bamboogle
+# data_file: bamboogle/data/data.json
+# result_dir: bamboogle/results/AgentFlow-base
+# exp_name: None
+# output_file: final_scores_direct_output.json
+# log_dir: None
+# response_type: direct_output
+# max_workers: 16
+##################################################
+
+Local OpenAI engine Qwen/Qwen2.5-7B-Instruct initialized.
+
+Scoring results (single-stage):   0%|          | 0/125 [00:00<?, ?it/s]Scoring results (single-stage):   1%|          | 1/125 [00:02<04:38,  2.25s/it]Scoring results (single-stage):   2%|▏         | 3/125 [00:02<01:18,  1.56it/s]Scoring results (single-stage):   4%|▍         | 5/125 [00:02<00:45,  2.66it/s]Scoring results (single-stage):   6%|▌         | 7/125 [00:02<00:31,  3.71it/s]Scoring results (single-stage):   9%|▉         | 11/125 [00:03<00:18,  6.23it/s]Scoring results (single-stage):  10%|█         | 13/125 [00:03<00:20,  5.53it/s]Scoring results (single-stage):  11%|█         | 14/125 [00:03<00:20,  5.35it/s]Scoring results (single-stage):  12%|█▏        | 15/125 [00:04<00:20,  5.34it/s]Scoring results (single-stage):  13%|█▎        | 16/125 [00:04<00:20,  5.33it/s]Scoring results (single-stage):  14%|█▎        | 17/125 [00:04<00:23,  4.60it/s]Scoring results (single-stage):  15%|█▌        | 19/125 [00:04<00:18,  5.76it/s]Scoring results (single-stage):  16%|█▌        | 20/125 [00:04<00:17,  6.15it/s]Scoring results (single-stage):  18%|█▊        | 22/125 [00:05<00:14,  7.10it/s]Scoring results (single-stage):  20%|██        | 25/125 [00:05<00:10,  9.55it/s]Scoring results (single-stage):  22%|██▏       | 27/125 [00:06<00:20,  4.90it/s]Scoring results (single-stage):  23%|██▎       | 29/125 [00:06<00:21,  4.49it/s]Scoring results (single-stage):  25%|██▍       | 31/125 [00:06<00:16,  5.57it/s]Scoring results (single-stage):  26%|██▌       | 32/125 [00:07<00:18,  5.05it/s]Scoring results (single-stage):  26%|██▋       | 33/125 [00:07<00:16,  5.46it/s]Scoring results (single-stage):  28%|██▊       | 35/125 [00:07<00:13,  6.64it/s]Scoring results (single-stage):  30%|██▉       | 37/125 [00:07<00:10,  8.33it/s]Scoring results (single-stage):  31%|███       | 39/125 [00:07<00:10,  8.28it/s]Scoring results (single-stage):  32%|███▏      | 40/125 [00:08<00:17,  4.87it/s]Scoring results (single-stage):  33%|███▎      | 41/125 [00:08<00:18,  4.64it/s]Scoring results (single-stage):  34%|███▎      | 42/125 [00:08<00:16,  5.13it/s]Scoring results (single-stage):  34%|███▍      | 43/125 [00:08<00:14,  5.61it/s]Scoring results (single-stage):  35%|███▌      | 44/125 [00:09<00:15,  5.27it/s]Scoring results (single-stage):  36%|███▌      | 45/125 [00:09<00:15,  5.27it/s]Scoring results (single-stage):  37%|███▋      | 46/125 [00:09<00:14,  5.52it/s]Scoring results (single-stage):  38%|███▊      | 48/125 [00:09<00:10,  7.40it/s]Scoring results (single-stage):  41%|████      | 51/125 [00:10<00:11,  6.42it/s]Scoring results (single-stage):  42%|████▏     | 52/125 [00:10<00:12,  5.75it/s]Scoring results (single-stage):  43%|████▎     | 54/125 [00:10<00:09,  7.15it/s]Scoring results (single-stage):  44%|████▍     | 55/125 [00:10<00:09,  7.34it/s]Scoring results (single-stage):  46%|████▋     | 58/125 [00:11<00:09,  6.92it/s]Scoring results (single-stage):  47%|████▋     | 59/125 [00:11<00:09,  6.84it/s]Scoring results (single-stage):  50%|████▉     | 62/125 [00:11<00:11,  5.52it/s]Scoring results (single-stage):  51%|█████     | 64/125 [00:12<00:10,  5.59it/s]Scoring results (single-stage):  52%|█████▏    | 65/125 [00:12<00:10,  5.89it/s]Scoring results (single-stage):  53%|█████▎    | 66/125 [00:12<00:09,  5.96it/s]Scoring results (single-stage):  54%|█████▎    | 67/125 [00:12<00:11,  4.86it/s]Scoring results (single-stage):  56%|█████▌    | 70/125 [00:13<00:06,  7.94it/s]Scoring results (single-stage):  58%|█████▊    | 73/125 [00:13<00:07,  7.27it/s]Scoring results (single-stage):  60%|██████    | 75/125 [00:13<00:06,  7.28it/s]Scoring results (single-stage):  62%|██████▏   | 78/125 [00:14<00:08,  5.71it/s]Scoring results (single-stage):  63%|██████▎   | 79/125 [00:15<00:10,  4.28it/s]Scoring results (single-stage):  66%|██████▋   | 83/125 [00:15<00:07,  5.92it/s]Scoring results (single-stage):  68%|██████▊   | 85/125 [00:15<00:05,  6.84it/s]Scoring results (single-stage):  70%|██████▉   | 87/125 [00:15<00:05,  6.56it/s]Scoring results (single-stage):  71%|███████   | 89/125 [00:16<00:05,  7.13it/s]Scoring results (single-stage):  72%|███████▏  | 90/125 [00:16<00:05,  6.54it/s]Scoring results (single-stage):  74%|███████▎  | 92/125 [00:16<00:04,  6.74it/s]Scoring results (single-stage):  74%|███████▍  | 93/125 [00:16<00:05,  5.63it/s]Scoring results (single-stage):  76%|███████▌  | 95/125 [00:17<00:04,  6.28it/s]Scoring results (single-stage):  77%|███████▋  | 96/125 [00:17<00:05,  5.65it/s]Scoring results (single-stage):  78%|███████▊  | 98/125 [00:17<00:04,  6.36it/s]Scoring results (single-stage):  80%|████████  | 100/125 [00:17<00:03,  8.01it/s]Scoring results (single-stage):  82%|████████▏ | 102/125 [00:17<00:02,  9.60it/s]Scoring results (single-stage):  83%|████████▎ | 104/125 [00:18<00:03,  5.91it/s]Scoring results (single-stage):  84%|████████▍ | 105/125 [00:18<00:03,  6.16it/s]Scoring results (single-stage):  85%|████████▍ | 106/125 [00:19<00:04,  4.32it/s]Scoring results (single-stage):  86%|████████▌ | 107/125 [00:19<00:04,  4.33it/s]Scoring results (single-stage):  87%|████████▋ | 109/125 [00:19<00:02,  5.82it/s]Scoring results (single-stage):  89%|████████▉ | 111/125 [00:19<00:02,  6.41it/s]Scoring results (single-stage):  90%|████████▉ | 112/125 [00:20<00:02,  5.24it/s]Scoring results (single-stage):  91%|█████████ | 114/125 [00:20<00:01,  6.95it/s]Scoring results (single-stage):  92%|█████████▏| 115/125 [00:20<00:01,  7.10it/s]Scoring results (single-stage):  94%|█████████▎| 117/125 [00:21<00:01,  4.24it/s]Scoring results (single-stage):  94%|█████████▍| 118/125 [00:21<00:01,  4.69it/s]Scoring results (single-stage):  95%|█████████▌| 119/125 [00:21<00:01,  5.17it/s]Scoring results (single-stage):  96%|█████████▌| 120/125 [00:21<00:00,  5.26it/s]Scoring results (single-stage):  97%|█████████▋| 121/125 [00:21<00:00,  5.57it/s]Scoring results (single-stage):  99%|█████████▉| 124/125 [00:22<00:00,  4.23it/s]Scoring results (single-stage): 100%|██████████| 125/125 [00:22<00:00,  4.72it/s]Scoring results (single-stage): 100%|██████████| 125/125 [00:22<00:00,  5.48it/s]
+
+Accuracy: 28.8% (36/125)
+
+Results saved to bamboogle/results/AgentFlow-base/final_scores_direct_output.json
+Wrong PIDs: ['0', '1', '2', '5', '6', '7', '8', '11', '12', '14', '15', '16', '17', '18', '19', '20', '21', '22', '23', '24', '27', '28', '29', '31', '33', '34', '35', '37', '38', '40', '42', '43', '44', '46', '48', '49', '50', '51', '52', '55', '56', '57', '58', '60', '62', '63', '64', '65', '66', '67', '68', '69', '70', '72', '74', '76', '77', '78', '79', '80', '81', '82', '83', '85', '86', '87', '89', '90', '92', '93', '94', '96', '98', '100', '101', '106', '107', '108', '109', '111', '112', '114', '116', '118', '120', '121', '122', '123', '124']
+Wrong Indices: [0, 1, 2, 5, 6, 7, 8, 11, 12, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 27, 28, 29, 31, 33, 34, 35, 37, 38, 40, 42, 43, 44, 46, 48, 49, 50, 51, 52, 55, 56, 57, 58, 60, 62, 63, 64, 65, 66, 67, 68, 69, 70, 72, 74, 76, 77, 78, 79, 80, 81, 82, 83, 85, 86, 87, 89, 90, 92, 93, 94, 96, 98, 100, 101, 106, 107, 108, 109, 111, 112, 114, 116, 118, 120, 121, 122, 123, 124]
+Log dir: bamboogle/logs/AgentFlow-base
+
+Step stats:
+- average_time: 	55.7
+- average_step: 	4.71
+- one_step_rate: 	0.1
+
+Tool usage:
+- Local_Wikipedia_Search_Tool: 	0.935
+- Generalist_Solution_Generator_Tool: 	0.029
+- No matched tool given: Local_Wikipedia/Search_Tool: 	0.015
+- Python_Code_Generator_Tool: 	0.015
+- No matched tool given: Local_Wikipedia_Search_Tool
+</answer>: 	0.005
+Scores saved to bamboogle/results/AgentFlow-base/final_scores_direct_output.json
+wall 1099.08 s
+EXIT=0

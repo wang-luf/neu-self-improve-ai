@@ -8,18 +8,22 @@ cd "$TEST_DIR"
 LABEL="${LABEL:-AgentFlow-base}"
 MODEL_NAME="${MODEL_NAME:-Qwen/Qwen2.5-7B-Instruct}"
 BASE_URL="${BASE_URL:-http://localhost:8000/v1}"
-ENABLED_TOOLS="${ENABLED_TOOLS:-Base_Generator_Tool,Python_Coder_Tool,Google_Search_Tool,Wikipedia_Search_Tool}"
-TOOL_ENGINE="${TOOL_ENGINE:-gpt-4o-mini,dashscope-qwen2.5-coder-7b-instruct,Default,Default}"
-MODEL_ENGINE="${MODEL_ENGINE:-trainable,dashscope,dashscope,dashscope}"
+ENABLED_TOOLS="${ENABLED_TOOLS:-Base_Generator_Tool,Python_Coder_Tool,Local_Wiki_Search_Tool}"
+TOOL_ENGINE="${TOOL_ENGINE:-vllm-Qwen/Qwen2.5-7B-Instruct,vllm-Qwen/Qwen2.5-7B-Instruct,Default}"
+MODEL_ENGINE="${MODEL_ENGINE:-trainable,vllm-Qwen/Qwen2.5-7B-Instruct,vllm-Qwen/Qwen2.5-7B-Instruct,vllm-Qwen/Qwen2.5-7B-Instruct}"
+# Assignment: local services instead of API keys (judge = local vLLM, search = local wiki-18 retriever).
+export JUDGE_BASE_URL="${JUDGE_BASE_URL:-http://localhost:8000/v1}"
+export WIKI_RETRIEVER_URL="${WIKI_RETRIEVER_URL:-http://127.0.0.1:8002/retrieve}"
 DATA_FILE="bamboogle/data/data.json"
 OUT_DIR="bamboogle/results/$LABEL"
 LOG_DIR="bamboogle/logs/$LABEL"
-CACHE_DIR="bamboogle/cache"
+CACHE_DIR="bamboogle/cache/$LABEL"  # per-run cache so the two AgentFlow runs share nothing
 
 mkdir -p "$OUT_DIR" "$LOG_DIR" "$CACHE_DIR"
-for index in $(seq 0 124); do
+solve_one() {
+  local index=$1
   if [[ -f "$OUT_DIR/output_$index.json" ]]; then
-    continue
+    return 0
   fi
   python solve.py \
     --index "$index" \
@@ -35,8 +39,13 @@ for index in $(seq 0 124); do
     --max_time 300 \
     --max_steps 10 \
     --temperature 0.0 \
-    --base_url "$BASE_URL" 2>&1 | tee "$LOG_DIR/$index.log"
-done
+    --base_url "$BASE_URL" > "$LOG_DIR/$index.log" 2>&1
+  echo "done $index"
+}
+export -f solve_one
+export DATA_FILE OUT_DIR LOG_DIR CACHE_DIR MODEL_NAME ENABLED_TOOLS TOOL_ENGINE MODEL_ENGINE BASE_URL
+# PARALLEL questions share the same vLLM server (one GPU job); results do not depend on the order.
+seq 0 124 | xargs -P "${PARALLEL:-1}" -I{} bash -c "solve_one {}"
 
 python calculate_score_unified.py \
   --task_name bamboogle \

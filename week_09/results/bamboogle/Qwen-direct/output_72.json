@@ -1,0 +1,10 @@
+{
+  "pid": "72",
+  "query": "In what year was the country that is the third largest exporter of coffee founded?When ready, output the final answer enclosed in <answer> and </answer> tags. Do not generate any content after the </answer> tag.",
+  "answer": [
+    "1810"
+  ],
+  "direct_output": "<answer>1811</answer>",
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "direct_no_tools"
+}

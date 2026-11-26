@@ -1,0 +1,10 @@
+{
+  "pid": "99",
+  "query": "When did the president who said Tear Down This Wall die?When ready, output the final answer enclosed in <answer> and </answer> tags. Do not generate any content after the </answer> tag.",
+  "answer": [
+    "June 5, 2004"
+  ],
+  "direct_output": "<answer>June 26, 2004</answer>",
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "direct_no_tools"
+}

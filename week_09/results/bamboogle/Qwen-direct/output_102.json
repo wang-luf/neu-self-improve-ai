@@ -1,0 +1,10 @@
+{
+  "pid": "102",
+  "query": "When did the person who delivered the Gettysburg Address die?When ready, output the final answer enclosed in <answer> and </answer> tags. Do not generate any content after the </answer> tag.",
+  "answer": [
+    "April 15, 1865"
+  ],
+  "direct_output": "<answer>March 4, 1865</answer>",
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "mode": "direct_no_tools"
+}
